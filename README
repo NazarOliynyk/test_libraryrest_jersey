@@ -1,0 +1,2 @@
+The project to test rest api - https://bitbucket.org/nazar_lw/modified_rest_api_with_auth/src
+Usage - jersey framework, testng, token based auth.
