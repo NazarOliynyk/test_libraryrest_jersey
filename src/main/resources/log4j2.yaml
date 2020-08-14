@@ -1,0 +1,70 @@
+Configutation:
+  name: Log4j2_Config
+  Properties:
+    Property:
+      name: log-path
+      value: "logs"
+  Appenders:
+    Console:
+      name: Console_Appender
+      target: SYSTEM_OUT
+      PatternLayout:
+        pattern: "%highlight{%-5level}{FATAL=bg_red} %style{%date{yyyy-MM-dd
+                   HH:mm:ss.SSS}}{blue} %class{1}:%L - %highlight{%msg} %xEx{short}%n"
+    File:
+    - name: rootLogFile
+      fileName: ${log-path}/rootFile.log
+      PatternLayout:
+        pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg
+                   %xEx{short}%n"
+
+    - name: logFilterWarn
+      fileName: ${log-path}/logFilterWarn.log
+      PatternLayout:
+        Pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg%xEx{short}%n"
+      Filters:
+        ThresholdFilter:
+          level: error
+          onMatch: DENY
+          onMismatch: NEUTRAL
+
+    - name: logFilterErrorAndAlldown
+      fileName: ${log-path}/logFilterErrorAndAlldown.log
+      PatternLayout:
+        Pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg%xEx{short}%n"
+      Filters:
+        ThresholdFilter:
+          level: error
+          onMatch: NEUTRAL
+          onMismatch: DENY
+
+    RollingFile:
+
+    - name: rollFileInfo
+      fileName: ${log-path}/rollFileInfo.log
+      filePattern: ${log-path}/archive/rollFileInfoArchive.log.%d{yyyy-MM-dd-hh-mm}.gz
+      PatternLayout:
+        Pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg%xEx{short}%n"
+      CronTriggeringPolicy:
+        schedule: "0 0 12 ? * *"
+        evaluateOnStartup: true
+      DefaultRolloverStrategy:
+        max: 1
+
+  Loggers:
+    Root:
+      level: all
+    Logger:
+    - name: client.CustomClientBuilder
+      level: all
+      AppenderRef:
+      - ref: Console_Appender
+        level: trace
+      - ref: rootLogFile
+        level: debug
+      - ref: logFilterErrorAndAlldown
+        level: error
+      - ref: rollFileInfo
+        level: debug
+      - ref: logFilterWarn
+        level: warn

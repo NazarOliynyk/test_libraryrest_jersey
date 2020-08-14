@@ -1,0 +1,66 @@
+[ERROR] 2020-08-13 14:36:43.738 TestListener:37 - I am in onTestFailure method testResponseWithBaseCurrency failed
+[ERROR] 2020-08-13 14:49:58.741 TestListener:37 - I am in onTestFailure method createAuthor failed
+[ERROR] 2020-08-13 14:51:23.340 TestListener:37 - I am in onTestFailure method testSaveAndDeleteAuthor failed
+[ERROR] 2020-08-13 14:55:56.932 TestListener:37 - I am in onTestFailure method testSaveAndDeleteAuthor failed
+[ERROR] 2020-08-13 15:00:15.749 TestListener:37 - I am in onTestFailure method testSaveAndDeleteAuthor failed
+[ERROR] 2020-08-13 15:02:26.925 TestListener:37 - I am in onTestFailure method testSaveAndDeleteAuthor failed
+[ERROR] 2020-08-13 15:18:57.823 TestListener:37 - I am in onTestFailure method testSaveAndDeleteAuthor failed
+[ERROR] 2020-08-13 16:41:04.422 TestListener:37 - I am in onTestFailure method testSaveAndDeleteBook failed
+[ERROR] 2020-08-13 16:49:52.718 TestListener:37 - I am in onTestFailure method testSaveBookNonexistentGenre failed
+[ERROR] 2020-08-13 17:14:52.754 TestListener:37 - I am in onTestFailure method testUpdateAuthor failed
+[ERROR] 2020-08-13 17:26:07.081 TestListener:37 - I am in onTestFailure method testUpdateAuthor failed
+[ERROR] 2020-08-13 17:27:26.190 TestListener:37 - I am in onTestFailure method testUpdateAuthor failed
+[ERROR] 2020-08-13 17:30:54.422 TestListener:37 - I am in onTestFailure method testUpdateAuthor failed
+[ERROR] 2020-08-13 18:04:42.393 TestListener:37 - I am in onTestFailure method testSaveGenreWithExistedId failed
+[ERROR] 2020-08-13 18:39:06.106 TestListener:37 - I am in onTestFailure method testUpdateAuthor failed
+[ERROR] 2020-08-13 20:28:49.578 BaseTest:25 - Authentication failed !!!!
+[ERROR] 2020-08-13 20:28:49.849 TestListener:37 - I am in onTestFailure method testSaveBookNonexistentGenre failed
+[ERROR] 2020-08-13 20:28:49.920 TestListener:37 - I am in onTestFailure method testSaveBookNonexistentGenre failed
+[ERROR] 2020-08-13 20:28:50.810 BaseTest:25 - Authentication failed !!!!
+[ERROR] 2020-08-13 20:28:51.058 TestListener:37 - I am in onTestFailure method testSaveGenreWithExistedId failed
+[ERROR] 2020-08-13 20:28:51.062 TestListener:37 - I am in onTestFailure method testSaveGenreWithExistedId failed
+[ERROR] 2020-08-13 20:28:51.701 BaseTest:25 - Authentication failed !!!!
+[ERROR] 2020-08-13 20:28:51.839 TestListener:37 - I am in onTestFailure method testSaveAndDeleteAuthor failed
+[ERROR] 2020-08-13 20:28:51.841 TestListener:37 - I am in onTestFailure method testSaveAndDeleteAuthor failed
+[ERROR] 2020-08-13 20:28:52.597 BaseTest:25 - Authentication failed !!!!
+[ERROR] 2020-08-13 20:28:52.705 TestListener:37 - I am in onTestFailure method testSaveAndDeleteBook failed
+[ERROR] 2020-08-13 20:28:52.708 TestListener:37 - I am in onTestFailure method testSaveAndDeleteBook failed
+[ERROR] 2020-08-13 20:28:53.434 BaseTest:25 - Authentication failed !!!!
+[ERROR] 2020-08-13 20:28:53.681 TestListener:37 - I am in onTestFailure method testSaveAndDeleteGenre failed
+[ERROR] 2020-08-13 20:28:53.685 TestListener:37 - I am in onTestFailure method testSaveAndDeleteGenre failed
+[ERROR] 2020-08-13 20:28:54.790 BaseTest:25 - Authentication failed !!!!
+[ERROR] 2020-08-13 20:28:54.873 TestListener:37 - I am in onTestFailure method testUpdateAuthor failed
+[ERROR] 2020-08-13 20:28:54.875 TestListener:37 - I am in onTestFailure method testUpdateAuthor failed
+[ERROR] 2020-08-13 20:28:55.933 BaseTest:25 - Authentication failed !!!!
+[ERROR] 2020-08-13 20:28:56.053 TestListener:37 - I am in onTestFailure method verifySortingOfBooks failed
+[ERROR] 2020-08-13 20:28:56.064 TestListener:37 - I am in onTestFailure method verifySortingOfBooks failed
+[ERROR] 2020-08-13 20:30:10.716 BaseTest:25 - Authentication failed !!!!
+[ERROR] 2020-08-13 20:30:10.797 TestListener:37 - I am in onTestFailure method testSaveBookNonexistentGenre failed
+[ERROR] 2020-08-13 20:30:10.816 TestListener:37 - I am in onTestFailure method testSaveBookNonexistentGenre failed
+[ERROR] 2020-08-13 20:30:12.387 BaseTest:25 - Authentication failed !!!!
+[ERROR] 2020-08-13 20:30:12.393 TestListener:37 - I am in onTestFailure method testSaveGenreWithExistedId failed
+[ERROR] 2020-08-13 20:30:12.397 TestListener:37 - I am in onTestFailure method testSaveGenreWithExistedId failed
+[ERROR] 2020-08-13 20:30:13.733 BaseTest:25 - Authentication failed !!!!
+[ERROR] 2020-08-13 20:30:13.739 TestListener:37 - I am in onTestFailure method testSaveAndDeleteAuthor failed
+[ERROR] 2020-08-13 20:30:13.741 TestListener:37 - I am in onTestFailure method testSaveAndDeleteAuthor failed
+[ERROR] 2020-08-13 20:30:14.499 BaseTest:25 - Authentication failed !!!!
+[ERROR] 2020-08-13 20:30:14.504 TestListener:37 - I am in onTestFailure method testSaveAndDeleteBook failed
+[ERROR] 2020-08-13 20:30:14.507 TestListener:37 - I am in onTestFailure method testSaveAndDeleteBook failed
+[ERROR] 2020-08-13 20:30:15.137 BaseTest:25 - Authentication failed !!!!
+[ERROR] 2020-08-13 20:30:15.140 TestListener:37 - I am in onTestFailure method testSaveAndDeleteGenre failed
+[ERROR] 2020-08-13 20:30:15.142 TestListener:37 - I am in onTestFailure method testSaveAndDeleteGenre failed
+[ERROR] 2020-08-13 20:30:15.887 BaseTest:25 - Authentication failed !!!!
+[ERROR] 2020-08-13 20:30:15.890 TestListener:37 - I am in onTestFailure method testUpdateAuthor failed
+[ERROR] 2020-08-13 20:30:15.892 TestListener:37 - I am in onTestFailure method testUpdateAuthor failed
+[ERROR] 2020-08-13 20:30:16.531 BaseTest:25 - Authentication failed !!!!
+[ERROR] 2020-08-13 20:30:16.534 TestListener:37 - I am in onTestFailure method verifySortingOfBooks failed
+[ERROR] 2020-08-13 20:30:16.540 TestListener:37 - I am in onTestFailure method verifySortingOfBooks failed
+[ERROR] 2020-08-13 20:33:30.553 BaseTest:25 - Authentication failed !!!!
+[ERROR] 2020-08-13 20:40:53.259 BaseTest:25 - Authentication failed !!!!
+[ERROR] 2020-08-13 20:41:47.764 TestListener:37 - I am in onTestFailure method connectWithoutToken failed
+[ERROR] 2020-08-13 20:44:10.142 TestListener:37 - I am in onTestFailure method connectWithoutToken failed
+[ERROR] 2020-08-14 13:43:41.187 TestListener:37 - I am in onTestFailure method testSaveAndDeleteAuthor failed
+[ERROR] 2020-08-14 14:37:37.000 TestListener:37 - I am in onTestFailure method verifySortingOfBooks failed
+[ERROR] 2020-08-14 14:40:32.557 TestListener:37 - I am in onTestFailure method verifySortingOfBooks failed
+[ERROR] 2020-08-14 19:52:39.598 TestListener:37 - I am in onTestFailure method testSaveGenreWithExistedId failed
+[ERROR] 2020-08-14 19:54:35.129 TestListener:37 - I am in onTestFailure method testSaveBookNonexistentGenre failed

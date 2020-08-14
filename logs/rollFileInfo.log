@@ -1,0 +1,979 @@
+[INFO ] 2020-08-14 13:36:06.701 TestListener:17 - I am in onStart method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-14 13:36:06.740 TestListener:17 - I am in onStart method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-14 13:36:06.877 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:13.205 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 13:36:13.228 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 13:36:13.231 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 13:36:13.265 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 13:36:13.355 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start
+[INFO ] 2020-08-14 13:36:13.365 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start
+[INFO ] 2020-08-14 13:36:13.367 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:15.499 BookService:27 - Trigger uri : http://localhost:8080/api/library/books?size=100
+[INFO ] 2020-08-14 13:36:15.500 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 13:36:15.901 SaveBookWithNonexistentGenreTest:30 - Getting the List of books with size: 100
+[INFO ] 2020-08-14 13:36:15.902 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:16.399 AuthorService:25 - Trigger uri : http://localhost:8080/api/library/authors?size=100
+[INFO ] 2020-08-14 13:36:16.400 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 13:36:16.746 SaveBookWithNonexistentGenreTest:37 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 13:36:16.747 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 13:36:16.907 GenreService:24 - Trigger uri : http://localhost:8080/api/library/genres?size=100
+[INFO ] 2020-08-14 13:36:16.908 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 13:36:16.946 SaveBookWithNonexistentGenreTest:44 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 13:36:16.947 SaveBookWithNonexistentGenreTest:60 - Creating an Book with id: 5368
+[INFO ] 2020-08-14 13:36:16.955 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:18.187 BookService:55 - Trigger uri : http://localhost:8080/api/library/book/100005/9112
+[INFO ] 2020-08-14 13:36:18.188 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 13:36:18.191 SaveBookWithNonexistentGenreTest:64 - Saving a Book with id: 5368failed because of nonexistent Genre with id: 9112
+[INFO ] 2020-08-14 13:36:18.236 TestListener:32 - I am in onTestSuccess method testSaveBookNonexistentGenre succeed
+[INFO ] 2020-08-14 13:36:18.237 TestListener:32 - I am in onTestSuccess method testSaveBookNonexistentGenre succeed
+[INFO ] 2020-08-14 13:36:18.284 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 13:36:18.294 TestListener:22 - I am in onFinish method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-14 13:36:18.978 TestListener:22 - I am in onFinish method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-14 13:36:18.985 TestListener:17 - I am in onStart method SaveExistedGenreTest
+[INFO ] 2020-08-14 13:36:18.986 TestListener:17 - I am in onStart method SaveExistedGenreTest
+[INFO ] 2020-08-14 13:36:18.991 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:19.584 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 13:36:19.586 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 13:36:19.587 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 13:36:19.592 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 13:36:19.595 TestListener:27 - I am in onTestStart method testSaveGenreWithExistedId start
+[INFO ] 2020-08-14 13:36:19.596 TestListener:27 - I am in onTestStart method testSaveGenreWithExistedId start
+[INFO ] 2020-08-14 13:36:19.599 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 13:36:19.730 GenreService:24 - Trigger uri : http://localhost:8080/api/library/genres?size=100
+[INFO ] 2020-08-14 13:36:19.731 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 13:36:19.765 SaveExistedGenreTest:26 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 13:36:19.765 SaveExistedGenreTest:32 - Creating an Genre with existed genreId: 9111
+[INFO ] 2020-08-14 13:36:19.766 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 13:36:20.433 GenreService:34 - Trigger uri : http://localhost:8080/api/library/genre
+[INFO ] 2020-08-14 13:36:20.434 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 13:36:20.434 SaveExistedGenreTest:36 - Falling to save a Genre with id: 9111
+[INFO ] 2020-08-14 13:36:20.435 TestListener:32 - I am in onTestSuccess method testSaveGenreWithExistedId succeed
+[INFO ] 2020-08-14 13:36:20.436 TestListener:32 - I am in onTestSuccess method testSaveGenreWithExistedId succeed
+[INFO ] 2020-08-14 13:36:20.437 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 13:36:20.438 TestListener:22 - I am in onFinish method SaveExistedGenreTest
+[INFO ] 2020-08-14 13:36:20.448 TestListener:22 - I am in onFinish method SaveExistedGenreTest
+[INFO ] 2020-08-14 13:36:20.449 TestListener:17 - I am in onStart method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-14 13:36:20.449 TestListener:17 - I am in onStart method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-14 13:36:20.451 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:21.751 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 13:36:21.752 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 13:36:21.753 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 13:36:21.753 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 13:36:21.754 TestListener:27 - I am in onTestStart method testSaveAndDeleteAuthor start
+[INFO ] 2020-08-14 13:36:21.755 TestListener:27 - I am in onTestStart method testSaveAndDeleteAuthor start
+[INFO ] 2020-08-14 13:36:21.756 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:21.868 AuthorService:25 - Trigger uri : http://localhost:8080/api/library/authors?size=100
+[INFO ] 2020-08-14 13:36:21.869 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 13:36:21.893 SaveAndDeleteAuthorTest:28 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 13:36:21.894 SaveAndDeleteAuthorTest:43 - Creating an Author with id: 100006
+[INFO ] 2020-08-14 13:36:21.894 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:23.503 AuthorService:35 - Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-14 13:36:23.504 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 13:36:23.513 SaveAndDeleteAuthorTest:49 - Saving an Author with id: 100006
+[INFO ] 2020-08-14 13:36:23.514 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:24.076 AuthorService:63 - Trigger uri : http://localhost:8080/api/library/author/100006
+[INFO ] 2020-08-14 13:36:24.079 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 13:36:24.080 SaveAndDeleteAuthorTest:53 - Deleting an Author with id: 100006
+[INFO ] 2020-08-14 13:36:24.081 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteAuthor succeed
+[INFO ] 2020-08-14 13:36:24.082 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteAuthor succeed
+[INFO ] 2020-08-14 13:36:24.086 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 13:36:24.089 TestListener:22 - I am in onFinish method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-14 13:36:24.117 TestListener:22 - I am in onFinish method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-14 13:36:24.118 TestListener:17 - I am in onStart method SaveAndDeleteBook
+[INFO ] 2020-08-14 13:36:24.119 TestListener:17 - I am in onStart method SaveAndDeleteBook
+[INFO ] 2020-08-14 13:36:24.121 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:25.206 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 13:36:25.207 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 13:36:25.207 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 13:36:25.208 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 13:36:25.209 TestListener:27 - I am in onTestStart method testSaveAndDeleteBook start
+[INFO ] 2020-08-14 13:36:25.210 TestListener:27 - I am in onTestStart method testSaveAndDeleteBook start
+[INFO ] 2020-08-14 13:36:25.210 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:25.354 BookService:27 - Trigger uri : http://localhost:8080/api/library/books?size=100
+[INFO ] 2020-08-14 13:36:25.354 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 13:36:25.415 SaveAndDeleteBookTest:30 - Getting the List of books with size: 100
+[INFO ] 2020-08-14 13:36:25.416 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:25.518 AuthorService:25 - Trigger uri : http://localhost:8080/api/library/authors?size=100
+[INFO ] 2020-08-14 13:36:25.519 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 13:36:25.629 SaveAndDeleteBookTest:37 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 13:36:25.630 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 13:36:25.848 GenreService:24 - Trigger uri : http://localhost:8080/api/library/genres?size=100
+[INFO ] 2020-08-14 13:36:25.849 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 13:36:25.856 SaveAndDeleteBookTest:44 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 13:36:25.856 SaveAndDeleteBookTest:60 - Creating an Book with id: 5368
+[INFO ] 2020-08-14 13:36:25.858 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:26.234 BookService:55 - Trigger uri : http://localhost:8080/api/library/book/100005/9111
+[INFO ] 2020-08-14 13:36:26.235 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 13:36:26.253 SaveAndDeleteBookTest:66 - Saving a Book with id: 5368
+[INFO ] 2020-08-14 13:36:26.254 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:26.471 BookService:73 - Trigger uri : http://localhost:8080/api/library/book/5368
+[INFO ] 2020-08-14 13:36:26.472 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 13:36:26.472 SaveAndDeleteBookTest:70 - Deleting a Book with id: 5368
+[INFO ] 2020-08-14 13:36:26.473 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteBook succeed
+[INFO ] 2020-08-14 13:36:26.473 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteBook succeed
+[INFO ] 2020-08-14 13:36:26.474 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 13:36:26.477 TestListener:22 - I am in onFinish method SaveAndDeleteBook
+[INFO ] 2020-08-14 13:36:26.510 TestListener:22 - I am in onFinish method SaveAndDeleteBook
+[INFO ] 2020-08-14 13:36:26.512 TestListener:17 - I am in onStart method SaveAndDeleteGenreTest
+[INFO ] 2020-08-14 13:36:26.512 TestListener:17 - I am in onStart method SaveAndDeleteGenreTest
+[INFO ] 2020-08-14 13:36:26.515 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:27.094 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 13:36:27.097 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 13:36:27.098 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 13:36:27.098 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 13:36:27.099 TestListener:27 - I am in onTestStart method testSaveAndDeleteGenre start
+[INFO ] 2020-08-14 13:36:27.100 TestListener:27 - I am in onTestStart method testSaveAndDeleteGenre start
+[INFO ] 2020-08-14 13:36:27.100 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 13:36:27.182 GenreService:24 - Trigger uri : http://localhost:8080/api/library/genres?size=100
+[INFO ] 2020-08-14 13:36:27.183 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 13:36:27.189 SaveAndDeleteGenreTest:26 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 13:36:27.189 SaveAndDeleteGenreTest:32 - Creating an Genre with id: 9112
+[INFO ] 2020-08-14 13:36:27.190 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 13:36:27.976 GenreService:34 - Trigger uri : http://localhost:8080/api/library/genre
+[INFO ] 2020-08-14 13:36:28.006 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 13:36:28.014 SaveAndDeleteGenreTest:38 - Saving a Genre with id: 9112
+[INFO ] 2020-08-14 13:36:28.017 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 13:36:28.255 GenreService:52 - Trigger uri : http://localhost:8080/api/library/genre/9112
+[INFO ] 2020-08-14 13:36:28.258 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 13:36:28.260 SaveAndDeleteGenreTest:42 - Deleting a Genre with id: 9112
+[INFO ] 2020-08-14 13:36:28.262 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteGenre succeed
+[INFO ] 2020-08-14 13:36:28.262 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteGenre succeed
+[INFO ] 2020-08-14 13:36:28.263 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 13:36:28.264 TestListener:22 - I am in onFinish method SaveAndDeleteGenreTest
+[INFO ] 2020-08-14 13:36:28.322 TestListener:22 - I am in onFinish method SaveAndDeleteGenreTest
+[INFO ] 2020-08-14 13:36:28.322 TestListener:17 - I am in onStart method UpdateAuthorTest
+[INFO ] 2020-08-14 13:36:28.322 TestListener:17 - I am in onStart method UpdateAuthorTest
+[INFO ] 2020-08-14 13:36:28.330 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:28.977 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 13:36:28.978 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 13:36:28.979 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 13:36:28.979 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 13:36:28.980 TestListener:27 - I am in onTestStart method testUpdateAuthor start
+[INFO ] 2020-08-14 13:36:28.980 TestListener:27 - I am in onTestStart method testUpdateAuthor start
+[INFO ] 2020-08-14 13:36:28.986 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:29.103 AuthorService:25 - Trigger uri : http://localhost:8080/api/library/authors?size=100
+[INFO ] 2020-08-14 13:36:29.104 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 13:36:29.174 UpdateAuthorTest:30 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 13:36:29.175 UpdateAuthorTest:45 - Creating an Author with id: 100006
+[INFO ] 2020-08-14 13:36:29.175 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:30.054 AuthorService:35 - Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-14 13:36:30.055 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 13:36:30.067 UpdateAuthorTest:51 - Saving an Author with id: 100006
+[INFO ] 2020-08-14 13:36:30.068 UpdateAuthorTest:57 - Updating fields of Author
+[INFO ] 2020-08-14 13:36:30.068 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:31.194 AuthorService:45 - Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-14 13:36:31.195 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 13:36:31.195 UpdateAuthorTest:61 - Saving updated Author with id: 100006
+[INFO ] 2020-08-14 13:36:31.196 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:31.702 AuthorService:63 - Trigger uri : http://localhost:8080/api/library/author/100006
+[INFO ] 2020-08-14 13:36:31.703 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 13:36:31.703 UpdateAuthorTest:65 - Deleting an Author with id: 100006
+[INFO ] 2020-08-14 13:36:31.704 TestListener:32 - I am in onTestSuccess method testUpdateAuthor succeed
+[INFO ] 2020-08-14 13:36:31.705 TestListener:32 - I am in onTestSuccess method testUpdateAuthor succeed
+[INFO ] 2020-08-14 13:36:31.707 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 13:36:31.707 TestListener:22 - I am in onFinish method UpdateAuthorTest
+[INFO ] 2020-08-14 13:36:31.751 TestListener:22 - I am in onFinish method UpdateAuthorTest
+[INFO ] 2020-08-14 13:36:31.751 TestListener:17 - I am in onStart method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-14 13:36:31.757 TestListener:17 - I am in onStart method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-14 13:36:31.799 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:32.567 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 13:36:32.567 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 13:36:32.568 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 13:36:32.568 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 13:36:32.569 TestListener:27 - I am in onTestStart method verifySortingOfBooks start
+[INFO ] 2020-08-14 13:36:32.570 TestListener:27 - I am in onTestStart method verifySortingOfBooks start
+[INFO ] 2020-08-14 13:36:32.570 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:32.686 BookService:45 - Trigger uri : http://localhost:8080/api/library/books?size=100&sortBy=bookName
+[INFO ] 2020-08-14 13:36:32.687 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 13:36:32.742 VerifyIfBooksAreSortedTest:24 - Getting the List of books with size: 100
+[INFO ] 2020-08-14 13:36:33.275 VerifyIfBooksAreSortedTest:29 - Verified if list is sorted
+[INFO ] 2020-08-14 13:36:33.276 TestListener:32 - I am in onTestSuccess method verifySortingOfBooks succeed
+[INFO ] 2020-08-14 13:36:33.277 TestListener:32 - I am in onTestSuccess method verifySortingOfBooks succeed
+[INFO ] 2020-08-14 13:36:33.278 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 13:36:33.278 TestListener:22 - I am in onFinish method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-14 13:36:33.380 TestListener:22 - I am in onFinish method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-14 13:36:33.381 TestListener:17 - I am in onStart method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-14 13:36:33.414 TestListener:17 - I am in onStart method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-14 13:36:33.421 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:34.488 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 13:36:34.490 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 13:36:34.493 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 13:36:34.494 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 13:36:34.496 TestListener:27 - I am in onTestStart method connectWithoutToken start
+[INFO ] 2020-08-14 13:36:34.497 TestListener:27 - I am in onTestStart method connectWithoutToken start
+[INFO ] 2020-08-14 13:36:34.499 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:36:35.085 BookService:36 - Trigger uri : http://localhost:8080/api/library/books
+[INFO ] 2020-08-14 13:36:35.086 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 13:36:35.088 VerifyConnectionWithoutTokenTest:18 - Connection without token failed
+[INFO ] 2020-08-14 13:36:35.089 TestListener:32 - I am in onTestSuccess method connectWithoutToken succeed
+[INFO ] 2020-08-14 13:36:35.089 TestListener:32 - I am in onTestSuccess method connectWithoutToken succeed
+[INFO ] 2020-08-14 13:36:35.090 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 13:36:35.091 TestListener:22 - I am in onFinish method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-14 13:36:35.170 TestListener:22 - I am in onFinish method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-14 13:43:34.119 TestListener:17 - I am in onStart method test_libraryrest_jersey
+[INFO ] 2020-08-14 13:43:34.448 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:43:39.691 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 13:43:39.714 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 13:43:39.715 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 13:43:39.773 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 13:43:39.819 TestListener:27 - I am in onTestStart method testSaveAndDeleteAuthor start
+[INFO ] 2020-08-14 13:43:39.821 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 13:43:40.266 AuthorService:25 - Trigger uri : http://localhost:8080/api/library/authors?size=100
+[INFO ] 2020-08-14 13:43:40.267 CustomClientBuilder:33 - Quitting builder
+[ERROR] 2020-08-14 13:43:41.187 TestListener:37 - I am in onTestFailure method testSaveAndDeleteAuthor failed
+[INFO ] 2020-08-14 13:43:41.348 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 13:43:41.353 TestListener:22 - I am in onFinish method test_libraryrest_jersey
+[INFO ] 2020-08-14 14:25:25.138 TestListener:17 - I am in onStart method test_libraryrest_jersey
+[INFO ] 2020-08-14 14:25:25.329 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:25:28.391 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 14:25:28.414 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 14:25:28.415 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 14:25:28.425 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 14:25:28.480 TestListener:27 - I am in onTestStart method testSaveAndDeleteAuthor start
+[INFO ] 2020-08-14 14:25:28.581 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:25:29.036 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=100
+[INFO ] 2020-08-14 14:25:29.037 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 14:25:29.532 SaveAndDeleteAuthorTest:28 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 14:25:29.533 SaveAndDeleteAuthorTest:43 - Creating an Author with id: 100006
+[INFO ] 2020-08-14 14:25:29.534 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:25:30.960 AuthorService:39 - Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-14 14:25:30.961 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 14:25:30.974 SaveAndDeleteAuthorTest:49 - Saving an Author with id: 100006
+[INFO ] 2020-08-14 14:25:30.975 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:25:31.410 AuthorService:67 - Trigger uri : http://localhost:8080/api/library/author/100006
+[INFO ] 2020-08-14 14:25:31.411 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 14:25:31.412 SaveAndDeleteAuthorTest:53 - Deleting an Author with id: 100006
+[INFO ] 2020-08-14 14:25:31.414 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteAuthor succeed
+[INFO ] 2020-08-14 14:25:31.417 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 14:25:31.420 TestListener:22 - I am in onFinish method test_libraryrest_jersey
+[INFO ] 2020-08-14 14:26:36.891 TestListener:17 - I am in onStart method test_libraryrest_jersey
+[INFO ] 2020-08-14 14:26:37.025 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:26:41.438 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 14:26:41.443 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 14:26:41.445 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 14:26:41.464 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 14:26:41.571 TestListener:27 - I am in onTestStart method testSaveAndDeleteGenre start
+[INFO ] 2020-08-14 14:26:41.593 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 14:26:42.401 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=100
+[INFO ] 2020-08-14 14:26:42.402 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 14:26:43.037 SaveAndDeleteGenreTest:26 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 14:26:43.039 SaveAndDeleteGenreTest:32 - Creating an Genre with id: 9112
+[INFO ] 2020-08-14 14:26:43.040 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 14:26:43.817 GenreService:38 - Trigger uri : http://localhost:8080/api/library/genre
+[INFO ] 2020-08-14 14:26:43.818 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 14:26:43.825 SaveAndDeleteGenreTest:38 - Saving a Genre with id: 9112
+[INFO ] 2020-08-14 14:26:43.828 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 14:26:44.200 GenreService:56 - Trigger uri : http://localhost:8080/api/library/genre/9112
+[INFO ] 2020-08-14 14:26:44.201 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 14:26:44.202 SaveAndDeleteGenreTest:42 - Deleting a Genre with id: 9112
+[INFO ] 2020-08-14 14:26:44.204 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteGenre succeed
+[INFO ] 2020-08-14 14:26:44.206 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 14:26:44.210 TestListener:22 - I am in onFinish method test_libraryrest_jersey
+[INFO ] 2020-08-14 14:37:30.712 TestListener:17 - I am in onStart method test_libraryrest_jersey
+[INFO ] 2020-08-14 14:37:31.269 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:37:34.904 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 14:37:34.927 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 14:37:34.928 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 14:37:34.956 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 14:37:34.998 TestListener:27 - I am in onTestStart method verifySortingOfBooks start
+[INFO ] 2020-08-14 14:37:35.042 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:37:36.536 BookService:54 - Trigger uri : http://localhost:8080/api/library/books?size=100&orderType=desc&sortBy=bookName
+[INFO ] 2020-08-14 14:37:36.537 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 14:37:36.871 VerifyIfBooksAreSortedTest:24 - Getting the List of books with size: 100
+[ERROR] 2020-08-14 14:37:37.000 TestListener:37 - I am in onTestFailure method verifySortingOfBooks failed
+[INFO ] 2020-08-14 14:37:37.045 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 14:37:37.051 TestListener:22 - I am in onFinish method test_libraryrest_jersey
+[INFO ] 2020-08-14 14:40:20.423 TestListener:17 - I am in onStart method test_libraryrest_jersey
+[INFO ] 2020-08-14 14:40:20.625 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:40:30.637 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 14:40:30.741 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 14:40:30.742 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 14:40:30.860 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 14:40:30.931 TestListener:27 - I am in onTestStart method verifySortingOfBooks start
+[INFO ] 2020-08-14 14:40:31.014 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:40:31.487 BookService:54 - Trigger uri : http://localhost:8080/api/library/books?size=100&orderType=desc&sortBy=bookName
+[INFO ] 2020-08-14 14:40:31.488 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 14:40:32.324 VerifyIfBooksAreSortedTest:25 - Getting the List of books with size: 100
+[ERROR] 2020-08-14 14:40:32.557 TestListener:37 - I am in onTestFailure method verifySortingOfBooks failed
+[INFO ] 2020-08-14 14:40:32.609 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 14:40:32.613 TestListener:22 - I am in onFinish method test_libraryrest_jersey
+[INFO ] 2020-08-14 14:42:21.978 TestListener:17 - I am in onStart method test_libraryrest_jersey
+[INFO ] 2020-08-14 14:42:22.075 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:42:27.472 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 14:42:27.479 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 14:42:27.481 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 14:42:27.516 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 14:42:27.588 TestListener:27 - I am in onTestStart method verifySortingOfBooks start
+[INFO ] 2020-08-14 14:42:27.614 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:42:29.676 BookService:54 - Trigger uri : http://localhost:8080/api/library/books?size=100&orderType=desc&sortBy=bookName
+[INFO ] 2020-08-14 14:42:29.677 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 14:42:30.145 VerifyIfBooksAreSortedTest:25 - Getting the List of books with size: 100
+[INFO ] 2020-08-14 14:42:30.190 VerifyIfBooksAreSortedTest:30 - Verified if list is sorted
+[INFO ] 2020-08-14 14:42:30.192 TestListener:32 - I am in onTestSuccess method verifySortingOfBooks succeed
+[INFO ] 2020-08-14 14:42:30.195 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 14:42:30.200 TestListener:22 - I am in onFinish method test_libraryrest_jersey
+[INFO ] 2020-08-14 14:54:25.714 TestListener:17 - I am in onStart method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-14 14:54:26.465 TestListener:17 - I am in onStart method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-14 14:54:26.685 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:33.693 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 14:54:33.728 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 14:54:33.730 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 14:54:33.741 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 14:54:33.778 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start
+[INFO ] 2020-08-14 14:54:33.778 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start
+[INFO ] 2020-08-14 14:54:33.895 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:35.247 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200
+[INFO ] 2020-08-14 14:54:35.249 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 14:54:35.899 SaveBookWithNonexistentGenreTest:30 - Getting the List of books with size: 200
+[INFO ] 2020-08-14 14:54:35.900 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:36.256 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-14 14:54:36.257 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 14:54:36.808 SaveBookWithNonexistentGenreTest:37 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 14:54:36.808 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 14:54:37.012 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-14 14:54:37.013 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 14:54:37.055 SaveBookWithNonexistentGenreTest:44 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 14:54:37.056 SaveBookWithNonexistentGenreTest:60 - Creating an Book with id: 9822
+[INFO ] 2020-08-14 14:54:37.057 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:38.068 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9112
+[INFO ] 2020-08-14 14:54:38.069 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 14:54:38.071 SaveBookWithNonexistentGenreTest:64 - Saving a Book with id: 9822failed because of nonexistent Genre with id: 9112
+[INFO ] 2020-08-14 14:54:38.074 TestListener:32 - I am in onTestSuccess method testSaveBookNonexistentGenre succeed
+[INFO ] 2020-08-14 14:54:38.075 TestListener:32 - I am in onTestSuccess method testSaveBookNonexistentGenre succeed
+[INFO ] 2020-08-14 14:54:38.077 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 14:54:38.081 TestListener:22 - I am in onFinish method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-14 14:54:38.308 TestListener:22 - I am in onFinish method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-14 14:54:38.380 TestListener:17 - I am in onStart method SaveExistedGenreTest
+[INFO ] 2020-08-14 14:54:38.381 TestListener:17 - I am in onStart method SaveExistedGenreTest
+[INFO ] 2020-08-14 14:54:38.387 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:39.107 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 14:54:39.109 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 14:54:39.110 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 14:54:39.116 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 14:54:39.117 TestListener:27 - I am in onTestStart method testSaveGenreWithExistedId start
+[INFO ] 2020-08-14 14:54:39.118 TestListener:27 - I am in onTestStart method testSaveGenreWithExistedId start
+[INFO ] 2020-08-14 14:54:39.121 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 14:54:39.201 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-14 14:54:39.202 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 14:54:39.210 SaveExistedGenreTest:26 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 14:54:39.210 SaveExistedGenreTest:32 - Creating an Genre with existed genreId: 9111
+[INFO ] 2020-08-14 14:54:39.211 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 14:54:39.892 GenreService:38 - Trigger uri : http://localhost:8080/api/library/genre
+[INFO ] 2020-08-14 14:54:39.893 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 14:54:39.898 SaveExistedGenreTest:36 - Falling to save a Genre with id: 9111
+[INFO ] 2020-08-14 14:54:39.900 TestListener:32 - I am in onTestSuccess method testSaveGenreWithExistedId succeed
+[INFO ] 2020-08-14 14:54:39.903 TestListener:32 - I am in onTestSuccess method testSaveGenreWithExistedId succeed
+[INFO ] 2020-08-14 14:54:39.904 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 14:54:39.905 TestListener:22 - I am in onFinish method SaveExistedGenreTest
+[INFO ] 2020-08-14 14:54:39.988 TestListener:22 - I am in onFinish method SaveExistedGenreTest
+[INFO ] 2020-08-14 14:54:39.989 TestListener:17 - I am in onStart method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-14 14:54:39.989 TestListener:17 - I am in onStart method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-14 14:54:40.023 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:40.771 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 14:54:40.772 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 14:54:40.773 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 14:54:40.774 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 14:54:40.776 TestListener:27 - I am in onTestStart method testSaveAndDeleteAuthor start
+[INFO ] 2020-08-14 14:54:40.777 TestListener:27 - I am in onTestStart method testSaveAndDeleteAuthor start
+[INFO ] 2020-08-14 14:54:40.778 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:40.875 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-14 14:54:40.876 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 14:54:40.940 SaveAndDeleteAuthorTest:28 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 14:54:40.941 SaveAndDeleteAuthorTest:43 - Creating an Author with id: 100006
+[INFO ] 2020-08-14 14:54:40.941 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:41.932 AuthorService:39 - Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-14 14:54:41.933 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 14:54:41.972 SaveAndDeleteAuthorTest:49 - Saving an Author with id: 100006
+[INFO ] 2020-08-14 14:54:41.973 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:42.608 AuthorService:67 - Trigger uri : http://localhost:8080/api/library/author/100006
+[INFO ] 2020-08-14 14:54:42.609 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 14:54:42.612 SaveAndDeleteAuthorTest:53 - Deleting an Author with id: 100006
+[INFO ] 2020-08-14 14:54:42.612 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteAuthor succeed
+[INFO ] 2020-08-14 14:54:42.613 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteAuthor succeed
+[INFO ] 2020-08-14 14:54:42.615 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 14:54:42.616 TestListener:22 - I am in onFinish method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-14 14:54:42.623 TestListener:22 - I am in onFinish method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-14 14:54:42.624 TestListener:17 - I am in onStart method SaveAndDeleteBook
+[INFO ] 2020-08-14 14:54:42.625 TestListener:17 - I am in onStart method SaveAndDeleteBook
+[INFO ] 2020-08-14 14:54:42.630 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:43.525 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 14:54:43.525 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 14:54:43.527 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 14:54:43.528 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 14:54:43.529 TestListener:27 - I am in onTestStart method testSaveAndDeleteBook start
+[INFO ] 2020-08-14 14:54:43.531 TestListener:27 - I am in onTestStart method testSaveAndDeleteBook start
+[INFO ] 2020-08-14 14:54:43.532 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:43.646 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200
+[INFO ] 2020-08-14 14:54:43.647 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 14:54:43.853 SaveAndDeleteBookTest:30 - Getting the List of books with size: 200
+[INFO ] 2020-08-14 14:54:43.853 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:43.973 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-14 14:54:43.974 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 14:54:44.010 SaveAndDeleteBookTest:37 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 14:54:44.011 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 14:54:44.133 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-14 14:54:44.134 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 14:54:44.142 SaveAndDeleteBookTest:44 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 14:54:44.143 SaveAndDeleteBookTest:60 - Creating an Book with id: 9822
+[INFO ] 2020-08-14 14:54:44.144 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:44.819 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9111
+[INFO ] 2020-08-14 14:54:44.819 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 14:54:44.827 SaveAndDeleteBookTest:66 - Saving a Book with id: 9822
+[INFO ] 2020-08-14 14:54:44.828 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:45.035 BookService:82 - Trigger uri : http://localhost:8080/api/library/book/9822
+[INFO ] 2020-08-14 14:54:45.036 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 14:54:45.040 SaveAndDeleteBookTest:70 - Deleting a Book with id: 9822
+[INFO ] 2020-08-14 14:54:45.042 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteBook succeed
+[INFO ] 2020-08-14 14:54:45.043 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteBook succeed
+[INFO ] 2020-08-14 14:54:45.045 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 14:54:45.045 TestListener:22 - I am in onFinish method SaveAndDeleteBook
+[INFO ] 2020-08-14 14:54:45.068 TestListener:22 - I am in onFinish method SaveAndDeleteBook
+[INFO ] 2020-08-14 14:54:45.069 TestListener:17 - I am in onStart method SaveAndDeleteGenreTest
+[INFO ] 2020-08-14 14:54:45.070 TestListener:17 - I am in onStart method SaveAndDeleteGenreTest
+[INFO ] 2020-08-14 14:54:45.076 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:45.985 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 14:54:45.986 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 14:54:45.987 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 14:54:45.987 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 14:54:45.990 TestListener:27 - I am in onTestStart method testSaveAndDeleteGenre start
+[INFO ] 2020-08-14 14:54:45.990 TestListener:27 - I am in onTestStart method testSaveAndDeleteGenre start
+[INFO ] 2020-08-14 14:54:45.991 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 14:54:46.069 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-14 14:54:46.070 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 14:54:46.089 SaveAndDeleteGenreTest:26 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 14:54:46.089 SaveAndDeleteGenreTest:32 - Creating an Genre with id: 9112
+[INFO ] 2020-08-14 14:54:46.090 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 14:54:46.681 GenreService:38 - Trigger uri : http://localhost:8080/api/library/genre
+[INFO ] 2020-08-14 14:54:46.681 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 14:54:46.687 SaveAndDeleteGenreTest:38 - Saving a Genre with id: 9112
+[INFO ] 2020-08-14 14:54:46.688 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 14:54:46.868 GenreService:56 - Trigger uri : http://localhost:8080/api/library/genre/9112
+[INFO ] 2020-08-14 14:54:46.869 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 14:54:46.869 SaveAndDeleteGenreTest:42 - Deleting a Genre with id: 9112
+[INFO ] 2020-08-14 14:54:46.870 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteGenre succeed
+[INFO ] 2020-08-14 14:54:46.870 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteGenre succeed
+[INFO ] 2020-08-14 14:54:46.872 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 14:54:46.873 TestListener:22 - I am in onFinish method SaveAndDeleteGenreTest
+[INFO ] 2020-08-14 14:54:47.084 TestListener:22 - I am in onFinish method SaveAndDeleteGenreTest
+[INFO ] 2020-08-14 14:54:47.107 TestListener:17 - I am in onStart method UpdateAuthorTest
+[INFO ] 2020-08-14 14:54:47.107 TestListener:17 - I am in onStart method UpdateAuthorTest
+[INFO ] 2020-08-14 14:54:47.110 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:47.698 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 14:54:47.699 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 14:54:47.700 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 14:54:47.700 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 14:54:47.701 TestListener:27 - I am in onTestStart method testUpdateAuthor start
+[INFO ] 2020-08-14 14:54:47.702 TestListener:27 - I am in onTestStart method testUpdateAuthor start
+[INFO ] 2020-08-14 14:54:47.702 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:47.836 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-14 14:54:47.836 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 14:54:47.859 UpdateAuthorTest:30 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 14:54:47.860 UpdateAuthorTest:45 - Creating an Author with id: 100006
+[INFO ] 2020-08-14 14:54:47.861 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:48.218 AuthorService:39 - Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-14 14:54:48.219 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 14:54:48.227 UpdateAuthorTest:51 - Saving an Author with id: 100006
+[INFO ] 2020-08-14 14:54:48.228 UpdateAuthorTest:57 - Updating fields of Author
+[INFO ] 2020-08-14 14:54:48.228 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:48.457 AuthorService:49 - Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-14 14:54:48.458 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 14:54:48.459 UpdateAuthorTest:61 - Saving updated Author with id: 100006
+[INFO ] 2020-08-14 14:54:48.460 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:48.615 AuthorService:67 - Trigger uri : http://localhost:8080/api/library/author/100006
+[INFO ] 2020-08-14 14:54:48.617 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 14:54:48.618 UpdateAuthorTest:65 - Deleting an Author with id: 100006
+[INFO ] 2020-08-14 14:54:48.619 TestListener:32 - I am in onTestSuccess method testUpdateAuthor succeed
+[INFO ] 2020-08-14 14:54:48.620 TestListener:32 - I am in onTestSuccess method testUpdateAuthor succeed
+[INFO ] 2020-08-14 14:54:48.623 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 14:54:48.625 TestListener:22 - I am in onFinish method UpdateAuthorTest
+[INFO ] 2020-08-14 14:54:48.638 TestListener:22 - I am in onFinish method UpdateAuthorTest
+[INFO ] 2020-08-14 14:54:48.639 TestListener:17 - I am in onStart method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-14 14:54:48.640 TestListener:17 - I am in onStart method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-14 14:54:48.641 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:49.474 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 14:54:49.474 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 14:54:49.477 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 14:54:49.479 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 14:54:49.484 TestListener:27 - I am in onTestStart method verifySortingOfBooks start
+[INFO ] 2020-08-14 14:54:49.485 TestListener:27 - I am in onTestStart method verifySortingOfBooks start
+[INFO ] 2020-08-14 14:54:49.492 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:49.624 BookService:54 - Trigger uri : http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName
+[INFO ] 2020-08-14 14:54:49.626 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 14:54:49.690 VerifyIfBooksAreSortedTest:24 - Getting the List of books with size: 200
+[INFO ] 2020-08-14 14:54:49.943 VerifyIfBooksAreSortedTest:29 - Verified if list is sorted
+[INFO ] 2020-08-14 14:54:49.943 TestListener:32 - I am in onTestSuccess method verifySortingOfBooks succeed
+[INFO ] 2020-08-14 14:54:49.944 TestListener:32 - I am in onTestSuccess method verifySortingOfBooks succeed
+[INFO ] 2020-08-14 14:54:49.949 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 14:54:49.950 TestListener:22 - I am in onFinish method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-14 14:54:50.051 TestListener:22 - I am in onFinish method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-14 14:54:50.051 TestListener:17 - I am in onStart method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-14 14:54:50.052 TestListener:17 - I am in onStart method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-14 14:54:50.053 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:50.703 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 14:54:50.703 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 14:54:50.704 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 14:54:50.705 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 14:54:50.706 TestListener:27 - I am in onTestStart method connectWithoutToken start
+[INFO ] 2020-08-14 14:54:50.706 TestListener:27 - I am in onTestStart method connectWithoutToken start
+[INFO ] 2020-08-14 14:54:50.707 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 14:54:50.902 BookService:40 - Trigger uri : http://localhost:8080/api/library/books
+[INFO ] 2020-08-14 14:54:50.903 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 14:54:50.905 VerifyConnectionWithoutTokenTest:18 - Connection without token failed
+[INFO ] 2020-08-14 14:54:50.906 TestListener:32 - I am in onTestSuccess method connectWithoutToken succeed
+[INFO ] 2020-08-14 14:54:50.906 TestListener:32 - I am in onTestSuccess method connectWithoutToken succeed
+[INFO ] 2020-08-14 14:54:50.907 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 14:54:50.908 TestListener:22 - I am in onFinish method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-14 14:54:50.939 TestListener:22 - I am in onFinish method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-14 18:26:25.764 TestListener:17 - I am in onStart method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-14 18:26:26.048 TestListener:17 - I am in onStart method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-14 18:26:27.056 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:26:50.279 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 18:26:50.306 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 18:26:50.308 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 18:26:51.191 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 18:26:51.281 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start
+[INFO ] 2020-08-14 18:26:51.282 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start
+[INFO ] 2020-08-14 18:26:51.568 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:26:57.512 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200
+[INFO ] 2020-08-14 18:26:57.513 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 18:27:00.300 SaveBookWithNonexistentGenreTest:30 - Getting the List of books with size: 200
+[INFO ] 2020-08-14 18:27:00.301 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:01.785 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-14 18:27:01.787 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 18:27:02.664 SaveBookWithNonexistentGenreTest:37 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 18:27:02.665 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 18:27:03.123 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-14 18:27:03.123 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 18:27:03.160 SaveBookWithNonexistentGenreTest:44 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 18:27:03.161 SaveBookWithNonexistentGenreTest:60 - Creating an Book with id: 9822
+[INFO ] 2020-08-14 18:27:03.162 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:05.217 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9112
+[INFO ] 2020-08-14 18:27:05.218 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 18:27:05.226 SaveBookWithNonexistentGenreTest:64 - Saving a Book with id: 9822failed because of nonexistent Genre with id: 9112
+[INFO ] 2020-08-14 18:27:05.234 TestListener:32 - I am in onTestSuccess method testSaveBookNonexistentGenre succeed
+[INFO ] 2020-08-14 18:27:05.235 TestListener:32 - I am in onTestSuccess method testSaveBookNonexistentGenre succeed
+[INFO ] 2020-08-14 18:27:05.526 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 18:27:05.532 TestListener:22 - I am in onFinish method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-14 18:27:06.346 TestListener:22 - I am in onFinish method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-14 18:27:06.353 TestListener:17 - I am in onStart method SaveExistedGenreTest
+[INFO ] 2020-08-14 18:27:06.355 TestListener:17 - I am in onStart method SaveExistedGenreTest
+[INFO ] 2020-08-14 18:27:06.363 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:07.308 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 18:27:07.310 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 18:27:07.312 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 18:27:07.321 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 18:27:07.324 TestListener:27 - I am in onTestStart method testSaveGenreWithExistedId start
+[INFO ] 2020-08-14 18:27:07.329 TestListener:27 - I am in onTestStart method testSaveGenreWithExistedId start
+[INFO ] 2020-08-14 18:27:07.332 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 18:27:07.696 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-14 18:27:07.697 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 18:27:07.718 SaveExistedGenreTest:26 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 18:27:07.719 SaveExistedGenreTest:32 - Creating an Genre with existed genreId: 9111
+[INFO ] 2020-08-14 18:27:07.719 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 18:27:08.730 GenreService:38 - Trigger uri : http://localhost:8080/api/library/genre
+[INFO ] 2020-08-14 18:27:08.731 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 18:27:08.732 SaveExistedGenreTest:36 - Falling to save a Genre with id: 9111
+[INFO ] 2020-08-14 18:27:08.733 TestListener:32 - I am in onTestSuccess method testSaveGenreWithExistedId succeed
+[INFO ] 2020-08-14 18:27:08.737 TestListener:32 - I am in onTestSuccess method testSaveGenreWithExistedId succeed
+[INFO ] 2020-08-14 18:27:08.738 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 18:27:08.740 TestListener:22 - I am in onFinish method SaveExistedGenreTest
+[INFO ] 2020-08-14 18:27:09.358 TestListener:22 - I am in onFinish method SaveExistedGenreTest
+[INFO ] 2020-08-14 18:27:09.365 TestListener:17 - I am in onStart method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-14 18:27:09.367 TestListener:17 - I am in onStart method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-14 18:27:09.428 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:10.279 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 18:27:10.279 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 18:27:10.280 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 18:27:10.281 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 18:27:10.282 TestListener:27 - I am in onTestStart method testSaveAndDeleteAuthor start
+[INFO ] 2020-08-14 18:27:10.283 TestListener:27 - I am in onTestStart method testSaveAndDeleteAuthor start
+[INFO ] 2020-08-14 18:27:10.284 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:10.400 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-14 18:27:10.401 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 18:27:10.484 SaveAndDeleteAuthorTest:28 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 18:27:10.485 SaveAndDeleteAuthorTest:43 - Creating an Author with id: 100006
+[INFO ] 2020-08-14 18:27:10.486 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:13.518 AuthorService:39 - Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-14 18:27:13.519 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 18:27:13.553 SaveAndDeleteAuthorTest:49 - Saving an Author with id: 100006
+[INFO ] 2020-08-14 18:27:13.554 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:14.204 AuthorService:67 - Trigger uri : http://localhost:8080/api/library/author/100006
+[INFO ] 2020-08-14 18:27:14.204 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 18:27:14.205 SaveAndDeleteAuthorTest:53 - Deleting an Author with id: 100006
+[INFO ] 2020-08-14 18:27:14.206 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteAuthor succeed
+[INFO ] 2020-08-14 18:27:14.206 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteAuthor succeed
+[INFO ] 2020-08-14 18:27:14.208 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 18:27:14.209 TestListener:22 - I am in onFinish method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-14 18:27:14.216 TestListener:22 - I am in onFinish method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-14 18:27:14.217 TestListener:17 - I am in onStart method SaveAndDeleteBook
+[INFO ] 2020-08-14 18:27:14.218 TestListener:17 - I am in onStart method SaveAndDeleteBook
+[INFO ] 2020-08-14 18:27:14.220 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:14.796 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 18:27:14.797 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 18:27:14.798 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 18:27:14.798 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 18:27:14.799 TestListener:27 - I am in onTestStart method testSaveAndDeleteBook start
+[INFO ] 2020-08-14 18:27:14.800 TestListener:27 - I am in onTestStart method testSaveAndDeleteBook start
+[INFO ] 2020-08-14 18:27:14.801 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:15.004 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200
+[INFO ] 2020-08-14 18:27:15.005 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 18:27:15.088 SaveAndDeleteBookTest:30 - Getting the List of books with size: 200
+[INFO ] 2020-08-14 18:27:15.090 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:15.286 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-14 18:27:15.287 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 18:27:15.323 SaveAndDeleteBookTest:37 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 18:27:15.324 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 18:27:15.490 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-14 18:27:15.491 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 18:27:15.498 SaveAndDeleteBookTest:44 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 18:27:15.499 SaveAndDeleteBookTest:60 - Creating an Book with id: 9822
+[INFO ] 2020-08-14 18:27:15.500 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:15.970 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9111
+[INFO ] 2020-08-14 18:27:15.971 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 18:27:15.978 SaveAndDeleteBookTest:66 - Saving a Book with id: 9822
+[INFO ] 2020-08-14 18:27:15.979 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:16.157 BookService:82 - Trigger uri : http://localhost:8080/api/library/book/9822
+[INFO ] 2020-08-14 18:27:16.157 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 18:27:16.158 SaveAndDeleteBookTest:70 - Deleting a Book with id: 9822
+[INFO ] 2020-08-14 18:27:16.158 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteBook succeed
+[INFO ] 2020-08-14 18:27:16.159 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteBook succeed
+[INFO ] 2020-08-14 18:27:16.161 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 18:27:16.164 TestListener:22 - I am in onFinish method SaveAndDeleteBook
+[INFO ] 2020-08-14 18:27:16.294 TestListener:22 - I am in onFinish method SaveAndDeleteBook
+[INFO ] 2020-08-14 18:27:16.295 TestListener:17 - I am in onStart method SaveAndDeleteGenreTest
+[INFO ] 2020-08-14 18:27:16.295 TestListener:17 - I am in onStart method SaveAndDeleteGenreTest
+[INFO ] 2020-08-14 18:27:16.304 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:16.812 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 18:27:16.813 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 18:27:16.814 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 18:27:16.815 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 18:27:16.820 TestListener:27 - I am in onTestStart method testSaveAndDeleteGenre start
+[INFO ] 2020-08-14 18:27:16.822 TestListener:27 - I am in onTestStart method testSaveAndDeleteGenre start
+[INFO ] 2020-08-14 18:27:16.823 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 18:27:17.115 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-14 18:27:17.116 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 18:27:17.129 SaveAndDeleteGenreTest:26 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 18:27:17.129 SaveAndDeleteGenreTest:32 - Creating an Genre with id: 9112
+[INFO ] 2020-08-14 18:27:17.131 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 18:27:18.240 GenreService:38 - Trigger uri : http://localhost:8080/api/library/genre
+[INFO ] 2020-08-14 18:27:18.240 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 18:27:18.246 SaveAndDeleteGenreTest:38 - Saving a Genre with id: 9112
+[INFO ] 2020-08-14 18:27:18.247 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 18:27:18.422 GenreService:56 - Trigger uri : http://localhost:8080/api/library/genre/9112
+[INFO ] 2020-08-14 18:27:18.422 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 18:27:18.423 SaveAndDeleteGenreTest:42 - Deleting a Genre with id: 9112
+[INFO ] 2020-08-14 18:27:18.423 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteGenre succeed
+[INFO ] 2020-08-14 18:27:18.424 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteGenre succeed
+[INFO ] 2020-08-14 18:27:18.425 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 18:27:18.426 TestListener:22 - I am in onFinish method SaveAndDeleteGenreTest
+[INFO ] 2020-08-14 18:27:18.433 TestListener:22 - I am in onFinish method SaveAndDeleteGenreTest
+[INFO ] 2020-08-14 18:27:18.433 TestListener:17 - I am in onStart method UpdateAuthorTest
+[INFO ] 2020-08-14 18:27:18.434 TestListener:17 - I am in onStart method UpdateAuthorTest
+[INFO ] 2020-08-14 18:27:18.436 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:19.700 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 18:27:19.701 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 18:27:19.701 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 18:27:19.702 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 18:27:19.703 TestListener:27 - I am in onTestStart method testUpdateAuthor start
+[INFO ] 2020-08-14 18:27:19.706 TestListener:27 - I am in onTestStart method testUpdateAuthor start
+[INFO ] 2020-08-14 18:27:19.706 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:20.032 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-14 18:27:20.033 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 18:27:20.102 UpdateAuthorTest:30 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 18:27:20.103 UpdateAuthorTest:45 - Creating an Author with id: 100006
+[INFO ] 2020-08-14 18:27:20.103 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:20.395 AuthorService:39 - Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-14 18:27:20.397 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 18:27:20.405 UpdateAuthorTest:51 - Saving an Author with id: 100006
+[INFO ] 2020-08-14 18:27:20.406 UpdateAuthorTest:57 - Updating fields of Author
+[INFO ] 2020-08-14 18:27:20.406 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:20.594 AuthorService:49 - Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-14 18:27:20.595 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 18:27:20.596 UpdateAuthorTest:61 - Saving updated Author with id: 100006
+[INFO ] 2020-08-14 18:27:20.597 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:20.745 AuthorService:67 - Trigger uri : http://localhost:8080/api/library/author/100006
+[INFO ] 2020-08-14 18:27:20.747 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 18:27:20.747 UpdateAuthorTest:65 - Deleting an Author with id: 100006
+[INFO ] 2020-08-14 18:27:20.748 TestListener:32 - I am in onTestSuccess method testUpdateAuthor succeed
+[INFO ] 2020-08-14 18:27:20.748 TestListener:32 - I am in onTestSuccess method testUpdateAuthor succeed
+[INFO ] 2020-08-14 18:27:20.749 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 18:27:20.750 TestListener:22 - I am in onFinish method UpdateAuthorTest
+[INFO ] 2020-08-14 18:27:21.595 TestListener:22 - I am in onFinish method UpdateAuthorTest
+[INFO ] 2020-08-14 18:27:21.596 TestListener:17 - I am in onStart method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-14 18:27:21.596 TestListener:17 - I am in onStart method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-14 18:27:21.598 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:22.620 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 18:27:22.621 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 18:27:22.622 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 18:27:22.622 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 18:27:22.624 TestListener:27 - I am in onTestStart method verifySortingOfBooks start
+[INFO ] 2020-08-14 18:27:22.625 TestListener:27 - I am in onTestStart method verifySortingOfBooks start
+[INFO ] 2020-08-14 18:27:22.626 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:22.734 BookService:54 - Trigger uri : http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName
+[INFO ] 2020-08-14 18:27:22.735 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 18:27:22.786 VerifyIfBooksAreSortedTest:24 - Getting the List of books with size: 200
+[INFO ] 2020-08-14 18:27:22.983 VerifyIfBooksAreSortedTest:29 - Verified if list is sorted
+[INFO ] 2020-08-14 18:27:22.984 TestListener:32 - I am in onTestSuccess method verifySortingOfBooks succeed
+[INFO ] 2020-08-14 18:27:22.984 TestListener:32 - I am in onTestSuccess method verifySortingOfBooks succeed
+[INFO ] 2020-08-14 18:27:23.043 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 18:27:23.056 TestListener:22 - I am in onFinish method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-14 18:27:23.466 TestListener:22 - I am in onFinish method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-14 18:27:23.466 TestListener:17 - I am in onStart method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-14 18:27:23.466 TestListener:17 - I am in onStart method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-14 18:27:23.498 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:24.300 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 18:27:24.301 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 18:27:24.301 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 18:27:24.302 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 18:27:24.303 TestListener:27 - I am in onTestStart method connectWithoutToken start
+[INFO ] 2020-08-14 18:27:24.303 TestListener:27 - I am in onTestStart method connectWithoutToken start
+[INFO ] 2020-08-14 18:27:24.304 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 18:27:24.621 BookService:40 - Trigger uri : http://localhost:8080/api/library/books
+[INFO ] 2020-08-14 18:27:24.622 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 18:27:24.623 VerifyConnectionWithoutTokenTest:18 - Connection without token failed
+[INFO ] 2020-08-14 18:27:24.623 TestListener:32 - I am in onTestSuccess method connectWithoutToken succeed
+[INFO ] 2020-08-14 18:27:24.624 TestListener:32 - I am in onTestSuccess method connectWithoutToken succeed
+[INFO ] 2020-08-14 18:27:24.625 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 18:27:24.625 TestListener:22 - I am in onFinish method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-14 18:27:24.661 TestListener:22 - I am in onFinish method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-14 19:52:23.226 TestListener:17 - I am in onStart method test_libraryrest_jersey
+[INFO ] 2020-08-14 19:52:23.413 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 19:52:30.467 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 19:52:30.494 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 19:52:30.495 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 19:52:30.529 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 19:52:30.575 TestListener:27 - I am in onTestStart method testSaveGenreWithExistedId start
+[INFO ] 2020-08-14 19:52:30.612 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 19:52:37.346 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-14 19:52:37.347 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 19:52:37.758 SaveExistedGenreTest:26 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 19:52:37.759 SaveExistedGenreTest:32 - Creating an Genre with existed genreId: 9111
+[INFO ] 2020-08-14 19:52:37.761 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 19:52:39.578 GenreService:38 - Trigger uri : http://localhost:8080/api/library/genre
+[INFO ] 2020-08-14 19:52:39.579 CustomClientBuilder:33 - Quitting builder
+[ERROR] 2020-08-14 19:52:39.598 TestListener:37 - I am in onTestFailure method testSaveGenreWithExistedId failed
+[INFO ] 2020-08-14 19:52:39.677 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 19:52:39.683 TestListener:22 - I am in onFinish method test_libraryrest_jersey
+[INFO ] 2020-08-14 19:53:19.604 TestListener:17 - I am in onStart method test_libraryrest_jersey
+[INFO ] 2020-08-14 19:53:19.950 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 19:53:31.538 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 19:53:31.773 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 19:53:31.775 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 19:53:32.118 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 19:53:32.181 TestListener:27 - I am in onTestStart method testSaveGenreWithExistedId start
+[INFO ] 2020-08-14 19:53:32.320 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 19:53:32.897 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-14 19:53:32.897 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 19:53:33.404 SaveExistedGenreTest:26 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 19:53:33.406 SaveExistedGenreTest:32 - Creating an Genre with existed genreId: 9111
+[INFO ] 2020-08-14 19:53:33.407 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 19:53:33.715 GenreService:38 - Trigger uri : http://localhost:8080/api/library/genre
+[INFO ] 2020-08-14 19:53:33.716 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 19:53:33.717 SaveExistedGenreTest:36 - Falling to save a Genre with id: 9111
+[INFO ] 2020-08-14 19:53:33.720 TestListener:32 - I am in onTestSuccess method testSaveGenreWithExistedId succeed
+[INFO ] 2020-08-14 19:53:33.722 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 19:53:33.736 TestListener:22 - I am in onFinish method test_libraryrest_jersey
+[INFO ] 2020-08-14 19:54:21.976 TestListener:17 - I am in onStart method test_libraryrest_jersey
+[INFO ] 2020-08-14 19:54:22.220 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 19:54:30.250 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 19:54:30.255 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 19:54:30.258 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 19:54:30.273 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 19:54:30.306 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start
+[INFO ] 2020-08-14 19:54:30.325 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 19:54:31.727 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200
+[INFO ] 2020-08-14 19:54:31.728 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 19:54:32.158 SaveBookWithNonexistentGenreTest:30 - Getting the List of books with size: 200
+[INFO ] 2020-08-14 19:54:32.159 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 19:54:33.091 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-14 19:54:33.092 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 19:54:33.612 SaveBookWithNonexistentGenreTest:37 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 19:54:33.620 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 19:54:33.941 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-14 19:54:33.942 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 19:54:33.956 SaveBookWithNonexistentGenreTest:44 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 19:54:33.957 SaveBookWithNonexistentGenreTest:60 - Creating an Book with id: 9822
+[INFO ] 2020-08-14 19:54:33.958 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 19:54:35.111 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9112
+[INFO ] 2020-08-14 19:54:35.112 CustomClientBuilder:33 - Quitting builder
+[ERROR] 2020-08-14 19:54:35.129 TestListener:37 - I am in onTestFailure method testSaveBookNonexistentGenre failed
+[INFO ] 2020-08-14 19:54:35.213 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 19:54:35.238 TestListener:22 - I am in onFinish method test_libraryrest_jersey
+[INFO ] 2020-08-14 19:55:17.487 TestListener:17 - I am in onStart method test_libraryrest_jersey
+[INFO ] 2020-08-14 19:55:17.598 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 19:55:23.090 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 19:55:23.097 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 19:55:23.099 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 19:55:23.209 BaseTest:31 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 19:55:23.363 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start
+[INFO ] 2020-08-14 19:55:23.405 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 19:55:24.023 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200
+[INFO ] 2020-08-14 19:55:24.024 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 19:55:25.228 SaveBookWithNonexistentGenreTest:30 - Getting the List of books with size: 200
+[INFO ] 2020-08-14 19:55:25.229 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 19:55:25.904 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-14 19:55:25.905 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 19:55:26.363 SaveBookWithNonexistentGenreTest:37 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 19:55:26.364 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 19:55:26.726 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-14 19:55:26.727 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 19:55:26.743 SaveBookWithNonexistentGenreTest:44 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 19:55:26.744 SaveBookWithNonexistentGenreTest:60 - Creating an Book with id: 9822
+[INFO ] 2020-08-14 19:55:26.745 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 19:55:27.156 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9112
+[INFO ] 2020-08-14 19:55:27.157 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 19:55:27.158 SaveBookWithNonexistentGenreTest:64 - Saving a Book with id: 9822failed because of nonexistent Genre with id: 9112
+[INFO ] 2020-08-14 19:55:27.161 TestListener:32 - I am in onTestSuccess method testSaveBookNonexistentGenre succeed
+[INFO ] 2020-08-14 19:55:27.165 BaseTest:39 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 19:55:27.173 TestListener:22 - I am in onFinish method test_libraryrest_jersey
+[INFO ] 2020-08-14 20:04:19.411 TestListener:17 - I am in onStart method test_libraryrest_jersey
+[INFO ] 2020-08-14 20:04:20.096 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:04:27.819 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 20:04:27.844 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 20:04:27.846 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 20:04:27.883 BaseTest:34 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 20:04:27.942 TestListener:27 - I am in onTestStart method testSaveAndDeleteAuthor start
+[INFO ] 2020-08-14 20:04:28.018 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:04:28.720 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-14 20:04:28.721 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 20:04:29.824 SaveAndDeleteAuthorTest:28 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 20:04:29.825 SaveAndDeleteAuthorTest:31 - Creating an Author with id: 100006
+[INFO ] 2020-08-14 20:04:29.826 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:04:32.539 AuthorService:39 - Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-14 20:04:32.540 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 20:04:32.557 SaveAndDeleteAuthorTest:37 - Saving an Author with id: 100006
+[INFO ] 2020-08-14 20:04:32.558 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:04:33.924 AuthorService:67 - Trigger uri : http://localhost:8080/api/library/author/100006
+[INFO ] 2020-08-14 20:04:33.931 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 20:04:33.932 SaveAndDeleteAuthorTest:41 - Deleting an Author with id: 100006
+[INFO ] 2020-08-14 20:04:33.935 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteAuthor succeed
+[INFO ] 2020-08-14 20:04:33.937 BaseTest:42 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 20:04:33.941 TestListener:22 - I am in onFinish method test_libraryrest_jersey
+[INFO ] 2020-08-14 20:24:44.557 TestListener:17 - I am in onStart method test_libraryrest_jersey
+[INFO ] 2020-08-14 20:24:44.856 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:24:56.993 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 20:24:57.020 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 20:24:57.022 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 20:24:57.084 BaseTest:34 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 20:24:57.131 TestListener:27 - I am in onTestStart method testUpdateAuthor start
+[INFO ] 2020-08-14 20:24:57.183 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:24:57.622 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-14 20:24:57.622 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 20:24:58.117 UpdateAuthorTest:30 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 20:24:58.118 UpdateAuthorTest:33 - Creating an Author with id: 100006
+[INFO ] 2020-08-14 20:24:58.119 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:24:58.604 AuthorService:39 - Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-14 20:24:58.605 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 20:24:58.614 UpdateAuthorTest:39 - Saving an Author with id: 100006
+[INFO ] 2020-08-14 20:24:58.615 UpdateAuthorTest:42 - Updating certain fields of Author
+[INFO ] 2020-08-14 20:24:58.615 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:24:59.791 AuthorService:49 - Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-14 20:24:59.792 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 20:24:59.794 UpdateAuthorTest:46 - Saving updated Author with id: 100006
+[INFO ] 2020-08-14 20:24:59.795 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:25:00.277 AuthorService:67 - Trigger uri : http://localhost:8080/api/library/author/100006
+[INFO ] 2020-08-14 20:25:00.278 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 20:25:00.279 UpdateAuthorTest:50 - Deleting an Author with id: 100006
+[INFO ] 2020-08-14 20:25:00.282 TestListener:32 - I am in onTestSuccess method testUpdateAuthor succeed
+[INFO ] 2020-08-14 20:25:00.284 BaseTest:42 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 20:25:00.290 TestListener:22 - I am in onFinish method test_libraryrest_jersey
+[INFO ] 2020-08-14 20:27:45.054 TestListener:17 - I am in onStart method test_libraryrest_jersey
+[INFO ] 2020-08-14 20:27:45.184 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:27:50.296 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 20:27:50.301 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 20:27:50.303 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 20:27:50.316 BaseTest:34 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 20:27:50.360 TestListener:27 - I am in onTestStart method testSaveAndDeleteGenre start
+[INFO ] 2020-08-14 20:27:50.388 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 20:27:51.264 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-14 20:27:51.265 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 20:27:51.498 SaveAndDeleteGenreTest:26 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 20:27:51.500 SaveAndDeleteGenreTest:29 - Creating an Genre with id: 9112
+[INFO ] 2020-08-14 20:27:51.502 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 20:27:54.985 GenreService:38 - Trigger uri : http://localhost:8080/api/library/genre
+[INFO ] 2020-08-14 20:27:54.986 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 20:27:54.995 SaveAndDeleteGenreTest:35 - Saving a Genre with id: 9112
+[INFO ] 2020-08-14 20:27:54.996 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 20:27:55.865 GenreService:56 - Trigger uri : http://localhost:8080/api/library/genre/9112
+[INFO ] 2020-08-14 20:27:55.866 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 20:27:55.867 SaveAndDeleteGenreTest:39 - Deleting a Genre with id: 9112
+[INFO ] 2020-08-14 20:27:55.869 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteGenre succeed
+[INFO ] 2020-08-14 20:27:55.872 BaseTest:42 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 20:27:55.875 TestListener:22 - I am in onFinish method test_libraryrest_jersey
+[INFO ] 2020-08-14 20:28:43.286 TestListener:17 - I am in onStart method test_libraryrest_jersey
+[INFO ] 2020-08-14 20:28:43.383 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:28:48.741 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 20:28:48.748 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 20:28:48.773 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 20:28:48.859 BaseTest:34 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 20:28:49.030 TestListener:27 - I am in onTestStart method testSaveGenreWithExistedId start
+[INFO ] 2020-08-14 20:28:49.052 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 20:28:49.651 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-14 20:28:49.652 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 20:28:49.993 SaveExistedGenreTest:26 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 20:28:49.995 SaveExistedGenreTest:29 - Creating an Genre with existed genreId: 9111
+[INFO ] 2020-08-14 20:28:49.997 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 20:28:50.593 GenreService:38 - Trigger uri : http://localhost:8080/api/library/genre
+[INFO ] 2020-08-14 20:28:50.594 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 20:28:50.595 SaveExistedGenreTest:33 - Falling to save a Genre with id: 9111
+[INFO ] 2020-08-14 20:28:50.599 TestListener:32 - I am in onTestSuccess method testSaveGenreWithExistedId succeed
+[INFO ] 2020-08-14 20:28:50.602 BaseTest:42 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 20:28:50.607 TestListener:22 - I am in onFinish method test_libraryrest_jersey
+[INFO ] 2020-08-14 20:32:21.631 TestListener:17 - I am in onStart method test_libraryrest_jersey
+[INFO ] 2020-08-14 20:32:21.846 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:32:27.352 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 20:32:27.357 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 20:32:27.359 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 20:32:27.399 BaseTest:34 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 20:32:27.459 TestListener:27 - I am in onTestStart method testSaveAndDeleteBook start
+[INFO ] 2020-08-14 20:32:27.488 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:32:28.172 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200
+[INFO ] 2020-08-14 20:32:28.173 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 20:32:28.688 SaveAndDeleteBookTest:30 - Getting the List of books with size: 200
+[INFO ] 2020-08-14 20:32:28.688 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:32:28.928 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-14 20:32:28.929 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 20:32:29.283 SaveAndDeleteBookTest:37 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 20:32:29.285 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 20:32:29.482 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-14 20:32:29.483 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 20:32:29.495 SaveAndDeleteBookTest:44 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 20:32:29.496 SaveAndDeleteBookTest:47 - Creating an Book with id: 9822
+[INFO ] 2020-08-14 20:32:29.497 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:32:30.063 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9111
+[INFO ] 2020-08-14 20:32:30.064 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 20:32:30.099 SaveAndDeleteBookTest:53 - Saving a Book with id: 9822
+[INFO ] 2020-08-14 20:32:30.101 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:32:30.721 BookService:82 - Trigger uri : http://localhost:8080/api/library/book/9822
+[INFO ] 2020-08-14 20:32:30.722 CustomClientBuilder:33 - Quitting builder
+[INFO ] 2020-08-14 20:32:30.723 SaveAndDeleteBookTest:57 - Deleting a Book with id: 9822
+[INFO ] 2020-08-14 20:32:30.725 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteBook succeed
+[INFO ] 2020-08-14 20:32:30.729 BaseTest:42 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 20:32:30.733 TestListener:22 - I am in onFinish method test_libraryrest_jersey
+[INFO ] 2020-08-14 20:33:59.651 TestListener:17 - I am in onStart method test_libraryrest_jersey
+[INFO ] 2020-08-14 20:33:59.882 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:34:05.681 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-14 20:34:05.685 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 20:34:05.687 AuthenticationService:38 - Auth token received from the header
+[INFO ] 2020-08-14 20:34:05.702 BaseTest:34 - BeforeMethod: Initialize Services
+[INFO ] 2020-08-14 20:34:05.751 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start
+[INFO ] 2020-08-14 20:34:05.778 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:34:06.182 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200
+[INFO ] 2020-08-14 20:34:06.183 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 20:34:06.658 SaveBookWithNonexistentGenreTest:28 - Getting the List of books with size: 200
+[INFO ] 2020-08-14 20:34:06.660 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:34:06.844 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-14 20:34:06.844 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 20:34:07.051 SaveBookWithNonexistentGenreTest:35 - Getting the List of authors with size: 59
+[INFO ] 2020-08-14 20:34:07.053 CustomClientBuilder:24 - Starting ClientBuilder
+[INFO ] 2020-08-14 20:34:07.174 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-14 20:34:07.175 CustomClientBuilder:33 - Quitting builder
+[DEBUG] 2020-08-14 20:34:07.184 SaveBookWithNonexistentGenreTest:42 - Getting the List of genres with size: 15
+[INFO ] 2020-08-14 20:34:07.185 SaveBookWithNonexistentGenreTest:45 - Creating an Book with id: 9822
+[INFO ] 2020-08-14 20:34:07.187 CustomClientBuilder:24 - Starting ClientBuilder
+[WARN ] 2020-08-14 20:34:07.533 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9112
+[INFO ] 2020-08-14 20:34:07.534 CustomClientBuilder:33 - Quitting builder
+[WARN ] 2020-08-14 20:34:07.535 SaveBookWithNonexistentGenreTest:49 - Saving a Book with id: 9822 failed because of nonexistent Genre with id: 9112
+[INFO ] 2020-08-14 20:34:07.538 TestListener:32 - I am in onTestSuccess method testSaveBookNonexistentGenre succeed
+[INFO ] 2020-08-14 20:34:07.541 BaseTest:42 - AfterMethod: Nullify services
+[INFO ] 2020-08-14 20:34:07.548 TestListener:22 - I am in onFinish method test_libraryrest_jersey

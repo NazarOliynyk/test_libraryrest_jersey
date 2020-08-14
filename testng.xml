@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="1"   parallel="none">
+
+    <listeners>
+        <listener class-name="librarytests.testutils.TestListener" />
+    </listeners>
+
+    <test name="SaveBookWithNonexistentGenreTest">
+        <classes>
+            <class name="librarytests.negativescenario.SaveBookWithNonexistentGenreTest"/>
+        </classes>
+    </test>
+    <test name="SaveExistedGenreTest">
+        <classes>
+            <class name="librarytests.negativescenario.SaveExistedGenreTest"/>
+        </classes>
+    </test>
+    <test name="SaveAndDeleteAuthorTest">
+        <classes>
+            <class name="librarytests.positivescenario.SaveAndDeleteAuthorTest"/>
+        </classes>
+    </test>
+    <test name="SaveAndDeleteBook">
+        <classes>
+            <class name="librarytests.positivescenario.SaveAndDeleteBookTest"/>
+        </classes>
+    </test>
+    <test name="SaveAndDeleteGenreTest">
+        <classes>
+            <class name="librarytests.positivescenario.SaveAndDeleteGenreTest"/>
+        </classes>
+    </test>
+    <test name="UpdateAuthorTest">
+        <classes>
+            <class name="librarytests.positivescenario.UpdateAuthorTest"/>
+        </classes>
+    </test>
+    <test name="VerifyIfBooksAreSortedTest">
+        <classes>
+            <class name="librarytests.positivescenario.VerifyIfBooksAreSortedTest"/>
+        </classes>
+    </test>
+    <test name="VerifyConnectionWithoutTokenTest">
+        <classes>
+            <class name="librarytests.negativescenario.VerifyConnectionWithoutTokenTest"/>
+        </classes>
+    </test>
+</suite>
