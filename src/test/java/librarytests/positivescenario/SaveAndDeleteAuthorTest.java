@@ -5,7 +5,6 @@ import model.author.Author;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import javax.ws.rs.core.GenericType;
 import javax.ws.rs.core.Response;
 import java.util.List;
 
@@ -16,10 +15,7 @@ public class SaveAndDeleteAuthorTest extends BaseTest {
     @Test(description = "Verify creating and deleting of an Author")
     public void testSaveAndDeleteAuthor() {
 
-        Response responseGetAll = authorService.getAllAuthors(token);
-        Assert.assertEquals(responseGetAll.getStatus(), 200, "Wrong status code");
-        List<Author> authors = responseGetAll.readEntity(new GenericType<List<Author>>() {
-        });
+        List<Author> authors = getAllAuthors();
         int incrementedAuthorId = authors.get(authors.size() - 1).getAuthorId() + 1;
         logger.debug("Getting the List of authors with size: " + authors.size());
 

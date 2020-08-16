@@ -592,3 +592,66 @@
 [WARN ] 2020-08-14 20:34:06.844 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
 [WARN ] 2020-08-14 20:34:07.533 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9112
 [WARN ] 2020-08-14 20:34:07.535 SaveBookWithNonexistentGenreTest:49 - Saving a Book with id: 9822 failed because of nonexistent Genre with id: 9112
+[WARN ] 2020-08-16 18:45:13.362 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-16 18:45:13.377 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-16 18:45:15.350 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200
+[WARN ] 2020-08-16 18:45:16.032 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[WARN ] 2020-08-16 18:45:18.445 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9111
+[WARN ] 2020-08-16 18:45:19.015 BookService:82 - Trigger uri : http://localhost:8080/api/library/book/9822
+[WARN ] 2020-08-16 19:14:06.231 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-16 19:14:06.262 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-16 19:14:06.804 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[WARN ] 2020-08-16 19:14:08.420 AuthorService:39 - Trigger uri : http://localhost:8080/api/library/author
+[WARN ] 2020-08-16 19:14:08.724 AuthorService:67 - Trigger uri : http://localhost:8080/api/library/author/100006
+[WARN ] 2020-08-16 19:15:02.089 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-16 19:15:02.100 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-16 19:15:52.406 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-16 19:15:52.413 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-16 19:15:52.736 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[WARN ] 2020-08-16 19:15:53.633 AuthorService:39 - Trigger uri : http://localhost:8080/api/library/author
+[WARN ] 2020-08-16 19:15:54.050 AuthorService:49 - Trigger uri : http://localhost:8080/api/library/author
+[WARN ] 2020-08-16 19:15:54.272 AuthorService:67 - Trigger uri : http://localhost:8080/api/library/author/100006
+[WARN ] 2020-08-16 19:17:40.091 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-16 19:17:40.094 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-16 19:17:41.115 SaveExistedGenreTest:28 - Falling to save a Genre with id: 9111
+[WARN ] 2020-08-16 19:19:00.137 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-16 19:19:00.143 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-16 19:19:00.891 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200
+[WARN ] 2020-08-16 19:19:02.236 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[WARN ] 2020-08-16 19:19:02.906 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9112
+[WARN ] 2020-08-16 19:19:02.907 SaveBookWithNonexistentGenreTest:38 - Saving a Book with id: 9822 failed because of nonexistent Genre with id: 9112
+[WARN ] 2020-08-16 19:22:54.137 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-16 19:22:54.143 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-16 19:22:54.468 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200
+[WARN ] 2020-08-16 19:22:55.281 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[WARN ] 2020-08-16 19:22:56.070 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9112
+[WARN ] 2020-08-16 19:22:56.073 SaveBookWithNonexistentGenreTest:37 - Saving a Book with id: 9822 failed because of nonexistent Genre with id: 9112
+[WARN ] 2020-08-16 19:22:56.878 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-16 19:22:56.878 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-16 19:22:57.332 SaveExistedGenreTest:27 - Falling to save a Genre with id: 9111
+[WARN ] 2020-08-16 19:22:57.895 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-16 19:22:57.897 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-16 19:22:57.979 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[WARN ] 2020-08-16 19:22:58.296 AuthorService:39 - Trigger uri : http://localhost:8080/api/library/author
+[WARN ] 2020-08-16 19:22:58.551 AuthorService:67 - Trigger uri : http://localhost:8080/api/library/author/100006
+[WARN ] 2020-08-16 19:22:59.042 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-16 19:22:59.058 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-16 19:22:59.143 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200
+[WARN ] 2020-08-16 19:22:59.487 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[WARN ] 2020-08-16 19:22:59.818 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9111
+[WARN ] 2020-08-16 19:22:59.965 BookService:82 - Trigger uri : http://localhost:8080/api/library/book/9822
+[WARN ] 2020-08-16 19:23:00.563 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-16 19:23:00.563 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-16 19:23:02.154 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-16 19:23:02.155 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-16 19:23:02.243 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[WARN ] 2020-08-16 19:23:02.690 AuthorService:39 - Trigger uri : http://localhost:8080/api/library/author
+[WARN ] 2020-08-16 19:23:02.920 AuthorService:49 - Trigger uri : http://localhost:8080/api/library/author
+[WARN ] 2020-08-16 19:23:03.158 AuthorService:67 - Trigger uri : http://localhost:8080/api/library/author/100006
+[WARN ] 2020-08-16 19:23:04.053 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-16 19:23:04.055 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-16 19:23:04.199 BookService:54 - Trigger uri : http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName
+[WARN ] 2020-08-16 19:23:05.252 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-16 19:23:05.254 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-16 19:23:06.697 BookService:40 - Trigger uri : http://localhost:8080/api/library/books
+[WARN ] 2020-08-16 19:23:06.698 VerifyConnectionWithoutTokenTest:18 - Connection without token failed

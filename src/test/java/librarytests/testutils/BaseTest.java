@@ -1,5 +1,9 @@
 package librarytests.testutils;
 
+import model.author.Author;
+import model.book.Book;
+import model.genre.Genre;
+import org.testng.Assert;
 import org.testng.annotations.*;
 import service.AuthenticationService;
 import service.AuthorService;
@@ -7,6 +11,10 @@ import service.BookService;
 import service.GenreService;
 import utils.AuthException;
 import utils.EntityGenerator;
+
+import javax.ws.rs.core.GenericType;
+import javax.ws.rs.core.Response;
+import java.util.List;
 
 import static client.CustomClientBuilder.logger;
 
@@ -40,5 +48,26 @@ public abstract class BaseTest {
         bookService = null;
         genreService = null;
         logger.info("AfterMethod: Nullify services");
+    }
+
+    protected List<Author> getAllAuthors() {
+        Response responseGetAllAuthors = authorService.getAllAuthors(token);
+        Assert.assertEquals(responseGetAllAuthors.getStatus(), 200, "Wrong status code");
+        return responseGetAllAuthors.readEntity(new GenericType<List<Author>>() {
+        });
+    }
+
+    protected List<Book> getAllBooks(){
+        Response responseGetAll = bookService.getAllBooks(token);
+        Assert.assertEquals(responseGetAll.getStatus(), 200, "Wrong status code");
+        return responseGetAll.readEntity(new GenericType<List<Book>>() {
+        });
+    }
+
+    protected List<Genre> getAllGenres(){
+        Response responseGetAllGenres = genreService.getAllGenres(token);
+        Assert.assertEquals(responseGetAllGenres.getStatus(), 200, "Wrong status code");
+        return responseGetAllGenres.readEntity(new GenericType<List<Genre>>() {
+        });
     }
 }
