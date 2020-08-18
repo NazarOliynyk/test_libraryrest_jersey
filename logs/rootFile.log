@@ -4404,3 +4404,811 @@
 [INFO ] 2020-08-18 12:21:24.180 BaseTest:50 - AfterMethod: Nullify services 
 [INFO ] 2020-08-18 12:21:24.181 TestListener:22 - I am in onFinish method VerifyConnectionWithoutTokenTest 
 [INFO ] 2020-08-18 12:21:24.181 TestListener:22 - I am in onFinish method VerifyConnectionWithoutTokenTest 
+[INFO ] 2020-08-18 12:43:42.764 TestListener:17 - I am in onStart method test_libraryrest_jersey 
+[INFO ] 2020-08-18 12:43:43.069 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:43:51.744 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 12:43:51.768 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 12:43:51.769 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 12:43:51.830 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 12:43:51.873 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start 
+[INFO ] 2020-08-18 12:43:51.923 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:43:52.288 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200 
+[INFO ] 2020-08-18 12:43:52.289 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:43:52.296 BaseTest:63 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 12:43:52.767 SaveBookWithNonexistentGenreTest:23 - Getting the List of books with size: 200 
+[INFO ] 2020-08-18 12:43:52.770 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:43:52.961 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200 
+[INFO ] 2020-08-18 12:43:52.962 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:43:52.962 BaseTest:55 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 12:43:53.322 SaveBookWithNonexistentGenreTest:27 - Getting the List of authors with size: 59 
+[INFO ] 2020-08-18 12:43:53.323 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 12:43:53.503 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200 
+[INFO ] 2020-08-18 12:43:53.503 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:43:53.504 BaseTest:71 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 12:43:53.514 SaveBookWithNonexistentGenreTest:31 - Getting the List of genres with size: 15 
+[INFO ] 2020-08-18 12:43:53.515 SaveBookWithNonexistentGenreTest:34 - Creating an Book with id: 9822 
+[INFO ] 2020-08-18 12:43:53.516 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:43:53.790 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9112 
+[INFO ] 2020-08-18 12:43:53.790 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:43:53.800 SaveBookWithNonexistentGenreTest:39 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/book/100005/9112, status=404, reason=Not Found}} 
+[WARN ] 2020-08-18 12:43:53.800 SaveBookWithNonexistentGenreTest:41 - Saving a Book with id: 9822 failed because of nonexistent Genre with id: 9112 
+[INFO ] 2020-08-18 12:43:53.804 TestListener:32 - I am in onTestSuccess method testSaveBookNonexistentGenre succeed 
+[INFO ] 2020-08-18 12:43:53.807 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 12:43:53.810 TestListener:22 - I am in onFinish method test_libraryrest_jersey 
+[INFO ] 2020-08-18 12:44:55.079 TestListener:17 - I am in onStart method test_libraryrest_jersey 
+[INFO ] 2020-08-18 12:44:55.193 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:45:00.858 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 12:45:00.863 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 12:45:00.864 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 12:45:00.923 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 12:45:00.991 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start 
+[INFO ] 2020-08-18 12:45:01.008 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:45:01.549 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200 
+[INFO ] 2020-08-18 12:45:01.550 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:45:01.558 BaseTest:63 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 12:45:02.093 SaveBookWithNonexistentGenreTest:23 - Getting the List of books with size: 200 
+[INFO ] 2020-08-18 12:45:02.098 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:45:02.426 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200 
+[INFO ] 2020-08-18 12:45:02.427 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:45:02.428 BaseTest:55 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 12:45:02.674 SaveBookWithNonexistentGenreTest:27 - Getting the List of authors with size: 59 
+[INFO ] 2020-08-18 12:45:02.675 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 12:45:02.962 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200 
+[INFO ] 2020-08-18 12:45:02.963 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:45:02.968 BaseTest:71 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 12:45:02.993 SaveBookWithNonexistentGenreTest:31 - Getting the List of genres with size: 15 
+[INFO ] 2020-08-18 12:45:02.995 SaveBookWithNonexistentGenreTest:34 - Creating an Book with id: 9822 
+[INFO ] 2020-08-18 12:45:02.996 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:45:03.538 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9112 
+[INFO ] 2020-08-18 12:45:03.539 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:45:03.547 SaveBookWithNonexistentGenreTest:42 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/book/100005/9112, status=404, reason=Not Found}} 
+[WARN ] 2020-08-18 12:45:03.548 SaveBookWithNonexistentGenreTest:44 - Saving a Book with id: 9822 failed because of nonexistent Genre with id: 9112 
+[INFO ] 2020-08-18 12:45:03.550 TestListener:32 - I am in onTestSuccess method testSaveBookNonexistentGenre succeed 
+[INFO ] 2020-08-18 12:45:03.553 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 12:45:03.557 TestListener:22 - I am in onFinish method test_libraryrest_jersey 
+[INFO ] 2020-08-18 12:50:45.905 TestListener:17 - I am in onStart method test_libraryrest_jersey 
+[INFO ] 2020-08-18 12:50:46.011 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:50:52.316 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 12:50:52.317 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 12:50:52.319 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 12:50:52.335 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 12:50:52.426 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start 
+[INFO ] 2020-08-18 12:50:52.463 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:50:54.171 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200 
+[INFO ] 2020-08-18 12:50:54.172 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:50:54.181 BaseTest:63 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 12:50:54.636 SaveBookWithNonexistentGenreTest:23 - Getting the List of books with size: 200 
+[INFO ] 2020-08-18 12:50:54.639 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:50:55.662 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200 
+[INFO ] 2020-08-18 12:50:55.663 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:50:55.664 BaseTest:55 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 12:50:55.829 SaveBookWithNonexistentGenreTest:27 - Getting the List of authors with size: 59 
+[INFO ] 2020-08-18 12:50:55.830 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 12:50:55.973 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200 
+[INFO ] 2020-08-18 12:50:55.974 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:50:55.975 BaseTest:71 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 12:50:55.985 SaveBookWithNonexistentGenreTest:31 - Getting the List of genres with size: 15 
+[INFO ] 2020-08-18 12:50:55.987 SaveBookWithNonexistentGenreTest:34 - Creating an Book with id: 9822 
+[INFO ] 2020-08-18 12:50:55.988 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:50:56.288 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9112 
+[INFO ] 2020-08-18 12:50:56.289 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:50:56.306 SaveBookWithNonexistentGenreTest:42 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/book/100005/9112, status=404, reason=Not Found}} 
+[WARN ] 2020-08-18 12:50:56.307 SaveBookWithNonexistentGenreTest:45 - Saving a Book with id: 9822 failed because of nonexistent Genre with id: 9112 
+[INFO ] 2020-08-18 12:50:56.309 TestListener:32 - I am in onTestSuccess method testSaveBookNonexistentGenre succeed 
+[INFO ] 2020-08-18 12:50:56.312 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 12:50:56.316 TestListener:22 - I am in onFinish method test_libraryrest_jersey 
+[INFO ] 2020-08-18 12:53:32.710 TestListener:17 - I am in onStart method test_libraryrest_jersey 
+[INFO ] 2020-08-18 12:53:32.823 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:53:37.107 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 12:53:37.114 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 12:53:37.116 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 12:53:37.145 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 12:53:37.190 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start 
+[INFO ] 2020-08-18 12:53:37.235 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:53:38.322 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200 
+[INFO ] 2020-08-18 12:53:38.323 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:53:38.330 BaseTest:63 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 12:53:38.985 SaveBookWithNonexistentGenreTest:23 - Getting the List of books with size: 200 
+[INFO ] 2020-08-18 12:53:38.986 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:53:39.389 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200 
+[INFO ] 2020-08-18 12:53:39.390 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:53:39.390 BaseTest:55 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 12:53:40.086 SaveBookWithNonexistentGenreTest:27 - Getting the List of authors with size: 59 
+[INFO ] 2020-08-18 12:53:40.087 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 12:53:40.321 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200 
+[INFO ] 2020-08-18 12:53:40.326 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:53:40.331 BaseTest:71 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 12:53:40.345 SaveBookWithNonexistentGenreTest:31 - Getting the List of genres with size: 15 
+[INFO ] 2020-08-18 12:53:40.347 SaveBookWithNonexistentGenreTest:34 - Creating an Book with id: 9822 
+[INFO ] 2020-08-18 12:53:40.348 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:53:40.711 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9112 
+[INFO ] 2020-08-18 12:53:40.712 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:53:40.721 SaveBookWithNonexistentGenreTest:42 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/book/100005/9112, status=404, reason=Not Found}} 
+[ERROR] 2020-08-18 12:53:40.743 TestListener:37 - I am in onTestFailure method testSaveBookNonexistentGenre failed 
+[INFO ] 2020-08-18 12:53:40.799 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 12:53:40.803 TestListener:22 - I am in onFinish method test_libraryrest_jersey 
+[INFO ] 2020-08-18 12:54:29.615 TestListener:17 - I am in onStart method test_libraryrest_jersey 
+[INFO ] 2020-08-18 12:54:29.764 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:54:34.651 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 12:54:34.657 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 12:54:34.659 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 12:54:34.689 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 12:54:34.722 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start 
+[INFO ] 2020-08-18 12:54:34.762 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:54:35.053 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200 
+[INFO ] 2020-08-18 12:54:35.054 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:54:35.062 BaseTest:63 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 12:54:35.487 SaveBookWithNonexistentGenreTest:23 - Getting the List of books with size: 200 
+[INFO ] 2020-08-18 12:54:35.489 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:54:35.731 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200 
+[INFO ] 2020-08-18 12:54:35.732 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:54:35.733 BaseTest:55 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 12:54:35.900 SaveBookWithNonexistentGenreTest:27 - Getting the List of authors with size: 59 
+[INFO ] 2020-08-18 12:54:35.901 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 12:54:36.049 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200 
+[INFO ] 2020-08-18 12:54:36.050 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:54:36.051 BaseTest:71 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 12:54:36.064 SaveBookWithNonexistentGenreTest:31 - Getting the List of genres with size: 15 
+[INFO ] 2020-08-18 12:54:36.065 SaveBookWithNonexistentGenreTest:34 - Creating an Book with id: 9822 
+[INFO ] 2020-08-18 12:54:36.066 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:54:36.235 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9112 
+[INFO ] 2020-08-18 12:54:36.236 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:54:36.250 SaveBookWithNonexistentGenreTest:42 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/book/100005/9112, status=404, reason=Not Found}} 
+[WARN ] 2020-08-18 12:54:36.251 SaveBookWithNonexistentGenreTest:46 - Saving a Book with id: 9822 failed because of nonexistent Genre with id: 9112 
+[INFO ] 2020-08-18 12:54:36.256 TestListener:32 - I am in onTestSuccess method testSaveBookNonexistentGenre succeed 
+[INFO ] 2020-08-18 12:54:36.258 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 12:54:36.262 TestListener:22 - I am in onFinish method test_libraryrest_jersey 
+[INFO ] 2020-08-18 12:56:44.180 TestListener:17 - I am in onStart method test_libraryrest_jersey 
+[INFO ] 2020-08-18 12:56:44.269 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:56:49.747 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 12:56:49.754 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 12:56:49.756 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 12:56:49.819 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 12:56:49.916 TestListener:27 - I am in onTestStart method testSaveGenreWithExistedId start 
+[INFO ] 2020-08-18 12:56:49.943 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 12:56:50.487 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200 
+[INFO ] 2020-08-18 12:56:50.487 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:56:50.495 BaseTest:71 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 12:56:50.940 SaveExistedGenreTest:21 - Getting the List of genres with size: 15 
+[INFO ] 2020-08-18 12:56:50.942 SaveExistedGenreTest:24 - Creating an Genre with existed genreId: 9111 
+[INFO ] 2020-08-18 12:56:50.943 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 12:56:51.838 GenreService:38 - Trigger uri : http://localhost:8080/api/library/genre 
+[INFO ] 2020-08-18 12:56:51.838 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:56:51.847 SaveExistedGenreTest:32 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/genre, status=409, reason=Conflict}} 
+[WARN ] 2020-08-18 12:56:51.848 SaveExistedGenreTest:34 - Falling to save a Genre with id: 9111 
+[INFO ] 2020-08-18 12:56:51.852 TestListener:32 - I am in onTestSuccess method testSaveGenreWithExistedId succeed 
+[INFO ] 2020-08-18 12:56:51.859 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 12:56:51.864 TestListener:22 - I am in onFinish method test_libraryrest_jersey 
+[INFO ] 2020-08-18 12:59:29.363 TestListener:17 - I am in onStart method test_libraryrest_jersey 
+[INFO ] 2020-08-18 12:59:29.527 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 12:59:36.199 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 12:59:36.203 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 12:59:36.205 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 12:59:36.263 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 12:59:36.342 TestListener:27 - I am in onTestStart method testSaveGenreWithExistedId start 
+[INFO ] 2020-08-18 12:59:36.364 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 12:59:36.635 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200 
+[INFO ] 2020-08-18 12:59:36.636 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:59:36.643 BaseTest:71 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 12:59:37.133 SaveExistedGenreTest:21 - Getting the List of genres with size: 15 
+[INFO ] 2020-08-18 12:59:37.134 SaveExistedGenreTest:24 - Creating an Genre with existed genreId: 9111 
+[INFO ] 2020-08-18 12:59:37.135 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 12:59:37.623 GenreService:38 - Trigger uri : http://localhost:8080/api/library/genre 
+[INFO ] 2020-08-18 12:59:37.624 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 12:59:37.636 SaveExistedGenreTest:32 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/genre, status=409, reason=Conflict}} 
+[WARN ] 2020-08-18 12:59:37.638 SaveExistedGenreTest:35 - Falling to save a Genre with id: 9111 
+[INFO ] 2020-08-18 12:59:37.641 TestListener:32 - I am in onTestSuccess method testSaveGenreWithExistedId succeed 
+[INFO ] 2020-08-18 12:59:37.645 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 12:59:37.651 TestListener:22 - I am in onFinish method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:00:48.981 TestListener:17 - I am in onStart method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:00:49.081 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:00:55.894 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:00:55.899 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:00:55.901 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:00:55.922 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:00:55.987 TestListener:27 - I am in onTestStart method connectWithoutToken start 
+[INFO ] 2020-08-18 13:00:56.000 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:00:56.192 BookService:40 - Trigger uri : http://localhost:8080/api/library/books 
+[INFO ] 2020-08-18 13:00:56.193 CustomClientBuilder:33 - Quitting builder 
+[ERROR] 2020-08-18 13:00:56.726 TestListener:37 - I am in onTestFailure method connectWithoutToken failed 
+[INFO ] 2020-08-18 13:00:56.779 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:00:56.784 TestListener:22 - I am in onFinish method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:01:57.229 TestListener:17 - I am in onStart method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:01:57.328 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:02:01.852 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:02:01.858 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:02:01.859 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:02:01.875 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:02:01.933 TestListener:27 - I am in onTestStart method connectWithoutToken start 
+[INFO ] 2020-08-18 13:02:01.935 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:02:02.251 BookService:40 - Trigger uri : http://localhost:8080/api/library/books 
+[INFO ] 2020-08-18 13:02:02.252 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:02:02.261 VerifyConnectionWithoutTokenTest:18 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books, status=403, reason=Forbidden}} 
+[ERROR] 2020-08-18 13:02:02.502 TestListener:37 - I am in onTestFailure method connectWithoutToken failed 
+[INFO ] 2020-08-18 13:02:02.526 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:02:02.529 TestListener:22 - I am in onFinish method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:05:34.533 TestListener:17 - I am in onStart method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:05:34.745 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:05:41.395 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:05:41.397 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:05:41.398 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:05:41.420 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:05:41.454 TestListener:27 - I am in onTestStart method connectWithoutToken start 
+[INFO ] 2020-08-18 13:05:41.456 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:05:41.590 BookService:40 - Trigger uri : http://localhost:8080/api/library/books 
+[INFO ] 2020-08-18 13:05:41.591 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:05:41.591 VerifyConnectionWithoutTokenTest:18 - Forbidden 
+[ERROR] 2020-08-18 13:05:42.012 TestListener:37 - I am in onTestFailure method connectWithoutToken failed 
+[INFO ] 2020-08-18 13:05:42.037 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:05:42.040 TestListener:22 - I am in onFinish method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:07:11.165 TestListener:17 - I am in onStart method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:07:11.312 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:07:15.607 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:07:15.613 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:07:15.615 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:07:15.690 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:07:15.803 TestListener:27 - I am in onTestStart method connectWithoutToken start 
+[INFO ] 2020-08-18 13:07:15.814 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:07:16.134 BookService:40 - Trigger uri : http://localhost:8080/api/library/books 
+[INFO ] 2020-08-18 13:07:16.135 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:07:16.143 VerifyConnectionWithoutTokenTest:18 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books, status=403, reason=Forbidden}} 
+[WARN ] 2020-08-18 13:07:16.148 VerifyConnectionWithoutTokenTest:22 - Connection without token failed 
+[INFO ] 2020-08-18 13:07:16.150 TestListener:32 - I am in onTestSuccess method connectWithoutToken succeed 
+[INFO ] 2020-08-18 13:07:16.153 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:07:16.156 TestListener:22 - I am in onFinish method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:09:32.423 TestListener:17 - I am in onStart method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:09:32.585 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:09:38.793 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:09:38.797 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:09:38.798 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:09:38.812 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:09:38.903 TestListener:27 - I am in onTestStart method verifySortingOfBooks start 
+[INFO ] 2020-08-18 13:09:38.924 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:09:39.397 BookService:54 - Trigger uri : http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName 
+[INFO ] 2020-08-18 13:09:39.398 CustomClientBuilder:33 - Quitting builder 
+[ERROR] 2020-08-18 13:09:39.582 TestListener:37 - I am in onTestFailure method verifySortingOfBooks failed 
+[INFO ] 2020-08-18 13:09:39.604 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:09:39.608 TestListener:22 - I am in onFinish method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:10:26.649 TestListener:17 - I am in onStart method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:10:26.743 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:10:31.038 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:10:31.039 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:10:31.041 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:10:31.070 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:10:31.120 TestListener:27 - I am in onTestStart method verifySortingOfBooks start 
+[INFO ] 2020-08-18 13:10:31.138 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:10:31.669 BookService:54 - Trigger uri : http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName 
+[INFO ] 2020-08-18 13:10:31.669 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:10:31.676 VerifyIfBooksAreSortedTest:22 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName, status=200, reason=OK}} 
+[ERROR] 2020-08-18 13:10:32.453 TestListener:37 - I am in onTestFailure method verifySortingOfBooks failed 
+[INFO ] 2020-08-18 13:10:32.485 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:10:32.488 TestListener:22 - I am in onFinish method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:12:10.493 TestListener:17 - I am in onStart method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:12:10.613 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:12:15.805 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:12:15.810 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:12:15.812 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:12:15.843 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:12:15.999 TestListener:27 - I am in onTestStart method verifySortingOfBooks start 
+[INFO ] 2020-08-18 13:12:16.039 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:12:16.520 BookService:54 - Trigger uri : http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName 
+[INFO ] 2020-08-18 13:12:16.521 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:12:16.529 VerifyIfBooksAreSortedTest:21 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:12:18.040 VerifyIfBooksAreSortedTest:25 - Getting the List of books with size: 200 
+[INFO ] 2020-08-18 13:12:19.221 VerifyIfBooksAreSortedTest:29 - Verified if list is sorted 
+[INFO ] 2020-08-18 13:12:19.224 TestListener:32 - I am in onTestSuccess method verifySortingOfBooks succeed 
+[INFO ] 2020-08-18 13:12:19.227 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:12:19.233 TestListener:22 - I am in onFinish method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:13:23.505 TestListener:17 - I am in onStart method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:13:23.612 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:13:29.074 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:13:29.078 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:13:29.079 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:13:29.098 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:13:29.138 TestListener:27 - I am in onTestStart method verifySortingOfBooks start 
+[INFO ] 2020-08-18 13:13:29.161 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:13:29.377 BookService:54 - Trigger uri : http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName 
+[INFO ] 2020-08-18 13:13:29.378 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:13:29.385 VerifyIfBooksAreSortedTest:21 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:13:29.739 VerifyIfBooksAreSortedTest:26 - Getting the List of books with size: 200 
+[INFO ] 2020-08-18 13:13:29.783 VerifyIfBooksAreSortedTest:30 - Verified if list is sorted 
+[INFO ] 2020-08-18 13:13:29.785 TestListener:32 - I am in onTestSuccess method verifySortingOfBooks succeed 
+[INFO ] 2020-08-18 13:13:29.788 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:13:29.794 TestListener:22 - I am in onFinish method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:14:53.673 TestListener:17 - I am in onStart method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:14:53.808 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:14:59.586 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:14:59.590 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:14:59.592 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:14:59.647 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:14:59.865 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start 
+[INFO ] 2020-08-18 13:14:59.909 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:00.686 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200 
+[INFO ] 2020-08-18 13:15:00.687 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:00.697 BaseTest:63 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:15:01.512 SaveBookWithNonexistentGenreTest:23 - Getting the List of books with size: 200 
+[INFO ] 2020-08-18 13:15:01.514 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:01.912 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200 
+[INFO ] 2020-08-18 13:15:01.913 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:01.914 BaseTest:55 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:15:02.867 SaveBookWithNonexistentGenreTest:27 - Getting the List of authors with size: 59 
+[INFO ] 2020-08-18 13:15:02.868 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 13:15:03.159 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200 
+[INFO ] 2020-08-18 13:15:03.161 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:03.162 BaseTest:71 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:15:03.173 SaveBookWithNonexistentGenreTest:31 - Getting the List of genres with size: 15 
+[INFO ] 2020-08-18 13:15:03.175 SaveBookWithNonexistentGenreTest:34 - Creating an Book with id: 9822 
+[INFO ] 2020-08-18 13:15:03.176 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:03.375 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9112 
+[INFO ] 2020-08-18 13:15:03.376 CustomClientBuilder:33 - Quitting builder 
+[ERROR] 2020-08-18 13:15:03.404 TestListener:37 - I am in onTestFailure method testSaveBookNonexistentGenre failed 
+[INFO ] 2020-08-18 13:15:03.437 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:15:03.442 TestListener:22 - I am in onFinish method test_libraryrest_jersey 
+[INFO ] 2020-08-18 13:15:42.661 TestListener:17 - I am in onStart method SaveBookWithNonexistentGenreTest 
+[INFO ] 2020-08-18 13:15:42.680 TestListener:17 - I am in onStart method SaveBookWithNonexistentGenreTest 
+[INFO ] 2020-08-18 13:15:42.950 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:49.437 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:15:49.445 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:15:49.448 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:15:49.466 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:15:49.494 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start 
+[INFO ] 2020-08-18 13:15:49.494 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start 
+[INFO ] 2020-08-18 13:15:49.517 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:49.696 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200 
+[INFO ] 2020-08-18 13:15:49.697 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:49.704 BaseTest:63 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:15:50.097 SaveBookWithNonexistentGenreTest:23 - Getting the List of books with size: 200 
+[INFO ] 2020-08-18 13:15:50.098 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:50.276 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200 
+[INFO ] 2020-08-18 13:15:50.277 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:50.278 BaseTest:55 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:15:50.471 SaveBookWithNonexistentGenreTest:27 - Getting the List of authors with size: 59 
+[INFO ] 2020-08-18 13:15:50.478 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 13:15:50.666 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200 
+[INFO ] 2020-08-18 13:15:50.667 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:50.668 BaseTest:71 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:15:50.685 SaveBookWithNonexistentGenreTest:31 - Getting the List of genres with size: 15 
+[INFO ] 2020-08-18 13:15:50.686 SaveBookWithNonexistentGenreTest:34 - Creating an Book with id: 9822 
+[INFO ] 2020-08-18 13:15:50.687 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:50.865 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9112 
+[INFO ] 2020-08-18 13:15:50.865 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:50.884 SaveBookWithNonexistentGenreTest:38 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/book/100005/9112, status=404, reason=Not Found}} 
+[WARN ] 2020-08-18 13:15:50.886 SaveBookWithNonexistentGenreTest:42 - Saving a Book with id: 9822 failed because of nonexistent Genre with id: 9112 
+[INFO ] 2020-08-18 13:15:50.889 TestListener:32 - I am in onTestSuccess method testSaveBookNonexistentGenre succeed 
+[INFO ] 2020-08-18 13:15:50.893 TestListener:32 - I am in onTestSuccess method testSaveBookNonexistentGenre succeed 
+[INFO ] 2020-08-18 13:15:50.898 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:15:50.901 TestListener:22 - I am in onFinish method SaveBookWithNonexistentGenreTest 
+[INFO ] 2020-08-18 13:15:50.902 TestListener:22 - I am in onFinish method SaveBookWithNonexistentGenreTest 
+[INFO ] 2020-08-18 13:15:50.906 TestListener:17 - I am in onStart method SaveExistedGenreTest 
+[INFO ] 2020-08-18 13:15:50.911 TestListener:17 - I am in onStart method SaveExistedGenreTest 
+[INFO ] 2020-08-18 13:15:50.933 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:51.445 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:15:51.446 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:15:51.447 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:15:51.447 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:15:51.448 TestListener:27 - I am in onTestStart method testSaveGenreWithExistedId start 
+[INFO ] 2020-08-18 13:15:51.449 TestListener:27 - I am in onTestStart method testSaveGenreWithExistedId start 
+[INFO ] 2020-08-18 13:15:51.450 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 13:15:51.554 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200 
+[INFO ] 2020-08-18 13:15:51.555 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:51.555 BaseTest:71 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:15:51.573 SaveExistedGenreTest:21 - Getting the List of genres with size: 15 
+[INFO ] 2020-08-18 13:15:51.574 SaveExistedGenreTest:24 - Creating an Genre with existed genreId: 9111 
+[INFO ] 2020-08-18 13:15:51.585 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 13:15:51.947 GenreService:38 - Trigger uri : http://localhost:8080/api/library/genre 
+[INFO ] 2020-08-18 13:15:51.947 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:51.951 SaveExistedGenreTest:28 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/genre, status=409, reason=Conflict}} 
+[WARN ] 2020-08-18 13:15:51.952 SaveExistedGenreTest:31 - Falling to save a Genre with id: 9111 
+[INFO ] 2020-08-18 13:15:51.955 TestListener:32 - I am in onTestSuccess method testSaveGenreWithExistedId succeed 
+[INFO ] 2020-08-18 13:15:51.955 TestListener:32 - I am in onTestSuccess method testSaveGenreWithExistedId succeed 
+[INFO ] 2020-08-18 13:15:51.957 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:15:51.957 TestListener:22 - I am in onFinish method SaveExistedGenreTest 
+[INFO ] 2020-08-18 13:15:51.958 TestListener:22 - I am in onFinish method SaveExistedGenreTest 
+[INFO ] 2020-08-18 13:15:51.959 TestListener:17 - I am in onStart method SaveAndDeleteAuthorTest 
+[INFO ] 2020-08-18 13:15:51.959 TestListener:17 - I am in onStart method SaveAndDeleteAuthorTest 
+[INFO ] 2020-08-18 13:15:51.961 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:52.430 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:15:52.431 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:15:52.432 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:15:52.433 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:15:52.434 TestListener:27 - I am in onTestStart method testSaveAndDeleteAuthor start 
+[INFO ] 2020-08-18 13:15:52.435 TestListener:27 - I am in onTestStart method testSaveAndDeleteAuthor start 
+[INFO ] 2020-08-18 13:15:52.436 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:52.585 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200 
+[INFO ] 2020-08-18 13:15:52.586 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:52.588 BaseTest:55 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:15:52.653 SaveAndDeleteAuthorTest:20 - Getting the List of authors with size: 59 
+[INFO ] 2020-08-18 13:15:52.654 SaveAndDeleteAuthorTest:23 - Creating an Author with id: 100006 
+[INFO ] 2020-08-18 13:15:52.655 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:54.926 AuthorService:39 - Trigger uri : http://localhost:8080/api/library/author 
+[INFO ] 2020-08-18 13:15:54.928 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:54.930 SaveAndDeleteAuthorTest:26 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/author, status=201, reason=Created}} 
+[INFO ] 2020-08-18 13:15:54.950 SaveAndDeleteAuthorTest:30 - Saving an Author with id: 100006 
+[INFO ] 2020-08-18 13:15:54.951 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:55.585 AuthorService:67 - Trigger uri : http://localhost:8080/api/library/author/100006 
+[INFO ] 2020-08-18 13:15:55.585 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:55.586 SaveAndDeleteAuthorTest:33 - InboundJaxrsResponse{context=ClientResponse{method=DELETE, uri=http://localhost:8080/api/library/author/100006, status=204, reason=No Content}} 
+[INFO ] 2020-08-18 13:15:55.586 SaveAndDeleteAuthorTest:35 - Deleting an Author with id: 100006 
+[INFO ] 2020-08-18 13:15:55.592 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteAuthor succeed 
+[INFO ] 2020-08-18 13:15:55.594 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteAuthor succeed 
+[INFO ] 2020-08-18 13:15:55.596 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:15:55.596 TestListener:22 - I am in onFinish method SaveAndDeleteAuthorTest 
+[INFO ] 2020-08-18 13:15:55.597 TestListener:22 - I am in onFinish method SaveAndDeleteAuthorTest 
+[INFO ] 2020-08-18 13:15:55.597 TestListener:17 - I am in onStart method SaveAndDeleteBook 
+[INFO ] 2020-08-18 13:15:55.598 TestListener:17 - I am in onStart method SaveAndDeleteBook 
+[INFO ] 2020-08-18 13:15:55.599 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:56.369 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:15:56.369 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:15:56.370 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:15:56.371 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:15:56.372 TestListener:27 - I am in onTestStart method testSaveAndDeleteBook start 
+[INFO ] 2020-08-18 13:15:56.373 TestListener:27 - I am in onTestStart method testSaveAndDeleteBook start 
+[INFO ] 2020-08-18 13:15:56.374 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:56.650 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200 
+[INFO ] 2020-08-18 13:15:56.651 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:56.651 BaseTest:63 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:15:56.746 SaveAndDeleteBookTest:23 - Getting the List of books with size: 200 
+[INFO ] 2020-08-18 13:15:56.747 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:56.979 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200 
+[INFO ] 2020-08-18 13:15:56.979 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:56.981 BaseTest:55 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:15:57.053 SaveAndDeleteBookTest:27 - Getting the List of authors with size: 59 
+[INFO ] 2020-08-18 13:15:57.054 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 13:15:57.202 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200 
+[INFO ] 2020-08-18 13:15:57.202 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:57.203 BaseTest:71 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:15:57.209 SaveAndDeleteBookTest:31 - Getting the List of genres with size: 15 
+[INFO ] 2020-08-18 13:15:57.210 SaveAndDeleteBookTest:34 - Creating an Book with id: 9822 
+[INFO ] 2020-08-18 13:15:57.211 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:58.127 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9111 
+[INFO ] 2020-08-18 13:15:58.128 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:58.130 SaveAndDeleteBookTest:37 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/book/100005/9111, status=201, reason=Created}} 
+[INFO ] 2020-08-18 13:15:58.143 SaveAndDeleteBookTest:41 - Saving a Book with id: 9822 
+[INFO ] 2020-08-18 13:15:58.144 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:58.424 BookService:82 - Trigger uri : http://localhost:8080/api/library/book/9822 
+[INFO ] 2020-08-18 13:15:58.425 CustomClientBuilder:33 - Quitting builder 
+[INFO ] 2020-08-18 13:15:58.426 SaveAndDeleteBookTest:45 - Deleting a Book with id: 9822 
+[INFO ] 2020-08-18 13:15:58.427 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteBook succeed 
+[INFO ] 2020-08-18 13:15:58.428 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteBook succeed 
+[INFO ] 2020-08-18 13:15:58.433 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:15:58.434 TestListener:22 - I am in onFinish method SaveAndDeleteBook 
+[INFO ] 2020-08-18 13:15:58.435 TestListener:22 - I am in onFinish method SaveAndDeleteBook 
+[INFO ] 2020-08-18 13:15:58.435 TestListener:17 - I am in onStart method SaveAndDeleteGenreTest 
+[INFO ] 2020-08-18 13:15:58.442 TestListener:17 - I am in onStart method SaveAndDeleteGenreTest 
+[INFO ] 2020-08-18 13:15:58.445 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:15:59.088 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:15:59.088 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:15:59.089 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:15:59.090 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:15:59.091 TestListener:27 - I am in onTestStart method testSaveAndDeleteGenre start 
+[INFO ] 2020-08-18 13:15:59.092 TestListener:27 - I am in onTestStart method testSaveAndDeleteGenre start 
+[INFO ] 2020-08-18 13:15:59.093 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 13:15:59.204 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200 
+[INFO ] 2020-08-18 13:15:59.205 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:59.205 BaseTest:71 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:15:59.212 SaveAndDeleteGenreTest:20 - Getting the List of genres with size: 15 
+[INFO ] 2020-08-18 13:15:59.213 SaveAndDeleteGenreTest:23 - Creating an Genre with id: 9112 
+[INFO ] 2020-08-18 13:15:59.213 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 13:15:59.820 GenreService:38 - Trigger uri : http://localhost:8080/api/library/genre 
+[INFO ] 2020-08-18 13:15:59.821 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:15:59.822 SaveAndDeleteGenreTest:26 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/genre, status=201, reason=Created}} 
+[INFO ] 2020-08-18 13:15:59.841 SaveAndDeleteGenreTest:30 - Saving a Genre with id: 9112 
+[INFO ] 2020-08-18 13:15:59.842 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 13:16:00.198 GenreService:56 - Trigger uri : http://localhost:8080/api/library/genre/9112 
+[INFO ] 2020-08-18 13:16:00.199 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:16:00.200 SaveAndDeleteGenreTest:33 - InboundJaxrsResponse{context=ClientResponse{method=DELETE, uri=http://localhost:8080/api/library/genre/9112, status=204, reason=No Content}} 
+[INFO ] 2020-08-18 13:16:00.200 SaveAndDeleteGenreTest:35 - Deleting a Genre with id: 9112 
+[INFO ] 2020-08-18 13:16:00.200 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteGenre succeed 
+[INFO ] 2020-08-18 13:16:00.201 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteGenre succeed 
+[INFO ] 2020-08-18 13:16:00.202 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:16:00.202 TestListener:22 - I am in onFinish method SaveAndDeleteGenreTest 
+[INFO ] 2020-08-18 13:16:00.203 TestListener:22 - I am in onFinish method SaveAndDeleteGenreTest 
+[INFO ] 2020-08-18 13:16:00.203 TestListener:17 - I am in onStart method UpdateAuthorTest 
+[INFO ] 2020-08-18 13:16:00.204 TestListener:17 - I am in onStart method UpdateAuthorTest 
+[INFO ] 2020-08-18 13:16:00.206 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:16:00.862 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:16:00.863 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:16:00.863 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:16:00.864 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:16:00.865 TestListener:27 - I am in onTestStart method testUpdateAuthor start 
+[INFO ] 2020-08-18 13:16:00.865 TestListener:27 - I am in onTestStart method testUpdateAuthor start 
+[INFO ] 2020-08-18 13:16:00.866 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:16:01.515 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200 
+[INFO ] 2020-08-18 13:16:01.516 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:16:01.516 BaseTest:55 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:16:01.605 UpdateAuthorTest:20 - Getting the List of authors with size: 59 
+[INFO ] 2020-08-18 13:16:01.606 UpdateAuthorTest:23 - Creating an Author with id: 100006 
+[INFO ] 2020-08-18 13:16:01.606 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:16:03.335 AuthorService:39 - Trigger uri : http://localhost:8080/api/library/author 
+[INFO ] 2020-08-18 13:16:03.335 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:16:03.336 UpdateAuthorTest:26 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/author, status=201, reason=Created}} 
+[INFO ] 2020-08-18 13:16:03.349 UpdateAuthorTest:30 - Saving an Author with id: 100006 
+[INFO ] 2020-08-18 13:16:03.350 UpdateAuthorTest:33 - Updating certain fields of Author 
+[INFO ] 2020-08-18 13:16:03.351 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:16:04.116 AuthorService:49 - Trigger uri : http://localhost:8080/api/library/author 
+[INFO ] 2020-08-18 13:16:04.116 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:16:04.117 UpdateAuthorTest:36 - InboundJaxrsResponse{context=ClientResponse{method=PUT, uri=http://localhost:8080/api/library/author, status=200, reason=OK}} 
+[INFO ] 2020-08-18 13:16:04.118 UpdateAuthorTest:38 - Saving updated Author with id: 100006 
+[INFO ] 2020-08-18 13:16:04.118 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:16:04.487 AuthorService:67 - Trigger uri : http://localhost:8080/api/library/author/100006 
+[INFO ] 2020-08-18 13:16:04.488 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:16:04.488 UpdateAuthorTest:41 - InboundJaxrsResponse{context=ClientResponse{method=DELETE, uri=http://localhost:8080/api/library/author/100006, status=204, reason=No Content}} 
+[INFO ] 2020-08-18 13:16:04.489 UpdateAuthorTest:43 - Deleting an Author with id: 100006 
+[INFO ] 2020-08-18 13:16:04.490 TestListener:32 - I am in onTestSuccess method testUpdateAuthor succeed 
+[INFO ] 2020-08-18 13:16:04.490 TestListener:32 - I am in onTestSuccess method testUpdateAuthor succeed 
+[INFO ] 2020-08-18 13:16:04.492 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:16:04.493 TestListener:22 - I am in onFinish method UpdateAuthorTest 
+[INFO ] 2020-08-18 13:16:04.494 TestListener:22 - I am in onFinish method UpdateAuthorTest 
+[INFO ] 2020-08-18 13:16:04.495 TestListener:17 - I am in onStart method VerifyIfBooksAreSortedTest 
+[INFO ] 2020-08-18 13:16:04.495 TestListener:17 - I am in onStart method VerifyIfBooksAreSortedTest 
+[INFO ] 2020-08-18 13:16:04.496 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:16:05.509 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:16:05.510 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:16:05.512 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:16:05.532 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:16:05.533 TestListener:27 - I am in onTestStart method verifySortingOfBooks start 
+[INFO ] 2020-08-18 13:16:05.533 TestListener:27 - I am in onTestStart method verifySortingOfBooks start 
+[INFO ] 2020-08-18 13:16:05.534 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:16:05.715 BookService:54 - Trigger uri : http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName 
+[INFO ] 2020-08-18 13:16:05.716 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:16:05.718 VerifyIfBooksAreSortedTest:21 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:16:05.748 VerifyIfBooksAreSortedTest:25 - Getting the List of books with size: 200 
+[INFO ] 2020-08-18 13:16:05.793 VerifyIfBooksAreSortedTest:29 - Verified if list is sorted 
+[INFO ] 2020-08-18 13:16:05.794 TestListener:32 - I am in onTestSuccess method verifySortingOfBooks succeed 
+[INFO ] 2020-08-18 13:16:05.795 TestListener:32 - I am in onTestSuccess method verifySortingOfBooks succeed 
+[INFO ] 2020-08-18 13:16:05.796 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:16:05.796 TestListener:22 - I am in onFinish method VerifyIfBooksAreSortedTest 
+[INFO ] 2020-08-18 13:16:05.798 TestListener:22 - I am in onFinish method VerifyIfBooksAreSortedTest 
+[INFO ] 2020-08-18 13:16:05.798 TestListener:17 - I am in onStart method VerifyConnectionWithoutTokenTest 
+[INFO ] 2020-08-18 13:16:05.799 TestListener:17 - I am in onStart method VerifyConnectionWithoutTokenTest 
+[INFO ] 2020-08-18 13:16:05.802 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:16:06.623 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:16:06.623 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:16:06.624 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:16:06.624 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:16:06.625 TestListener:27 - I am in onTestStart method connectWithoutToken start 
+[INFO ] 2020-08-18 13:16:06.626 TestListener:27 - I am in onTestStart method connectWithoutToken start 
+[INFO ] 2020-08-18 13:16:06.626 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:16:06.741 BookService:40 - Trigger uri : http://localhost:8080/api/library/books 
+[INFO ] 2020-08-18 13:16:06.742 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:16:06.742 VerifyConnectionWithoutTokenTest:18 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books, status=403, reason=Forbidden}} 
+[WARN ] 2020-08-18 13:16:06.743 VerifyConnectionWithoutTokenTest:22 - Connection without token failed 
+[INFO ] 2020-08-18 13:16:06.745 TestListener:32 - I am in onTestSuccess method connectWithoutToken succeed 
+[INFO ] 2020-08-18 13:16:06.746 TestListener:32 - I am in onTestSuccess method connectWithoutToken succeed 
+[INFO ] 2020-08-18 13:16:06.747 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:16:06.748 TestListener:22 - I am in onFinish method VerifyConnectionWithoutTokenTest 
+[INFO ] 2020-08-18 13:16:06.748 TestListener:22 - I am in onFinish method VerifyConnectionWithoutTokenTest 
+[INFO ] 2020-08-18 13:21:04.105 TestListener:17 - I am in onStart method SaveBookWithNonexistentGenreTest 
+[INFO ] 2020-08-18 13:21:04.143 TestListener:17 - I am in onStart method SaveBookWithNonexistentGenreTest 
+[INFO ] 2020-08-18 13:21:04.367 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:10.586 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:21:10.590 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:21:10.592 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:21:10.690 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:21:10.761 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start 
+[INFO ] 2020-08-18 13:21:10.763 TestListener:27 - I am in onTestStart method testSaveBookNonexistentGenre start 
+[INFO ] 2020-08-18 13:21:10.825 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:11.338 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200 
+[INFO ] 2020-08-18 13:21:11.339 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:11.347 BaseTest:63 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:21:11.792 SaveBookWithNonexistentGenreTest:23 - Getting the List of books with size: 200 
+[INFO ] 2020-08-18 13:21:11.793 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:11.977 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200 
+[INFO ] 2020-08-18 13:21:11.978 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:11.978 BaseTest:55 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:21:12.268 SaveBookWithNonexistentGenreTest:27 - Getting the List of authors with size: 59 
+[INFO ] 2020-08-18 13:21:12.274 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 13:21:12.450 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200 
+[INFO ] 2020-08-18 13:21:12.451 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:12.452 BaseTest:71 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:21:12.477 SaveBookWithNonexistentGenreTest:31 - Getting the List of genres with size: 15 
+[INFO ] 2020-08-18 13:21:12.479 SaveBookWithNonexistentGenreTest:34 - Creating an Book with id: 9822 
+[INFO ] 2020-08-18 13:21:12.484 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:12.658 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9112 
+[INFO ] 2020-08-18 13:21:12.659 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:12.659 SaveBookWithNonexistentGenreTest:37 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/book/100005/9112, status=404, reason=Not Found}} 
+[WARN ] 2020-08-18 13:21:12.671 SaveBookWithNonexistentGenreTest:42 - Saving a Book with id: 9822 failed because of nonexistent Genre with id: 9112 
+[INFO ] 2020-08-18 13:21:12.674 TestListener:32 - I am in onTestSuccess method testSaveBookNonexistentGenre succeed 
+[INFO ] 2020-08-18 13:21:12.675 TestListener:32 - I am in onTestSuccess method testSaveBookNonexistentGenre succeed 
+[INFO ] 2020-08-18 13:21:12.679 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:21:12.682 TestListener:22 - I am in onFinish method SaveBookWithNonexistentGenreTest 
+[INFO ] 2020-08-18 13:21:12.684 TestListener:22 - I am in onFinish method SaveBookWithNonexistentGenreTest 
+[INFO ] 2020-08-18 13:21:12.688 TestListener:17 - I am in onStart method SaveExistedGenreTest 
+[INFO ] 2020-08-18 13:21:12.689 TestListener:17 - I am in onStart method SaveExistedGenreTest 
+[INFO ] 2020-08-18 13:21:12.693 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:13.497 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:21:13.498 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:21:13.499 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:21:13.499 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:21:13.506 TestListener:27 - I am in onTestStart method testSaveGenreWithExistedId start 
+[INFO ] 2020-08-18 13:21:13.506 TestListener:27 - I am in onTestStart method testSaveGenreWithExistedId start 
+[INFO ] 2020-08-18 13:21:13.507 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 13:21:13.643 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200 
+[INFO ] 2020-08-18 13:21:13.643 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:13.644 BaseTest:71 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:21:13.670 SaveExistedGenreTest:21 - Getting the List of genres with size: 15 
+[INFO ] 2020-08-18 13:21:13.671 SaveExistedGenreTest:24 - Creating an Genre with existed genreId: 9111 
+[INFO ] 2020-08-18 13:21:13.694 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 13:21:14.114 GenreService:38 - Trigger uri : http://localhost:8080/api/library/genre 
+[INFO ] 2020-08-18 13:21:14.115 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:14.118 SaveExistedGenreTest:27 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/genre, status=409, reason=Conflict}} 
+[WARN ] 2020-08-18 13:21:14.131 SaveExistedGenreTest:31 - Falling to save a Genre with id: 9111 
+[INFO ] 2020-08-18 13:21:14.132 TestListener:32 - I am in onTestSuccess method testSaveGenreWithExistedId succeed 
+[INFO ] 2020-08-18 13:21:14.133 TestListener:32 - I am in onTestSuccess method testSaveGenreWithExistedId succeed 
+[INFO ] 2020-08-18 13:21:14.134 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:21:14.135 TestListener:22 - I am in onFinish method SaveExistedGenreTest 
+[INFO ] 2020-08-18 13:21:14.135 TestListener:22 - I am in onFinish method SaveExistedGenreTest 
+[INFO ] 2020-08-18 13:21:14.136 TestListener:17 - I am in onStart method SaveAndDeleteAuthorTest 
+[INFO ] 2020-08-18 13:21:14.137 TestListener:17 - I am in onStart method SaveAndDeleteAuthorTest 
+[INFO ] 2020-08-18 13:21:14.140 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:14.720 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:21:14.722 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:21:14.724 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:21:14.726 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:21:14.727 TestListener:27 - I am in onTestStart method testSaveAndDeleteAuthor start 
+[INFO ] 2020-08-18 13:21:14.728 TestListener:27 - I am in onTestStart method testSaveAndDeleteAuthor start 
+[INFO ] 2020-08-18 13:21:14.729 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:14.884 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200 
+[INFO ] 2020-08-18 13:21:14.886 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:14.888 BaseTest:55 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:21:14.939 SaveAndDeleteAuthorTest:20 - Getting the List of authors with size: 59 
+[INFO ] 2020-08-18 13:21:14.940 SaveAndDeleteAuthorTest:23 - Creating an Author with id: 100006 
+[INFO ] 2020-08-18 13:21:14.941 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:15.361 AuthorService:39 - Trigger uri : http://localhost:8080/api/library/author 
+[INFO ] 2020-08-18 13:21:15.362 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:15.363 SaveAndDeleteAuthorTest:26 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/author, status=201, reason=Created}} 
+[INFO ] 2020-08-18 13:21:15.372 SaveAndDeleteAuthorTest:30 - Saving an Author with id: 100006 
+[INFO ] 2020-08-18 13:21:15.373 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:15.722 AuthorService:67 - Trigger uri : http://localhost:8080/api/library/author/100006 
+[INFO ] 2020-08-18 13:21:15.722 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:15.723 SaveAndDeleteAuthorTest:33 - InboundJaxrsResponse{context=ClientResponse{method=DELETE, uri=http://localhost:8080/api/library/author/100006, status=204, reason=No Content}} 
+[INFO ] 2020-08-18 13:21:15.723 SaveAndDeleteAuthorTest:35 - Deleting an Author with id: 100006 
+[INFO ] 2020-08-18 13:21:15.724 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteAuthor succeed 
+[INFO ] 2020-08-18 13:21:15.725 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteAuthor succeed 
+[INFO ] 2020-08-18 13:21:15.726 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:21:15.726 TestListener:22 - I am in onFinish method SaveAndDeleteAuthorTest 
+[INFO ] 2020-08-18 13:21:15.727 TestListener:22 - I am in onFinish method SaveAndDeleteAuthorTest 
+[INFO ] 2020-08-18 13:21:15.728 TestListener:17 - I am in onStart method SaveAndDeleteBook 
+[INFO ] 2020-08-18 13:21:15.728 TestListener:17 - I am in onStart method SaveAndDeleteBook 
+[INFO ] 2020-08-18 13:21:15.733 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:16.292 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:21:16.293 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:21:16.293 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:21:16.294 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:21:16.295 TestListener:27 - I am in onTestStart method testSaveAndDeleteBook start 
+[INFO ] 2020-08-18 13:21:16.296 TestListener:27 - I am in onTestStart method testSaveAndDeleteBook start 
+[INFO ] 2020-08-18 13:21:16.297 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:16.506 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200 
+[INFO ] 2020-08-18 13:21:16.507 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:16.508 BaseTest:63 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:21:16.809 SaveAndDeleteBookTest:23 - Getting the List of books with size: 200 
+[INFO ] 2020-08-18 13:21:16.810 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:16.942 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200 
+[INFO ] 2020-08-18 13:21:16.942 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:16.944 BaseTest:55 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:21:16.984 SaveAndDeleteBookTest:27 - Getting the List of authors with size: 59 
+[INFO ] 2020-08-18 13:21:16.985 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 13:21:17.101 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200 
+[INFO ] 2020-08-18 13:21:17.101 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:17.102 BaseTest:71 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:21:17.107 SaveAndDeleteBookTest:31 - Getting the List of genres with size: 15 
+[INFO ] 2020-08-18 13:21:17.108 SaveAndDeleteBookTest:34 - Creating an Book with id: 9822 
+[INFO ] 2020-08-18 13:21:17.110 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:17.526 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9111 
+[INFO ] 2020-08-18 13:21:17.527 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:17.527 SaveAndDeleteBookTest:37 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/book/100005/9111, status=201, reason=Created}} 
+[INFO ] 2020-08-18 13:21:17.537 SaveAndDeleteBookTest:41 - Saving a Book with id: 9822 
+[INFO ] 2020-08-18 13:21:17.538 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:17.962 BookService:82 - Trigger uri : http://localhost:8080/api/library/book/9822 
+[INFO ] 2020-08-18 13:21:17.964 CustomClientBuilder:33 - Quitting builder 
+[INFO ] 2020-08-18 13:21:17.967 SaveAndDeleteBookTest:45 - Deleting a Book with id: 9822 
+[INFO ] 2020-08-18 13:21:17.968 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteBook succeed 
+[INFO ] 2020-08-18 13:21:17.968 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteBook succeed 
+[INFO ] 2020-08-18 13:21:17.971 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:21:17.973 TestListener:22 - I am in onFinish method SaveAndDeleteBook 
+[INFO ] 2020-08-18 13:21:17.974 TestListener:22 - I am in onFinish method SaveAndDeleteBook 
+[INFO ] 2020-08-18 13:21:17.974 TestListener:17 - I am in onStart method SaveAndDeleteGenreTest 
+[INFO ] 2020-08-18 13:21:17.975 TestListener:17 - I am in onStart method SaveAndDeleteGenreTest 
+[INFO ] 2020-08-18 13:21:17.979 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:18.425 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:21:18.425 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:21:18.426 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:21:18.426 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:21:18.427 TestListener:27 - I am in onTestStart method testSaveAndDeleteGenre start 
+[INFO ] 2020-08-18 13:21:18.428 TestListener:27 - I am in onTestStart method testSaveAndDeleteGenre start 
+[INFO ] 2020-08-18 13:21:18.429 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 13:21:18.560 GenreService:28 - Trigger uri : http://localhost:8080/api/library/genres?size=200 
+[INFO ] 2020-08-18 13:21:18.562 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:18.565 BaseTest:71 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:21:18.586 SaveAndDeleteGenreTest:20 - Getting the List of genres with size: 15 
+[INFO ] 2020-08-18 13:21:18.586 SaveAndDeleteGenreTest:23 - Creating an Genre with id: 9112 
+[INFO ] 2020-08-18 13:21:18.587 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 13:21:19.044 GenreService:38 - Trigger uri : http://localhost:8080/api/library/genre 
+[INFO ] 2020-08-18 13:21:19.045 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:19.045 SaveAndDeleteGenreTest:26 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/genre, status=201, reason=Created}} 
+[INFO ] 2020-08-18 13:21:19.062 SaveAndDeleteGenreTest:30 - Saving a Genre with id: 9112 
+[INFO ] 2020-08-18 13:21:19.063 CustomClientBuilder:24 - Starting ClientBuilder 
+[INFO ] 2020-08-18 13:21:19.440 GenreService:56 - Trigger uri : http://localhost:8080/api/library/genre/9112 
+[INFO ] 2020-08-18 13:21:19.440 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:19.441 SaveAndDeleteGenreTest:33 - InboundJaxrsResponse{context=ClientResponse{method=DELETE, uri=http://localhost:8080/api/library/genre/9112, status=204, reason=No Content}} 
+[INFO ] 2020-08-18 13:21:19.441 SaveAndDeleteGenreTest:35 - Deleting a Genre with id: 9112 
+[INFO ] 2020-08-18 13:21:19.442 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteGenre succeed 
+[INFO ] 2020-08-18 13:21:19.443 TestListener:32 - I am in onTestSuccess method testSaveAndDeleteGenre succeed 
+[INFO ] 2020-08-18 13:21:19.444 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:21:19.444 TestListener:22 - I am in onFinish method SaveAndDeleteGenreTest 
+[INFO ] 2020-08-18 13:21:19.445 TestListener:22 - I am in onFinish method SaveAndDeleteGenreTest 
+[INFO ] 2020-08-18 13:21:19.445 TestListener:17 - I am in onStart method UpdateAuthorTest 
+[INFO ] 2020-08-18 13:21:19.446 TestListener:17 - I am in onStart method UpdateAuthorTest 
+[INFO ] 2020-08-18 13:21:19.449 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:20.354 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:21:20.355 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:21:20.356 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:21:20.356 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:21:20.357 TestListener:27 - I am in onTestStart method testUpdateAuthor start 
+[INFO ] 2020-08-18 13:21:20.357 TestListener:27 - I am in onTestStart method testUpdateAuthor start 
+[INFO ] 2020-08-18 13:21:20.358 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:20.449 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200 
+[INFO ] 2020-08-18 13:21:20.450 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:20.450 BaseTest:55 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:21:20.537 UpdateAuthorTest:20 - Getting the List of authors with size: 59 
+[INFO ] 2020-08-18 13:21:20.538 UpdateAuthorTest:23 - Creating an Author with id: 100006 
+[INFO ] 2020-08-18 13:21:20.538 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:20.765 AuthorService:39 - Trigger uri : http://localhost:8080/api/library/author 
+[INFO ] 2020-08-18 13:21:20.765 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:20.766 UpdateAuthorTest:26 - InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/author, status=201, reason=Created}} 
+[INFO ] 2020-08-18 13:21:20.772 UpdateAuthorTest:30 - Saving an Author with id: 100006 
+[INFO ] 2020-08-18 13:21:20.773 UpdateAuthorTest:33 - Updating certain fields of Author 
+[INFO ] 2020-08-18 13:21:20.773 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:21.205 AuthorService:49 - Trigger uri : http://localhost:8080/api/library/author 
+[INFO ] 2020-08-18 13:21:21.206 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:21.207 UpdateAuthorTest:36 - InboundJaxrsResponse{context=ClientResponse{method=PUT, uri=http://localhost:8080/api/library/author, status=200, reason=OK}} 
+[INFO ] 2020-08-18 13:21:21.208 UpdateAuthorTest:38 - Saving updated Author with id: 100006 
+[INFO ] 2020-08-18 13:21:21.213 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:21.430 AuthorService:67 - Trigger uri : http://localhost:8080/api/library/author/100006 
+[INFO ] 2020-08-18 13:21:21.431 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:21.431 UpdateAuthorTest:41 - InboundJaxrsResponse{context=ClientResponse{method=DELETE, uri=http://localhost:8080/api/library/author/100006, status=204, reason=No Content}} 
+[INFO ] 2020-08-18 13:21:21.432 UpdateAuthorTest:43 - Deleting an Author with id: 100006 
+[INFO ] 2020-08-18 13:21:21.432 TestListener:32 - I am in onTestSuccess method testUpdateAuthor succeed 
+[INFO ] 2020-08-18 13:21:21.433 TestListener:32 - I am in onTestSuccess method testUpdateAuthor succeed 
+[INFO ] 2020-08-18 13:21:21.434 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:21:21.435 TestListener:22 - I am in onFinish method UpdateAuthorTest 
+[INFO ] 2020-08-18 13:21:21.435 TestListener:22 - I am in onFinish method UpdateAuthorTest 
+[INFO ] 2020-08-18 13:21:21.436 TestListener:17 - I am in onStart method VerifyIfBooksAreSortedTest 
+[INFO ] 2020-08-18 13:21:21.436 TestListener:17 - I am in onStart method VerifyIfBooksAreSortedTest 
+[INFO ] 2020-08-18 13:21:21.438 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:22.355 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:21:22.356 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:21:22.358 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:21:22.376 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:21:22.377 TestListener:27 - I am in onTestStart method verifySortingOfBooks start 
+[INFO ] 2020-08-18 13:21:22.378 TestListener:27 - I am in onTestStart method verifySortingOfBooks start 
+[INFO ] 2020-08-18 13:21:22.379 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:22.764 BookService:54 - Trigger uri : http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName 
+[INFO ] 2020-08-18 13:21:22.765 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:22.766 VerifyIfBooksAreSortedTest:21 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName, status=200, reason=OK}} 
+[DEBUG] 2020-08-18 13:21:22.815 VerifyIfBooksAreSortedTest:25 - Getting the List of books with size: 200 
+[INFO ] 2020-08-18 13:21:22.895 VerifyIfBooksAreSortedTest:29 - Verified if list is sorted 
+[INFO ] 2020-08-18 13:21:22.897 TestListener:32 - I am in onTestSuccess method verifySortingOfBooks succeed 
+[INFO ] 2020-08-18 13:21:22.898 TestListener:32 - I am in onTestSuccess method verifySortingOfBooks succeed 
+[INFO ] 2020-08-18 13:21:22.901 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:21:22.902 TestListener:22 - I am in onFinish method VerifyIfBooksAreSortedTest 
+[INFO ] 2020-08-18 13:21:22.902 TestListener:22 - I am in onFinish method VerifyIfBooksAreSortedTest 
+[INFO ] 2020-08-18 13:21:22.902 TestListener:17 - I am in onStart method VerifyConnectionWithoutTokenTest 
+[INFO ] 2020-08-18 13:21:22.902 TestListener:17 - I am in onStart method VerifyConnectionWithoutTokenTest 
+[INFO ] 2020-08-18 13:21:22.904 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:23.988 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login 
+[INFO ] 2020-08-18 13:21:23.989 CustomClientBuilder:33 - Quitting builder 
+[WARN ] 2020-08-18 13:21:23.989 AuthenticationService:38 - Auth token received from the header 
+[INFO ] 2020-08-18 13:21:23.990 BaseTest:42 - BeforeMethod: Initialize Services 
+[INFO ] 2020-08-18 13:21:23.991 TestListener:27 - I am in onTestStart method connectWithoutToken start 
+[INFO ] 2020-08-18 13:21:23.991 TestListener:27 - I am in onTestStart method connectWithoutToken start 
+[INFO ] 2020-08-18 13:21:23.992 CustomClientBuilder:24 - Starting ClientBuilder 
+[WARN ] 2020-08-18 13:21:24.095 BookService:40 - Trigger uri : http://localhost:8080/api/library/books 
+[INFO ] 2020-08-18 13:21:24.096 CustomClientBuilder:33 - Quitting builder 
+[DEBUG] 2020-08-18 13:21:24.096 VerifyConnectionWithoutTokenTest:18 - InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books, status=403, reason=Forbidden}} 
+[WARN ] 2020-08-18 13:21:24.098 VerifyConnectionWithoutTokenTest:22 - Connection without token failed 
+[INFO ] 2020-08-18 13:21:24.099 TestListener:32 - I am in onTestSuccess method connectWithoutToken succeed 
+[INFO ] 2020-08-18 13:21:24.099 TestListener:32 - I am in onTestSuccess method connectWithoutToken succeed 
+[INFO ] 2020-08-18 13:21:24.100 BaseTest:50 - AfterMethod: Nullify services 
+[INFO ] 2020-08-18 13:21:24.101 TestListener:22 - I am in onFinish method VerifyConnectionWithoutTokenTest 
+[INFO ] 2020-08-18 13:21:24.101 TestListener:22 - I am in onFinish method VerifyConnectionWithoutTokenTest 

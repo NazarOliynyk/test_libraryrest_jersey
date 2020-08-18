@@ -3,6 +3,7 @@ package librarytests.negativescenario;
 import librarytests.testutils.BaseTest;
 import model.author.Author;
 import model.book.Book;
+import model.fault.Fault;
 import model.genre.Genre;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -34,7 +35,10 @@ public class SaveBookWithNonexistentGenreTest extends BaseTest {
 
         Response responseOnPost = bookService.saveBook(book, realAuthorId, nonexistentGenreId, token);
         logger.debug(responseOnPost);
-        Assert.assertEquals(responseOnPost.getStatus(), 404, "Wrong status code");
+        Fault fault = responseOnPost.readEntity(Fault.class);
+        Assert.assertEquals(fault.getStatusCode(), 404, "Wrong status code");
+        Assert.assertEquals(fault.getErrorMessage(),
+                "Genre with 'genreId' = '"+nonexistentGenreId+"' doesn't exist!", "Wrong error message");
         logger.warn("Saving a Book with id: " +
                 incrementedBookId + " failed because of nonexistent Genre with id: "+ nonexistentGenreId);
     }

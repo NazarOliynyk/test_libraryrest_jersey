@@ -1,6 +1,7 @@
 package librarytests.negativescenario;
 
 import librarytests.testutils.BaseTest;
+import model.fault.Fault;
 import model.genre.Genre;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -24,7 +25,9 @@ public class SaveExistedGenreTest extends BaseTest {
 
         Response responseOnPost = genreService.saveGenre(genre, token);
         logger.debug(responseOnPost);
-        Assert.assertEquals(responseOnPost.getStatus(), 409, "Wrong status code");
+        Fault fault = responseOnPost.readEntity(Fault.class);
+        Assert.assertEquals(fault.getStatusCode(), 409, "Wrong status code");
+        Assert.assertEquals(fault.getErrorMessage(), "Genre with such 'genreId' already exists!");
         logger.warn("Falling to save a Genre with id: " + realGenreId);
     }
 }

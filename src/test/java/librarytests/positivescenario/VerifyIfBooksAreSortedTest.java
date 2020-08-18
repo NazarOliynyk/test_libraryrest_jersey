@@ -25,8 +25,7 @@ public class VerifyIfBooksAreSortedTest extends BaseTest {
         logger.debug("Getting the List of books with size: " + books.size());
 
         Comparator<Book> bookComparator = Comparator.comparing(Book::getBookName).reversed();
-        boolean isSorted = bookService.isSorted(books, bookComparator);
-        Assert.assertTrue(isSorted, "List of books is not sorted");
+        Assert.assertTrue(bookService.isSorted(books, bookComparator), "List of books is not sorted properly");
         logger.info("Verified if list is sorted");
     }
 
