@@ -907,3 +907,44 @@
 [WARN ] 2020-08-18 14:08:29.539 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
 [WARN ] 2020-08-18 14:08:29.541 AllureLogger:28 - Logged to allure: Auth token received from the header
 [WARN ] 2020-08-18 14:08:29.623 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/books
+[WARN ] 2020-08-18 14:30:25.806 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-18 14:30:25.814 AllureLogger:28 - Logged to allure: Auth token received from the header
+[WARN ] 2020-08-18 14:30:28.108 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/books?size=200
+[WARN ] 2020-08-18 14:30:29.144 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/authors?size=200
+[WARN ] 2020-08-18 14:30:30.281 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genres?size=200
+[WARN ] 2020-08-18 14:30:31.164 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/book/100005/9112
+[WARN ] 2020-08-18 14:30:31.643 AllureLogger:28 - Logged to allure: Saving a Book with id: 9822 failed because of nonexistent Genre with id: 9112
+[WARN ] 2020-08-18 14:30:32.922 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-18 14:30:32.925 AllureLogger:28 - Logged to allure: Auth token received from the header
+[WARN ] 2020-08-18 14:30:33.366 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genres?size=200
+[WARN ] 2020-08-18 14:30:34.120 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genre
+[WARN ] 2020-08-18 14:30:34.135 AllureLogger:28 - Logged to allure: Falling to save a Genre with id: 9111
+[WARN ] 2020-08-18 14:30:35.192 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-18 14:30:35.196 AllureLogger:28 - Logged to allure: Auth token received from the header
+[WARN ] 2020-08-18 14:30:35.464 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/authors?size=200
+[WARN ] 2020-08-18 14:30:39.755 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/author
+[WARN ] 2020-08-18 14:30:40.508 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/author/100006
+[WARN ] 2020-08-18 14:30:41.393 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-18 14:30:41.395 AllureLogger:28 - Logged to allure: Auth token received from the header
+[WARN ] 2020-08-18 14:30:41.641 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/books?size=200
+[WARN ] 2020-08-18 14:30:42.013 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/authors?size=200
+[WARN ] 2020-08-18 14:30:42.229 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genres?size=200
+[WARN ] 2020-08-18 14:30:42.953 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/book/100005/9111
+[WARN ] 2020-08-18 14:30:44.103 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/book/9822
+[WARN ] 2020-08-18 14:30:44.574 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-18 14:30:44.574 AllureLogger:28 - Logged to allure: Auth token received from the header
+[WARN ] 2020-08-18 14:30:45.021 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genres?size=200
+[WARN ] 2020-08-18 14:30:46.062 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genre
+[WARN ] 2020-08-18 14:30:46.988 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genre/9112
+[WARN ] 2020-08-18 14:30:47.819 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-18 14:30:47.821 AllureLogger:28 - Logged to allure: Auth token received from the header
+[WARN ] 2020-08-18 14:30:48.161 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/authors?size=200
+[WARN ] 2020-08-18 14:30:48.614 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/author
+[WARN ] 2020-08-18 14:30:49.044 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/author
+[WARN ] 2020-08-18 14:30:49.412 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/author/100006
+[WARN ] 2020-08-18 14:30:50.205 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-18 14:30:50.207 AllureLogger:28 - Logged to allure: Auth token received from the header
+[WARN ] 2020-08-18 14:30:50.670 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName
+[WARN ] 2020-08-18 14:30:51.653 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-18 14:30:51.654 AllureLogger:28 - Logged to allure: Auth token received from the header
+[WARN ] 2020-08-18 14:30:52.004 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/books

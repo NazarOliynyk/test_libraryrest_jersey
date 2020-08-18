@@ -1,8 +1,5 @@
 package client;
 
-//import org.apache.logging.log4j.LogManager;
-//import org.apache.logging.log4j.Logger;
-
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.Invocation;
@@ -15,7 +12,6 @@ import static logger.AllureLogger.*;
 public class CustomClientBuilder {
 
     private Invocation.Builder invocationBuilder = null;
-//    public static final Logger logger = LogManager.getLogger(CustomClientBuilder.class);
 
     public CustomClientBuilder() {
     }
