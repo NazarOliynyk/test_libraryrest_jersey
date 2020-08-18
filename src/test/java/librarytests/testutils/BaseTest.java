@@ -1,5 +1,6 @@
 package librarytests.testutils;
 
+import io.qameta.allure.Step;
 import model.author.Author;
 import model.book.Book;
 import model.genre.Genre;
@@ -16,7 +17,7 @@ import javax.ws.rs.core.GenericType;
 import javax.ws.rs.core.Response;
 import java.util.List;
 
-import static client.CustomClientBuilder.logger;
+import static logger.AllureLogger.*;
 
 @Listeners({TestListener.class})
 public abstract class BaseTest {
@@ -32,14 +33,14 @@ public abstract class BaseTest {
         try {
             token = new AuthenticationService().authenticate();
         } catch (AuthException e) {
-            logger.error(e.getMessage());
+            logToAllureError(e.getMessage());
             System.exit(0);
         }
         authorService = new AuthorService();
         bookService = new BookService();
         genreService = new GenreService();
         entityGenerator = new EntityGenerator();
-        logger.info("BeforeMethod: Initialize Services");
+        logToAllureInfo("BeforeMethod: Initialize Services");
     }
 
     @AfterClass
@@ -47,28 +48,31 @@ public abstract class BaseTest {
         authorService = null;
         bookService = null;
         genreService = null;
-        logger.info("AfterMethod: Nullify services");
+        logToAllureInfo("AfterMethod: Nullify services");
     }
 
+    @Step("Get List of authors from the Server")
     protected List<Author> getAllAuthors() {
         Response responseGetAllAuthors = authorService.getAllAuthors(token);
-        logger.debug(responseGetAllAuthors);
+        logToAllureDebug(responseGetAllAuthors.toString());
         Assert.assertEquals(responseGetAllAuthors.getStatus(), 200, "Wrong status code");
         return responseGetAllAuthors.readEntity(new GenericType<List<Author>>() {
         });
     }
 
+    @Step("Get List of books from the Server")
     protected List<Book> getAllBooks(){
         Response responseGetAllBooks = bookService.getAllBooks(token);
-        logger.debug(responseGetAllBooks);
+        logToAllureDebug(responseGetAllBooks.toString());
         Assert.assertEquals(responseGetAllBooks.getStatus(), 200, "Wrong status code");
         return responseGetAllBooks.readEntity(new GenericType<List<Book>>() {
         });
     }
 
+    @Step("Get List of genres from the Server")
     protected List<Genre> getAllGenres(){
         Response responseGetAllGenres = genreService.getAllGenres(token);
-        logger.debug(responseGetAllGenres);
+        logToAllureDebug(responseGetAllGenres.toString());
         Assert.assertEquals(responseGetAllGenres.getStatus(), 200, "Wrong status code");
         return responseGetAllGenres.readEntity(new GenericType<List<Genre>>() {
         });

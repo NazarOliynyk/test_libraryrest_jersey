@@ -12,7 +12,7 @@ import java.net.URI;
 import java.util.Comparator;
 import java.util.List;
 
-import static client.CustomClientBuilder.logger;
+import static logger.AllureLogger.*;
 import static utils.Constants.*;
 
 public class BookService extends BaseService{
@@ -28,7 +28,7 @@ public class BookService extends BaseService{
         uri = URI.create(BASE_URI + GET_ALL_BOOKS + params);
         invocationBuilder = customClientBuilder.getInvocationBuilder(uri).header(AUTH_KEY_WORD, token);
         Response response = invocationBuilder.get();
-        logger.warn("Trigger uri : "+uri);
+        logToAllureWarn("Trigger uri : "+uri);
         customClientBuilder.quit();
         return response;
     }
@@ -37,7 +37,7 @@ public class BookService extends BaseService{
         uri = URI.create(BASE_URI + GET_ALL_BOOKS);
         invocationBuilder = customClientBuilder.getInvocationBuilder(uri);
         Response response = invocationBuilder.get();
-        logger.warn("Trigger uri : "+uri);
+        logToAllureWarn("Trigger uri : "+uri);
         customClientBuilder.quit();
         return response;
     }
@@ -51,7 +51,7 @@ public class BookService extends BaseService{
         uri = URI.create(BASE_URI + GET_ALL_BOOKS + params);
         invocationBuilder = customClientBuilder.getInvocationBuilder(uri).header(AUTH_KEY_WORD, token);
         Response response = invocationBuilder.get();
-        logger.warn("Trigger uri : "+uri);
+        logToAllureWarn("Trigger uri : "+uri);
         customClientBuilder.quit();
         return response;
     }
@@ -61,7 +61,7 @@ public class BookService extends BaseService{
         invocationBuilder = customClientBuilder.getInvocationBuilder(uri).header(AUTH_KEY_WORD, token);
         Response response =
                 invocationBuilder.post(Entity.entity(book, MediaType.APPLICATION_JSON));
-        logger.warn("Trigger uri : "+uri);
+        logToAllureWarn("Trigger uri : "+uri);
         customClientBuilder.quit();
         return response;
     }
@@ -70,7 +70,7 @@ public class BookService extends BaseService{
         uri = URI.create(BASE_URI + String.format(GET_BOOK, bookId));
         invocationBuilder = customClientBuilder.getInvocationBuilder(uri).header(AUTH_KEY_WORD, token);
         Response response = invocationBuilder.get();
-        logger.warn("Trigger uri : "+uri);
+        logToAllureWarn("Trigger uri : "+uri);
         customClientBuilder.quit();
         return response;
     }
@@ -79,7 +79,7 @@ public class BookService extends BaseService{
         uri = URI.create(BASE_URI+String.format(DELETE_BOOK, bookId));
         invocationBuilder = customClientBuilder.getInvocationBuilder(uri).header(AUTH_KEY_WORD, token);
         Response response = invocationBuilder.delete();
-        logger.warn("Trigger uri : "+uri);
+        logToAllureWarn("Trigger uri : "+uri);
         customClientBuilder.quit();
         return response;
     }

@@ -10,7 +10,7 @@ import javax.ws.rs.core.Response;
 import java.net.URI;
 
 import static utils.Constants.*;
-import static client.CustomClientBuilder.logger;
+import static logger.AllureLogger.*;
 
 public class AuthorService extends BaseService{
 
@@ -26,7 +26,7 @@ public class AuthorService extends BaseService{
         invocationBuilder = customClientBuilder.
                 getInvocationBuilder(uri).header(AUTH_KEY_WORD, token);
         Response response = invocationBuilder.get();
-        logger.warn("Trigger uri : "+uri);
+        logToAllureWarn("Trigger uri : "+uri);
         customClientBuilder.quit();
         return response;
     }
@@ -36,7 +36,7 @@ public class AuthorService extends BaseService{
         invocationBuilder = customClientBuilder.getInvocationBuilder(uri).header(AUTH_KEY_WORD, token);
         Response response =
                 invocationBuilder.post(Entity.entity(author, MediaType.APPLICATION_JSON));
-        logger.warn("Trigger uri : "+uri);
+        logToAllureWarn("Trigger uri : "+uri);
         customClientBuilder.quit();
         return response;
     }
@@ -46,7 +46,7 @@ public class AuthorService extends BaseService{
         invocationBuilder = customClientBuilder.getInvocationBuilder(uri).header(AUTH_KEY_WORD, token);
         Response response =
                 invocationBuilder.put(Entity.entity(author, MediaType.APPLICATION_JSON));
-        logger.warn("Trigger uri : "+uri);
+        logToAllureWarn("Trigger uri : "+uri);
         customClientBuilder.quit();
         return response;
     }
@@ -55,7 +55,7 @@ public class AuthorService extends BaseService{
         uri = URI.create(BASE_URI + String.format(GET_AUTHOR, authorId));
         invocationBuilder = customClientBuilder.getInvocationBuilder(uri).header(AUTH_KEY_WORD, token);
         Response response = invocationBuilder.get();
-        logger.warn("Trigger uri : "+uri);
+        logToAllureWarn("Trigger uri : "+uri);
         customClientBuilder.quit();
         return response;
     }
@@ -64,7 +64,7 @@ public class AuthorService extends BaseService{
         uri = URI.create(BASE_URI+String.format(DELETE_AUTHOR, authorId));
         invocationBuilder = customClientBuilder.getInvocationBuilder(uri).header(AUTH_KEY_WORD, token);
         Response response = invocationBuilder.delete();
-        logger.warn("Trigger uri : "+uri);
+        logToAllureWarn("Trigger uri : "+uri);
         customClientBuilder.quit();
         return response;
     }

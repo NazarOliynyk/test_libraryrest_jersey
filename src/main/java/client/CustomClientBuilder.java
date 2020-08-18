@@ -1,7 +1,7 @@
 package client;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+//import org.apache.logging.log4j.LogManager;
+//import org.apache.logging.log4j.Logger;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
@@ -10,10 +10,12 @@ import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 import java.net.URI;
 
+import static logger.AllureLogger.*;
+
 public class CustomClientBuilder {
 
     private Invocation.Builder invocationBuilder = null;
-    public static final Logger logger = LogManager.getLogger(CustomClientBuilder.class);
+//    public static final Logger logger = LogManager.getLogger(CustomClientBuilder.class);
 
     public CustomClientBuilder() {
     }
@@ -21,7 +23,7 @@ public class CustomClientBuilder {
     public synchronized Invocation.Builder getInvocationBuilder(URI uri) {
 
         if (invocationBuilder == null) {
-            logger.info("Starting ClientBuilder");
+            logToAllureInfo("Starting ClientBuilder");
             Client client = ClientBuilder.newClient();
             WebTarget target = client.target(uri);
             invocationBuilder = target.request(MediaType.APPLICATION_JSON);
@@ -30,7 +32,7 @@ public class CustomClientBuilder {
     }
 
     public void quit() {
-        logger.info("Quitting builder");
+        logToAllureInfo("Quitting builder");
         invocationBuilder = null;
     }
 

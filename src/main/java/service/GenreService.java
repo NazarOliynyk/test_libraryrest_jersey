@@ -9,7 +9,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.net.URI;
 
-import static client.CustomClientBuilder.logger;
+import static logger.AllureLogger.*;
 import static utils.Constants.*;
 
 public class GenreService extends BaseService {
@@ -25,7 +25,7 @@ public class GenreService extends BaseService {
         uri = URI.create(BASE_URI + GET_ALL_GENRES + params);
         invocationBuilder = customClientBuilder.getInvocationBuilder(uri).header(AUTH_KEY_WORD, token);
         Response response = invocationBuilder.get();
-        logger.info("Trigger uri : " + uri);
+        logToAllureWarn("Trigger uri : " + uri);
         customClientBuilder.quit();
         return response;
     }
@@ -35,7 +35,7 @@ public class GenreService extends BaseService {
         invocationBuilder = customClientBuilder.getInvocationBuilder(uri).header(AUTH_KEY_WORD, token);
         Response response =
                 invocationBuilder.post(Entity.entity(genre, MediaType.APPLICATION_JSON));
-        logger.info("Trigger uri : " + uri);
+        logToAllureWarn("Trigger uri : " + uri);
         customClientBuilder.quit();
         return response;
     }
@@ -44,7 +44,7 @@ public class GenreService extends BaseService {
         uri = URI.create(BASE_URI + String.format(GET_GENRE, genreId));
         invocationBuilder = customClientBuilder.getInvocationBuilder(uri).header(AUTH_KEY_WORD, token);
         Response response = invocationBuilder.get();
-        logger.info("Trigger uri : " + uri);
+        logToAllureWarn("Trigger uri : " + uri);
         customClientBuilder.quit();
         return response;
     }
@@ -53,7 +53,7 @@ public class GenreService extends BaseService {
         uri = URI.create(BASE_URI + String.format(DELETE_GENRE, genreId));
         invocationBuilder = customClientBuilder.getInvocationBuilder(uri).header(AUTH_KEY_WORD, token);
         Response response = invocationBuilder.delete();
-        logger.info("Trigger uri : " + uri);
+        logToAllureWarn("Trigger uri : " + uri);
         customClientBuilder.quit();
         return response;
     }

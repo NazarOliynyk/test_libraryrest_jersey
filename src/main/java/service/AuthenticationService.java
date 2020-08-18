@@ -9,7 +9,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.net.URI;
 
-import static client.CustomClientBuilder.logger;
+import static logger.AllureLogger.*;
 import static utils.Constants.*;
 
 public class AuthenticationService extends BaseService{
@@ -26,16 +26,15 @@ public class AuthenticationService extends BaseService{
         userDetails.setPassword(AUTH_PASSWORD);
         Response response =
                 invocationBuilder.post(Entity.entity(userDetails, MediaType.APPLICATION_JSON));
-        logger.warn("Trigger uri : "+uri);
+        logToAllureWarn("Trigger uri : "+uri);
         customClientBuilder.quit();
         String token;
         if(response.getStatus() == 200){
             token = String.valueOf(response.getHeaders().getFirst(AUTH_KEY_WORD));
-            logger.trace(token);
         }else {
             throw new AuthException("Authentication failed !!!!");
         }
-        logger.warn("Auth token received from the header");
+        logToAllureWarn("Auth token received from the header");
         return token;
     }
 }

@@ -1,6 +1,5 @@
 package serializer;
 
-
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
@@ -10,7 +9,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 
-import static client.CustomClientBuilder.logger;
+import static logger.AllureLogger.*;
 
 public class CustomDateDeserializer extends StdDeserializer<LocalDate> {
     public CustomDateDeserializer() {
@@ -28,7 +27,7 @@ public class CustomDateDeserializer extends StdDeserializer<LocalDate> {
         try {
             parsed = LocalDate.parse(jp.getValueAsString(), formatter);
         } catch (DateTimeParseException e) {
-            logger.error(e.getMessage());
+            logToAllureError(e.getMessage());
         }
 
         return parsed;

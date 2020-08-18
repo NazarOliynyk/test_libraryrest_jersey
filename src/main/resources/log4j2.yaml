@@ -55,7 +55,7 @@ Configutation:
     Root:
       level: all
     Logger:
-    - name: client.CustomClientBuilder
+    - name: logger.AllureLogger
       level: all
       AppenderRef:
       - ref: Console_Appender

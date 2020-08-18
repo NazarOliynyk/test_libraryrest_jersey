@@ -1040,3 +1040,471 @@
 [INFO ] 2020-08-18 13:21:24.100 BaseTest:50 - AfterMethod: Nullify services
 [INFO ] 2020-08-18 13:21:24.101 TestListener:22 - I am in onFinish method VerifyConnectionWithoutTokenTest
 [INFO ] 2020-08-18 13:21:24.101 TestListener:22 - I am in onFinish method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-18 13:54:23.123 AllureLogger:13 - Logged to allure: I am in onStart method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-18 13:54:23.566 AllureLogger:13 - Logged to allure: I am in onStart method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-18 13:54:23.960 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:54:38.759 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-18 13:54:38.789 AllureLogger:13 - Logged to allure: Quitting builder
+[WARN ] 2020-08-18 13:54:38.791 AllureLogger:28 - Logged to allure: Auth token received from the header
+[INFO ] 2020-08-18 13:54:38.895 AllureLogger:13 - Logged to allure: BeforeMethod: Initialize Services
+[INFO ] 2020-08-18 13:54:38.954 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveBookNonexistentGenre start
+[INFO ] 2020-08-18 13:54:39.407 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveBookNonexistentGenre start
+[INFO ] 2020-08-18 13:54:39.532 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:54:56.854 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/books?size=200
+[INFO ] 2020-08-18 13:54:56.855 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:54:56.870 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 13:54:58.129 AllureLogger:18 - Logged to allure: Getting the List of books with size: 200
+[INFO ] 2020-08-18 13:54:58.133 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:54:58.585 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-18 13:54:58.589 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:54:58.590 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 13:55:00.305 AllureLogger:18 - Logged to allure: Getting the List of authors with size: 59
+[INFO ] 2020-08-18 13:55:00.310 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:01.266 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-18 13:55:01.267 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:01.268 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 13:55:01.313 AllureLogger:18 - Logged to allure: Getting the List of genres with size: 15
+[INFO ] 2020-08-18 13:55:01.317 AllureLogger:13 - Logged to allure: Creating an Book with id: 9822
+[INFO ] 2020-08-18 13:55:01.320 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:03.297 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/book/100005/9112
+[INFO ] 2020-08-18 13:55:03.300 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:03.302 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/book/100005/9112, status=404, reason=Not Found}}
+[WARN ] 2020-08-18 13:55:03.337 AllureLogger:28 - Logged to allure: Saving a Book with id: 9822 failed because of nonexistent Genre with id: 9112
+[INFO ] 2020-08-18 13:55:03.339 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveBookNonexistentGenre succeed
+[INFO ] 2020-08-18 13:55:03.525 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveBookNonexistentGenre succeed
+[INFO ] 2020-08-18 13:55:03.583 AllureLogger:13 - Logged to allure: AfterMethod: Nullify services
+[INFO ] 2020-08-18 13:55:03.596 AllureLogger:13 - Logged to allure: I am in onFinish method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-18 13:55:04.099 AllureLogger:13 - Logged to allure: I am in onFinish method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-18 13:55:04.115 AllureLogger:13 - Logged to allure: I am in onStart method SaveExistedGenreTest
+[INFO ] 2020-08-18 13:55:04.117 AllureLogger:13 - Logged to allure: I am in onStart method SaveExistedGenreTest
+[INFO ] 2020-08-18 13:55:04.128 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:04.813 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-18 13:55:04.814 AllureLogger:13 - Logged to allure: Quitting builder
+[WARN ] 2020-08-18 13:55:04.815 AllureLogger:28 - Logged to allure: Auth token received from the header
+[INFO ] 2020-08-18 13:55:04.816 AllureLogger:13 - Logged to allure: BeforeMethod: Initialize Services
+[INFO ] 2020-08-18 13:55:04.820 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveGenreWithExistedId start
+[INFO ] 2020-08-18 13:55:04.835 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveGenreWithExistedId start
+[INFO ] 2020-08-18 13:55:04.842 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:05.117 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-18 13:55:05.118 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:05.119 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 13:55:05.132 AllureLogger:18 - Logged to allure: Getting the List of genres with size: 15
+[INFO ] 2020-08-18 13:55:05.137 AllureLogger:13 - Logged to allure: Creating an Genre with existed genreId: 9111
+[INFO ] 2020-08-18 13:55:05.149 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:05.988 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genre
+[INFO ] 2020-08-18 13:55:05.989 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:05.990 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/genre, status=409, reason=Conflict}}
+[WARN ] 2020-08-18 13:55:05.995 AllureLogger:28 - Logged to allure: Falling to save a Genre with id: 9111
+[INFO ] 2020-08-18 13:55:05.996 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveGenreWithExistedId succeed
+[INFO ] 2020-08-18 13:55:06.001 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveGenreWithExistedId succeed
+[INFO ] 2020-08-18 13:55:06.003 AllureLogger:13 - Logged to allure: AfterMethod: Nullify services
+[INFO ] 2020-08-18 13:55:06.005 AllureLogger:13 - Logged to allure: I am in onFinish method SaveExistedGenreTest
+[INFO ] 2020-08-18 13:55:06.009 AllureLogger:13 - Logged to allure: I am in onFinish method SaveExistedGenreTest
+[INFO ] 2020-08-18 13:55:06.010 AllureLogger:13 - Logged to allure: I am in onStart method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-18 13:55:06.011 AllureLogger:13 - Logged to allure: I am in onStart method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-18 13:55:06.014 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:06.770 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-18 13:55:06.773 AllureLogger:13 - Logged to allure: Quitting builder
+[WARN ] 2020-08-18 13:55:06.778 AllureLogger:28 - Logged to allure: Auth token received from the header
+[INFO ] 2020-08-18 13:55:06.787 AllureLogger:13 - Logged to allure: BeforeMethod: Initialize Services
+[INFO ] 2020-08-18 13:55:06.789 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveAndDeleteAuthor start
+[INFO ] 2020-08-18 13:55:06.796 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveAndDeleteAuthor start
+[INFO ] 2020-08-18 13:55:06.799 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:07.049 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-18 13:55:07.050 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:07.052 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 13:55:07.091 AllureLogger:18 - Logged to allure: Getting the List of authors with size: 59
+[INFO ] 2020-08-18 13:55:07.093 AllureLogger:13 - Logged to allure: Creating an Author with id: 100006
+[INFO ] 2020-08-18 13:55:07.093 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:08.035 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-18 13:55:08.036 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:08.037 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/author, status=201, reason=Created}}
+[INFO ] 2020-08-18 13:55:08.045 AllureLogger:13 - Logged to allure: Saving an Author with id: 100006
+[INFO ] 2020-08-18 13:55:08.048 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:08.551 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/author/100006
+[INFO ] 2020-08-18 13:55:08.552 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:08.553 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=DELETE, uri=http://localhost:8080/api/library/author/100006, status=204, reason=No Content}}
+[INFO ] 2020-08-18 13:55:08.554 AllureLogger:13 - Logged to allure: Deleting an Author with id: 100006
+[INFO ] 2020-08-18 13:55:08.555 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveAndDeleteAuthor succeed
+[INFO ] 2020-08-18 13:55:08.651 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveAndDeleteAuthor succeed
+[INFO ] 2020-08-18 13:55:08.654 AllureLogger:13 - Logged to allure: AfterMethod: Nullify services
+[INFO ] 2020-08-18 13:55:08.655 AllureLogger:13 - Logged to allure: I am in onFinish method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-18 13:55:08.727 AllureLogger:13 - Logged to allure: I am in onFinish method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-18 13:55:08.728 AllureLogger:13 - Logged to allure: I am in onStart method SaveAndDeleteBook
+[INFO ] 2020-08-18 13:55:08.730 AllureLogger:13 - Logged to allure: I am in onStart method SaveAndDeleteBook
+[INFO ] 2020-08-18 13:55:08.823 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:09.494 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-18 13:55:09.496 AllureLogger:13 - Logged to allure: Quitting builder
+[WARN ] 2020-08-18 13:55:09.498 AllureLogger:28 - Logged to allure: Auth token received from the header
+[INFO ] 2020-08-18 13:55:09.499 AllureLogger:13 - Logged to allure: BeforeMethod: Initialize Services
+[INFO ] 2020-08-18 13:55:09.502 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveAndDeleteBook start
+[INFO ] 2020-08-18 13:55:09.510 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveAndDeleteBook start
+[INFO ] 2020-08-18 13:55:09.515 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:09.850 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/books?size=200
+[INFO ] 2020-08-18 13:55:09.852 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:09.854 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 13:55:10.238 AllureLogger:18 - Logged to allure: Getting the List of books with size: 200
+[INFO ] 2020-08-18 13:55:10.240 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:10.346 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-18 13:55:10.347 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:10.348 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 13:55:10.379 AllureLogger:18 - Logged to allure: Getting the List of authors with size: 59
+[INFO ] 2020-08-18 13:55:10.388 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:10.683 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-18 13:55:10.686 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:10.687 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 13:55:10.704 AllureLogger:18 - Logged to allure: Getting the List of genres with size: 15
+[INFO ] 2020-08-18 13:55:10.706 AllureLogger:13 - Logged to allure: Creating an Book with id: 9822
+[INFO ] 2020-08-18 13:55:10.707 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:11.203 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/book/100005/9111
+[INFO ] 2020-08-18 13:55:11.204 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:11.209 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/book/100005/9111, status=201, reason=Created}}
+[INFO ] 2020-08-18 13:55:11.221 AllureLogger:13 - Logged to allure: Saving a Book with id: 9822
+[INFO ] 2020-08-18 13:55:11.223 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:11.566 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/book/9822
+[INFO ] 2020-08-18 13:55:11.567 AllureLogger:13 - Logged to allure: Quitting builder
+[INFO ] 2020-08-18 13:55:11.568 AllureLogger:13 - Logged to allure: Deleting a Book with id: 9822
+[INFO ] 2020-08-18 13:55:11.570 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveAndDeleteBook succeed
+[INFO ] 2020-08-18 13:55:11.586 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveAndDeleteBook succeed
+[INFO ] 2020-08-18 13:55:11.589 AllureLogger:13 - Logged to allure: AfterMethod: Nullify services
+[INFO ] 2020-08-18 13:55:11.591 AllureLogger:13 - Logged to allure: I am in onFinish method SaveAndDeleteBook
+[INFO ] 2020-08-18 13:55:11.732 AllureLogger:13 - Logged to allure: I am in onFinish method SaveAndDeleteBook
+[INFO ] 2020-08-18 13:55:11.734 AllureLogger:13 - Logged to allure: I am in onStart method SaveAndDeleteGenreTest
+[INFO ] 2020-08-18 13:55:11.737 AllureLogger:13 - Logged to allure: I am in onStart method SaveAndDeleteGenreTest
+[INFO ] 2020-08-18 13:55:11.746 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:13.039 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-18 13:55:13.040 AllureLogger:13 - Logged to allure: Quitting builder
+[WARN ] 2020-08-18 13:55:13.041 AllureLogger:28 - Logged to allure: Auth token received from the header
+[INFO ] 2020-08-18 13:55:13.042 AllureLogger:13 - Logged to allure: BeforeMethod: Initialize Services
+[INFO ] 2020-08-18 13:55:13.044 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveAndDeleteGenre start
+[INFO ] 2020-08-18 13:55:13.060 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveAndDeleteGenre start
+[INFO ] 2020-08-18 13:55:13.061 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:13.170 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-18 13:55:13.171 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:13.172 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 13:55:13.183 AllureLogger:18 - Logged to allure: Getting the List of genres with size: 15
+[INFO ] 2020-08-18 13:55:13.185 AllureLogger:13 - Logged to allure: Creating an Genre with id: 9112
+[INFO ] 2020-08-18 13:55:13.187 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:13.541 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genre
+[INFO ] 2020-08-18 13:55:13.544 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:13.566 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/genre, status=201, reason=Created}}
+[INFO ] 2020-08-18 13:55:13.572 AllureLogger:13 - Logged to allure: Saving a Genre with id: 9112
+[INFO ] 2020-08-18 13:55:13.573 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:14.105 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genre/9112
+[INFO ] 2020-08-18 13:55:14.106 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:14.107 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=DELETE, uri=http://localhost:8080/api/library/genre/9112, status=204, reason=No Content}}
+[INFO ] 2020-08-18 13:55:14.108 AllureLogger:13 - Logged to allure: Deleting a Genre with id: 9112
+[INFO ] 2020-08-18 13:55:14.109 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveAndDeleteGenre succeed
+[INFO ] 2020-08-18 13:55:14.114 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveAndDeleteGenre succeed
+[INFO ] 2020-08-18 13:55:14.119 AllureLogger:13 - Logged to allure: AfterMethod: Nullify services
+[INFO ] 2020-08-18 13:55:14.121 AllureLogger:13 - Logged to allure: I am in onFinish method SaveAndDeleteGenreTest
+[INFO ] 2020-08-18 13:55:14.201 AllureLogger:13 - Logged to allure: I am in onFinish method SaveAndDeleteGenreTest
+[INFO ] 2020-08-18 13:55:14.202 AllureLogger:13 - Logged to allure: I am in onStart method UpdateAuthorTest
+[INFO ] 2020-08-18 13:55:14.202 AllureLogger:13 - Logged to allure: I am in onStart method UpdateAuthorTest
+[INFO ] 2020-08-18 13:55:14.213 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:14.880 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-18 13:55:14.881 AllureLogger:13 - Logged to allure: Quitting builder
+[WARN ] 2020-08-18 13:55:14.882 AllureLogger:28 - Logged to allure: Auth token received from the header
+[INFO ] 2020-08-18 13:55:14.883 AllureLogger:13 - Logged to allure: BeforeMethod: Initialize Services
+[INFO ] 2020-08-18 13:55:14.884 AllureLogger:13 - Logged to allure: I am in onTestStart method testUpdateAuthor start
+[INFO ] 2020-08-18 13:55:14.892 AllureLogger:13 - Logged to allure: I am in onTestStart method testUpdateAuthor start
+[INFO ] 2020-08-18 13:55:14.894 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:15.573 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-18 13:55:15.574 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:15.583 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 13:55:15.702 AllureLogger:18 - Logged to allure: Getting the List of authors with size: 59
+[INFO ] 2020-08-18 13:55:15.703 AllureLogger:13 - Logged to allure: Creating an Author with id: 100006
+[INFO ] 2020-08-18 13:55:15.704 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:16.415 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-18 13:55:16.416 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:16.421 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/author, status=201, reason=Created}}
+[INFO ] 2020-08-18 13:55:16.450 AllureLogger:13 - Logged to allure: Saving an Author with id: 100006
+[INFO ] 2020-08-18 13:55:16.451 AllureLogger:13 - Logged to allure: Updating certain fields of Author
+[INFO ] 2020-08-18 13:55:16.454 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:19.919 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-18 13:55:19.921 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:19.922 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=PUT, uri=http://localhost:8080/api/library/author, status=200, reason=OK}}
+[INFO ] 2020-08-18 13:55:19.923 AllureLogger:13 - Logged to allure: Saving updated Author with id: 100006
+[INFO ] 2020-08-18 13:55:19.924 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:22.021 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/author/100006
+[INFO ] 2020-08-18 13:55:22.022 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:22.023 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=DELETE, uri=http://localhost:8080/api/library/author/100006, status=204, reason=No Content}}
+[INFO ] 2020-08-18 13:55:22.024 AllureLogger:13 - Logged to allure: Deleting an Author with id: 100006
+[INFO ] 2020-08-18 13:55:22.025 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testUpdateAuthor succeed
+[INFO ] 2020-08-18 13:55:22.030 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testUpdateAuthor succeed
+[INFO ] 2020-08-18 13:55:22.032 AllureLogger:13 - Logged to allure: AfterMethod: Nullify services
+[INFO ] 2020-08-18 13:55:22.033 AllureLogger:13 - Logged to allure: I am in onFinish method UpdateAuthorTest
+[INFO ] 2020-08-18 13:55:22.049 AllureLogger:13 - Logged to allure: I am in onFinish method UpdateAuthorTest
+[INFO ] 2020-08-18 13:55:22.051 AllureLogger:13 - Logged to allure: I am in onStart method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-18 13:55:22.052 AllureLogger:13 - Logged to allure: I am in onStart method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-18 13:55:22.054 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:22.952 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-18 13:55:22.953 AllureLogger:13 - Logged to allure: Quitting builder
+[WARN ] 2020-08-18 13:55:22.955 AllureLogger:28 - Logged to allure: Auth token received from the header
+[INFO ] 2020-08-18 13:55:22.958 AllureLogger:13 - Logged to allure: BeforeMethod: Initialize Services
+[INFO ] 2020-08-18 13:55:22.960 AllureLogger:13 - Logged to allure: I am in onTestStart method verifySortingOfBooks start
+[INFO ] 2020-08-18 13:55:22.966 AllureLogger:13 - Logged to allure: I am in onTestStart method verifySortingOfBooks start
+[INFO ] 2020-08-18 13:55:22.968 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:24.716 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName
+[INFO ] 2020-08-18 13:55:24.717 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:24.720 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName, status=200, reason=OK}}
+[DEBUG] 2020-08-18 13:55:24.888 AllureLogger:18 - Logged to allure: Getting the List of books with size: 200
+[INFO ] 2020-08-18 13:55:27.012 AllureLogger:13 - Logged to allure: Verified if list is sorted
+[INFO ] 2020-08-18 13:55:27.014 AllureLogger:13 - Logged to allure: I am in onTestSuccess method verifySortingOfBooks succeed
+[INFO ] 2020-08-18 13:55:27.088 AllureLogger:13 - Logged to allure: I am in onTestSuccess method verifySortingOfBooks succeed
+[INFO ] 2020-08-18 13:55:27.092 AllureLogger:13 - Logged to allure: AfterMethod: Nullify services
+[INFO ] 2020-08-18 13:55:27.109 AllureLogger:13 - Logged to allure: I am in onFinish method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-18 13:55:27.172 AllureLogger:13 - Logged to allure: I am in onFinish method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-18 13:55:27.175 AllureLogger:13 - Logged to allure: I am in onStart method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-18 13:55:27.177 AllureLogger:13 - Logged to allure: I am in onStart method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-18 13:55:27.180 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:28.027 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-18 13:55:28.028 AllureLogger:13 - Logged to allure: Quitting builder
+[WARN ] 2020-08-18 13:55:28.029 AllureLogger:28 - Logged to allure: Auth token received from the header
+[INFO ] 2020-08-18 13:55:28.029 AllureLogger:13 - Logged to allure: BeforeMethod: Initialize Services
+[INFO ] 2020-08-18 13:55:28.031 AllureLogger:13 - Logged to allure: I am in onTestStart method connectWithoutToken start
+[INFO ] 2020-08-18 13:55:28.038 AllureLogger:13 - Logged to allure: I am in onTestStart method connectWithoutToken start
+[INFO ] 2020-08-18 13:55:28.039 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 13:55:28.727 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/books
+[INFO ] 2020-08-18 13:55:28.728 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 13:55:28.729 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books, status=403, reason=Forbidden}}
+[DEBUG] 2020-08-18 13:55:28.730 AllureLogger:18 - Logged to allure: Connection without token failed
+[INFO ] 2020-08-18 13:55:28.731 AllureLogger:13 - Logged to allure: I am in onTestSuccess method connectWithoutToken succeed
+[INFO ] 2020-08-18 13:55:28.739 AllureLogger:13 - Logged to allure: I am in onTestSuccess method connectWithoutToken succeed
+[INFO ] 2020-08-18 13:55:28.743 AllureLogger:13 - Logged to allure: AfterMethod: Nullify services
+[INFO ] 2020-08-18 13:55:28.746 AllureLogger:13 - Logged to allure: I am in onFinish method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-18 13:55:28.856 AllureLogger:13 - Logged to allure: I am in onFinish method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-18 14:08:02.591 AllureLogger:13 - Logged to allure: I am in onStart method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-18 14:08:02.671 AllureLogger:13 - Logged to allure: I am in onStart method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-18 14:08:03.060 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:11.656 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-18 14:08:11.695 AllureLogger:13 - Logged to allure: Quitting builder
+[WARN ] 2020-08-18 14:08:11.697 AllureLogger:28 - Logged to allure: Auth token received from the header
+[INFO ] 2020-08-18 14:08:11.782 AllureLogger:13 - Logged to allure: BeforeMethod: Initialize Services
+[INFO ] 2020-08-18 14:08:11.912 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveBookNonexistentGenre start
+[INFO ] 2020-08-18 14:08:12.264 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveBookNonexistentGenre start
+[INFO ] 2020-08-18 14:08:12.318 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:12.705 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/books?size=200
+[INFO ] 2020-08-18 14:08:12.706 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:12.716 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 14:08:13.454 AllureLogger:18 - Logged to allure: Getting the List of books with size: 200
+[INFO ] 2020-08-18 14:08:13.458 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:13.883 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-18 14:08:13.885 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:13.886 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 14:08:17.356 AllureLogger:18 - Logged to allure: Getting the List of authors with size: 59
+[INFO ] 2020-08-18 14:08:17.359 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:17.726 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-18 14:08:17.727 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:17.729 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 14:08:17.745 AllureLogger:18 - Logged to allure: Getting the List of genres with size: 15
+[INFO ] 2020-08-18 14:08:17.746 AllureLogger:13 - Logged to allure: Creating an Book with id: 9822
+[INFO ] 2020-08-18 14:08:17.748 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:18.045 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/book/100005/9112
+[INFO ] 2020-08-18 14:08:18.047 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:18.049 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/book/100005/9112, status=404, reason=Not Found}}
+[WARN ] 2020-08-18 14:08:18.069 AllureLogger:28 - Logged to allure: Saving a Book with id: 9822 failed because of nonexistent Genre with id: 9112
+[INFO ] 2020-08-18 14:08:18.073 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveBookNonexistentGenre succeed
+[INFO ] 2020-08-18 14:08:18.306 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveBookNonexistentGenre succeed
+[INFO ] 2020-08-18 14:08:18.329 AllureLogger:13 - Logged to allure: AfterMethod: Nullify services
+[INFO ] 2020-08-18 14:08:18.336 AllureLogger:13 - Logged to allure: I am in onFinish method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-18 14:08:18.474 AllureLogger:13 - Logged to allure: I am in onFinish method SaveBookWithNonexistentGenreTest
+[INFO ] 2020-08-18 14:08:18.487 AllureLogger:13 - Logged to allure: I am in onStart method SaveExistedGenreTest
+[INFO ] 2020-08-18 14:08:18.491 AllureLogger:13 - Logged to allure: I am in onStart method SaveExistedGenreTest
+[INFO ] 2020-08-18 14:08:18.615 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:19.318 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-18 14:08:19.319 AllureLogger:13 - Logged to allure: Quitting builder
+[WARN ] 2020-08-18 14:08:19.320 AllureLogger:28 - Logged to allure: Auth token received from the header
+[INFO ] 2020-08-18 14:08:19.323 AllureLogger:13 - Logged to allure: BeforeMethod: Initialize Services
+[INFO ] 2020-08-18 14:08:19.327 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveGenreWithExistedId start
+[INFO ] 2020-08-18 14:08:19.337 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveGenreWithExistedId start
+[INFO ] 2020-08-18 14:08:19.339 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:19.652 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-18 14:08:19.654 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:19.655 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 14:08:19.664 AllureLogger:18 - Logged to allure: Getting the List of genres with size: 15
+[INFO ] 2020-08-18 14:08:19.666 AllureLogger:13 - Logged to allure: Creating an Genre with existed genreId: 9111
+[INFO ] 2020-08-18 14:08:19.667 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:19.809 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genre
+[INFO ] 2020-08-18 14:08:19.813 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:19.814 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/genre, status=409, reason=Conflict}}
+[WARN ] 2020-08-18 14:08:19.839 AllureLogger:28 - Logged to allure: Falling to save a Genre with id: 9111
+[INFO ] 2020-08-18 14:08:19.840 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveGenreWithExistedId succeed
+[INFO ] 2020-08-18 14:08:19.873 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveGenreWithExistedId succeed
+[INFO ] 2020-08-18 14:08:19.875 AllureLogger:13 - Logged to allure: AfterMethod: Nullify services
+[INFO ] 2020-08-18 14:08:19.878 AllureLogger:13 - Logged to allure: I am in onFinish method SaveExistedGenreTest
+[INFO ] 2020-08-18 14:08:19.913 AllureLogger:13 - Logged to allure: I am in onFinish method SaveExistedGenreTest
+[INFO ] 2020-08-18 14:08:19.914 AllureLogger:13 - Logged to allure: I am in onStart method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-18 14:08:19.916 AllureLogger:13 - Logged to allure: I am in onStart method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-18 14:08:19.920 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:20.416 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-18 14:08:20.418 AllureLogger:13 - Logged to allure: Quitting builder
+[WARN ] 2020-08-18 14:08:20.419 AllureLogger:28 - Logged to allure: Auth token received from the header
+[INFO ] 2020-08-18 14:08:20.420 AllureLogger:13 - Logged to allure: BeforeMethod: Initialize Services
+[INFO ] 2020-08-18 14:08:20.422 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveAndDeleteAuthor start
+[INFO ] 2020-08-18 14:08:20.427 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveAndDeleteAuthor start
+[INFO ] 2020-08-18 14:08:20.429 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:20.536 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-18 14:08:20.537 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:20.558 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 14:08:20.591 AllureLogger:18 - Logged to allure: Getting the List of authors with size: 59
+[INFO ] 2020-08-18 14:08:20.593 AllureLogger:13 - Logged to allure: Creating an Author with id: 100006
+[INFO ] 2020-08-18 14:08:20.594 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:21.115 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-18 14:08:21.116 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:21.119 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/author, status=201, reason=Created}}
+[INFO ] 2020-08-18 14:08:21.128 AllureLogger:13 - Logged to allure: Saving an Author with id: 100006
+[INFO ] 2020-08-18 14:08:21.130 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:21.381 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/author/100006
+[INFO ] 2020-08-18 14:08:21.383 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:21.385 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=DELETE, uri=http://localhost:8080/api/library/author/100006, status=204, reason=No Content}}
+[INFO ] 2020-08-18 14:08:21.387 AllureLogger:13 - Logged to allure: Deleting an Author with id: 100006
+[INFO ] 2020-08-18 14:08:21.388 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveAndDeleteAuthor succeed
+[INFO ] 2020-08-18 14:08:21.393 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveAndDeleteAuthor succeed
+[INFO ] 2020-08-18 14:08:21.394 AllureLogger:13 - Logged to allure: AfterMethod: Nullify services
+[INFO ] 2020-08-18 14:08:21.396 AllureLogger:13 - Logged to allure: I am in onFinish method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-18 14:08:21.428 AllureLogger:13 - Logged to allure: I am in onFinish method SaveAndDeleteAuthorTest
+[INFO ] 2020-08-18 14:08:21.432 AllureLogger:13 - Logged to allure: I am in onStart method SaveAndDeleteBook
+[INFO ] 2020-08-18 14:08:21.433 AllureLogger:13 - Logged to allure: I am in onStart method SaveAndDeleteBook
+[INFO ] 2020-08-18 14:08:21.462 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:22.169 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-18 14:08:22.170 AllureLogger:13 - Logged to allure: Quitting builder
+[WARN ] 2020-08-18 14:08:22.171 AllureLogger:28 - Logged to allure: Auth token received from the header
+[INFO ] 2020-08-18 14:08:22.173 AllureLogger:13 - Logged to allure: BeforeMethod: Initialize Services
+[INFO ] 2020-08-18 14:08:22.175 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveAndDeleteBook start
+[INFO ] 2020-08-18 14:08:22.191 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveAndDeleteBook start
+[INFO ] 2020-08-18 14:08:22.192 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:22.394 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/books?size=200
+[INFO ] 2020-08-18 14:08:22.396 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:22.398 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 14:08:22.454 AllureLogger:18 - Logged to allure: Getting the List of books with size: 200
+[INFO ] 2020-08-18 14:08:22.457 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:22.753 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-18 14:08:22.754 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:22.755 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 14:08:22.799 AllureLogger:18 - Logged to allure: Getting the List of authors with size: 59
+[INFO ] 2020-08-18 14:08:22.800 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:23.083 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-18 14:08:23.084 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:23.085 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 14:08:23.100 AllureLogger:18 - Logged to allure: Getting the List of genres with size: 15
+[INFO ] 2020-08-18 14:08:23.101 AllureLogger:13 - Logged to allure: Creating an Book with id: 9822
+[INFO ] 2020-08-18 14:08:23.104 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:23.791 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/book/100005/9111
+[INFO ] 2020-08-18 14:08:23.792 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:23.793 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/book/100005/9111, status=201, reason=Created}}
+[INFO ] 2020-08-18 14:08:23.809 AllureLogger:13 - Logged to allure: Saving a Book with id: 9822
+[INFO ] 2020-08-18 14:08:23.818 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:24.072 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/book/9822
+[INFO ] 2020-08-18 14:08:24.074 AllureLogger:13 - Logged to allure: Quitting builder
+[INFO ] 2020-08-18 14:08:24.075 AllureLogger:13 - Logged to allure: Deleting a Book with id: 9822
+[INFO ] 2020-08-18 14:08:24.076 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveAndDeleteBook succeed
+[INFO ] 2020-08-18 14:08:24.188 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveAndDeleteBook succeed
+[INFO ] 2020-08-18 14:08:24.207 AllureLogger:13 - Logged to allure: AfterMethod: Nullify services
+[INFO ] 2020-08-18 14:08:24.213 AllureLogger:13 - Logged to allure: I am in onFinish method SaveAndDeleteBook
+[INFO ] 2020-08-18 14:08:24.356 AllureLogger:13 - Logged to allure: I am in onFinish method SaveAndDeleteBook
+[INFO ] 2020-08-18 14:08:24.360 AllureLogger:13 - Logged to allure: I am in onStart method SaveAndDeleteGenreTest
+[INFO ] 2020-08-18 14:08:24.369 AllureLogger:13 - Logged to allure: I am in onStart method SaveAndDeleteGenreTest
+[INFO ] 2020-08-18 14:08:24.378 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:25.213 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-18 14:08:25.214 AllureLogger:13 - Logged to allure: Quitting builder
+[WARN ] 2020-08-18 14:08:25.215 AllureLogger:28 - Logged to allure: Auth token received from the header
+[INFO ] 2020-08-18 14:08:25.216 AllureLogger:13 - Logged to allure: BeforeMethod: Initialize Services
+[INFO ] 2020-08-18 14:08:25.218 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveAndDeleteGenre start
+[INFO ] 2020-08-18 14:08:25.236 AllureLogger:13 - Logged to allure: I am in onTestStart method testSaveAndDeleteGenre start
+[INFO ] 2020-08-18 14:08:25.238 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:25.317 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genres?size=200
+[INFO ] 2020-08-18 14:08:25.318 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:25.319 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/genres?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 14:08:25.342 AllureLogger:18 - Logged to allure: Getting the List of genres with size: 15
+[INFO ] 2020-08-18 14:08:25.343 AllureLogger:13 - Logged to allure: Creating an Genre with id: 9112
+[INFO ] 2020-08-18 14:08:25.346 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:25.735 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genre
+[INFO ] 2020-08-18 14:08:25.736 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:25.737 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/genre, status=201, reason=Created}}
+[INFO ] 2020-08-18 14:08:25.741 AllureLogger:13 - Logged to allure: Saving a Genre with id: 9112
+[INFO ] 2020-08-18 14:08:25.742 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:25.988 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/genre/9112
+[INFO ] 2020-08-18 14:08:25.989 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:25.990 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=DELETE, uri=http://localhost:8080/api/library/genre/9112, status=204, reason=No Content}}
+[INFO ] 2020-08-18 14:08:25.991 AllureLogger:13 - Logged to allure: Deleting a Genre with id: 9112
+[INFO ] 2020-08-18 14:08:25.992 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveAndDeleteGenre succeed
+[INFO ] 2020-08-18 14:08:26.046 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSaveAndDeleteGenre succeed
+[INFO ] 2020-08-18 14:08:26.150 AllureLogger:13 - Logged to allure: AfterMethod: Nullify services
+[INFO ] 2020-08-18 14:08:26.180 AllureLogger:13 - Logged to allure: I am in onFinish method SaveAndDeleteGenreTest
+[INFO ] 2020-08-18 14:08:26.264 AllureLogger:13 - Logged to allure: I am in onFinish method SaveAndDeleteGenreTest
+[INFO ] 2020-08-18 14:08:26.266 AllureLogger:13 - Logged to allure: I am in onStart method UpdateAuthorTest
+[INFO ] 2020-08-18 14:08:26.269 AllureLogger:13 - Logged to allure: I am in onStart method UpdateAuthorTest
+[INFO ] 2020-08-18 14:08:26.274 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:26.865 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-18 14:08:26.867 AllureLogger:13 - Logged to allure: Quitting builder
+[WARN ] 2020-08-18 14:08:26.868 AllureLogger:28 - Logged to allure: Auth token received from the header
+[INFO ] 2020-08-18 14:08:26.869 AllureLogger:13 - Logged to allure: BeforeMethod: Initialize Services
+[INFO ] 2020-08-18 14:08:26.870 AllureLogger:13 - Logged to allure: I am in onTestStart method testUpdateAuthor start
+[INFO ] 2020-08-18 14:08:26.880 AllureLogger:13 - Logged to allure: I am in onTestStart method testUpdateAuthor start
+[INFO ] 2020-08-18 14:08:26.883 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:27.106 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/authors?size=200
+[INFO ] 2020-08-18 14:08:27.107 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:27.108 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/authors?size=200, status=200, reason=OK}}
+[DEBUG] 2020-08-18 14:08:27.147 AllureLogger:18 - Logged to allure: Getting the List of authors with size: 59
+[INFO ] 2020-08-18 14:08:27.148 AllureLogger:13 - Logged to allure: Creating an Author with id: 100006
+[INFO ] 2020-08-18 14:08:27.149 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:27.442 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-18 14:08:27.443 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:27.444 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=POST, uri=http://localhost:8080/api/library/author, status=201, reason=Created}}
+[INFO ] 2020-08-18 14:08:27.454 AllureLogger:13 - Logged to allure: Saving an Author with id: 100006
+[INFO ] 2020-08-18 14:08:27.455 AllureLogger:13 - Logged to allure: Updating certain fields of Author
+[INFO ] 2020-08-18 14:08:27.456 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:27.755 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/author
+[INFO ] 2020-08-18 14:08:27.756 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:27.757 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=PUT, uri=http://localhost:8080/api/library/author, status=200, reason=OK}}
+[INFO ] 2020-08-18 14:08:27.758 AllureLogger:13 - Logged to allure: Saving updated Author with id: 100006
+[INFO ] 2020-08-18 14:08:27.759 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:28.004 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/author/100006
+[INFO ] 2020-08-18 14:08:28.005 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:28.007 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=DELETE, uri=http://localhost:8080/api/library/author/100006, status=204, reason=No Content}}
+[INFO ] 2020-08-18 14:08:28.009 AllureLogger:13 - Logged to allure: Deleting an Author with id: 100006
+[INFO ] 2020-08-18 14:08:28.013 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testUpdateAuthor succeed
+[INFO ] 2020-08-18 14:08:28.037 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testUpdateAuthor succeed
+[INFO ] 2020-08-18 14:08:28.039 AllureLogger:13 - Logged to allure: AfterMethod: Nullify services
+[INFO ] 2020-08-18 14:08:28.045 AllureLogger:13 - Logged to allure: I am in onFinish method UpdateAuthorTest
+[INFO ] 2020-08-18 14:08:28.079 AllureLogger:13 - Logged to allure: I am in onFinish method UpdateAuthorTest
+[INFO ] 2020-08-18 14:08:28.083 AllureLogger:13 - Logged to allure: I am in onStart method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-18 14:08:28.084 AllureLogger:13 - Logged to allure: I am in onStart method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-18 14:08:28.091 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:28.636 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-18 14:08:28.637 AllureLogger:13 - Logged to allure: Quitting builder
+[WARN ] 2020-08-18 14:08:28.638 AllureLogger:28 - Logged to allure: Auth token received from the header
+[INFO ] 2020-08-18 14:08:28.656 AllureLogger:13 - Logged to allure: BeforeMethod: Initialize Services
+[INFO ] 2020-08-18 14:08:28.658 AllureLogger:13 - Logged to allure: I am in onTestStart method verifySortingOfBooks start
+[INFO ] 2020-08-18 14:08:28.664 AllureLogger:13 - Logged to allure: I am in onTestStart method verifySortingOfBooks start
+[INFO ] 2020-08-18 14:08:28.665 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:28.872 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName
+[INFO ] 2020-08-18 14:08:28.873 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:28.874 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName, status=200, reason=OK}}
+[DEBUG] 2020-08-18 14:08:28.919 AllureLogger:18 - Logged to allure: Getting the List of books with size: 200
+[INFO ] 2020-08-18 14:08:29.074 AllureLogger:13 - Logged to allure: Verified if list is sorted
+[INFO ] 2020-08-18 14:08:29.075 AllureLogger:13 - Logged to allure: I am in onTestSuccess method verifySortingOfBooks succeed
+[INFO ] 2020-08-18 14:08:29.082 AllureLogger:13 - Logged to allure: I am in onTestSuccess method verifySortingOfBooks succeed
+[INFO ] 2020-08-18 14:08:29.085 AllureLogger:13 - Logged to allure: AfterMethod: Nullify services
+[INFO ] 2020-08-18 14:08:29.088 AllureLogger:13 - Logged to allure: I am in onFinish method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-18 14:08:29.102 AllureLogger:13 - Logged to allure: I am in onFinish method VerifyIfBooksAreSortedTest
+[INFO ] 2020-08-18 14:08:29.103 AllureLogger:13 - Logged to allure: I am in onStart method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-18 14:08:29.104 AllureLogger:13 - Logged to allure: I am in onStart method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-18 14:08:29.106 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:29.539 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/login
+[INFO ] 2020-08-18 14:08:29.540 AllureLogger:13 - Logged to allure: Quitting builder
+[WARN ] 2020-08-18 14:08:29.541 AllureLogger:28 - Logged to allure: Auth token received from the header
+[INFO ] 2020-08-18 14:08:29.542 AllureLogger:13 - Logged to allure: BeforeMethod: Initialize Services
+[INFO ] 2020-08-18 14:08:29.543 AllureLogger:13 - Logged to allure: I am in onTestStart method connectWithoutToken start
+[INFO ] 2020-08-18 14:08:29.554 AllureLogger:13 - Logged to allure: I am in onTestStart method connectWithoutToken start
+[INFO ] 2020-08-18 14:08:29.559 AllureLogger:13 - Logged to allure: Starting ClientBuilder
+[WARN ] 2020-08-18 14:08:29.623 AllureLogger:28 - Logged to allure: Trigger uri : http://localhost:8080/api/library/books
+[INFO ] 2020-08-18 14:08:29.624 AllureLogger:13 - Logged to allure: Quitting builder
+[DEBUG] 2020-08-18 14:08:29.626 AllureLogger:18 - Logged to allure: InboundJaxrsResponse{context=ClientResponse{method=GET, uri=http://localhost:8080/api/library/books, status=403, reason=Forbidden}}
+[DEBUG] 2020-08-18 14:08:29.627 AllureLogger:18 - Logged to allure: Connection without token failed
+[INFO ] 2020-08-18 14:08:29.631 AllureLogger:13 - Logged to allure: I am in onTestSuccess method connectWithoutToken succeed
+[INFO ] 2020-08-18 14:08:29.655 AllureLogger:13 - Logged to allure: I am in onTestSuccess method connectWithoutToken succeed
+[INFO ] 2020-08-18 14:08:29.656 AllureLogger:13 - Logged to allure: AfterMethod: Nullify services
+[INFO ] 2020-08-18 14:08:29.657 AllureLogger:13 - Logged to allure: I am in onFinish method VerifyConnectionWithoutTokenTest
+[INFO ] 2020-08-18 14:08:29.676 AllureLogger:13 - Logged to allure: I am in onFinish method VerifyConnectionWithoutTokenTest

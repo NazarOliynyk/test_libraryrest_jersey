@@ -1,5 +1,9 @@
 package librarytests.negativescenario;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Step;
 import librarytests.testutils.BaseTest;
 import model.fault.Fault;
 import org.testng.Assert;
@@ -7,18 +11,21 @@ import org.testng.annotations.Test;
 
 import javax.ws.rs.core.Response;
 
-import static client.CustomClientBuilder.logger;
+import static logger.AllureLogger.*;
 
 public class VerifyConnectionWithoutTokenTest extends BaseTest {
 
-    @Test(description = "Verify connection without token")
+    @Test
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify connection without token")
+    @Step("Verify connection without token")
     public void connectWithoutToken() {
 
         Response responseGetAll = bookService.getAllBooksWithoutAuth();
-        logger.debug(responseGetAll);
+        logToAllureDebug(responseGetAll.toString());
         Assert.assertEquals(responseGetAll.getStatus(), 403, "Wrong status code");
         Assert.assertEquals(responseGetAll.getStatusInfo().getReasonPhrase(),
                 "Forbidden", "Wrong reason! ");
-        logger.warn("Connection without token failed");
+        logToAllureDebug("Connection without token failed");
     }
 }
