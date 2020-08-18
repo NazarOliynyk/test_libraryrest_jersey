@@ -23,6 +23,7 @@ public class UpdateAuthorTest extends BaseTest {
         logger.info("Creating an Author with id: " + incrementedAuthorId);
 
         Response responseOnPost = authorService.saveAuthor(author, token);
+        logger.debug(responseOnPost);
         Assert.assertEquals(responseOnPost.getStatus(), 201, "Wrong status code");
         Author authorToBeUpdated = responseOnPost.readEntity(Author.class);
         Assert.assertEquals(authorToBeUpdated, author, "Author on save response is not equal to expected");
@@ -32,10 +33,12 @@ public class UpdateAuthorTest extends BaseTest {
         logger.info("Updating certain fields of Author");
 
         Response responseOnUpdate = authorService.updateAuthor(authorToBeUpdated, token);
+        logger.debug(responseOnUpdate);
         Assert.assertEquals(responseOnUpdate.getStatus(), 200, "Wrong status code");
         logger.info("Saving updated Author with id: "+ incrementedAuthorId);
 
         Response responseOnDelete = authorService.deleteAuthor(incrementedAuthorId, token);
+        logger.debug(responseOnDelete);
         Assert.assertEquals(responseOnDelete.getStatus(), 204, "Wrong status code");
         logger.info("Deleting an Author with id: " + incrementedAuthorId);
     }

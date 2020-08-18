@@ -655,3 +655,38 @@
 [WARN ] 2020-08-16 19:23:05.254 AuthenticationService:38 - Auth token received from the header
 [WARN ] 2020-08-16 19:23:06.697 BookService:40 - Trigger uri : http://localhost:8080/api/library/books
 [WARN ] 2020-08-16 19:23:06.698 VerifyConnectionWithoutTokenTest:18 - Connection without token failed
+[WARN ] 2020-08-18 12:20:45.192 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-18 12:20:45.225 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-18 12:21:02.832 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200
+[WARN ] 2020-08-18 12:21:04.587 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[WARN ] 2020-08-18 12:21:08.131 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9112
+[WARN ] 2020-08-18 12:21:08.133 SaveBookWithNonexistentGenreTest:38 - Saving a Book with id: 9822 failed because of nonexistent Genre with id: 9112
+[WARN ] 2020-08-18 12:21:08.808 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-18 12:21:08.810 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-18 12:21:09.571 SaveExistedGenreTest:28 - Falling to save a Genre with id: 9111
+[WARN ] 2020-08-18 12:21:10.141 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-18 12:21:10.144 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-18 12:21:10.580 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[WARN ] 2020-08-18 12:21:12.752 AuthorService:39 - Trigger uri : http://localhost:8080/api/library/author
+[WARN ] 2020-08-18 12:21:13.306 AuthorService:67 - Trigger uri : http://localhost:8080/api/library/author/100006
+[WARN ] 2020-08-18 12:21:13.987 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-18 12:21:13.988 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-18 12:21:14.331 BookService:31 - Trigger uri : http://localhost:8080/api/library/books?size=200
+[WARN ] 2020-08-18 12:21:14.616 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[WARN ] 2020-08-18 12:21:16.040 BookService:64 - Trigger uri : http://localhost:8080/api/library/book/100005/9111
+[WARN ] 2020-08-18 12:21:16.335 BookService:82 - Trigger uri : http://localhost:8080/api/library/book/9822
+[WARN ] 2020-08-18 12:21:17.080 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-18 12:21:17.082 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-18 12:21:19.680 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-18 12:21:19.686 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-18 12:21:19.829 AuthorService:29 - Trigger uri : http://localhost:8080/api/library/authors?size=200
+[WARN ] 2020-08-18 12:21:20.299 AuthorService:39 - Trigger uri : http://localhost:8080/api/library/author
+[WARN ] 2020-08-18 12:21:20.751 AuthorService:49 - Trigger uri : http://localhost:8080/api/library/author
+[WARN ] 2020-08-18 12:21:21.086 AuthorService:67 - Trigger uri : http://localhost:8080/api/library/author/100006
+[WARN ] 2020-08-18 12:21:21.917 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-18 12:21:21.920 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-18 12:21:22.398 BookService:54 - Trigger uri : http://localhost:8080/api/library/books?size=200&orderType=desc&sortBy=bookName
+[WARN ] 2020-08-18 12:21:23.742 AuthenticationService:29 - Trigger uri : http://localhost:8080/api/library/login
+[WARN ] 2020-08-18 12:21:23.743 AuthenticationService:38 - Auth token received from the header
+[WARN ] 2020-08-18 12:21:24.170 BookService:40 - Trigger uri : http://localhost:8080/api/library/books
+[WARN ] 2020-08-18 12:21:24.174 VerifyConnectionWithoutTokenTest:19 - Connection without token failed

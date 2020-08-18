@@ -23,6 +23,7 @@ public class SaveExistedGenreTest extends BaseTest {
         logger.info("Creating an Genre with existed genreId: " + realGenreId);
 
         Response responseOnPost = genreService.saveGenre(genre, token);
+        logger.debug(responseOnPost);
         Assert.assertEquals(responseOnPost.getStatus(), 409, "Wrong status code");
         logger.warn("Falling to save a Genre with id: " + realGenreId);
     }

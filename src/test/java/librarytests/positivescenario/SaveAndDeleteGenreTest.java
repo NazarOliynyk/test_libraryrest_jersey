@@ -23,12 +23,14 @@ public class SaveAndDeleteGenreTest extends BaseTest {
         logger.info("Creating an Genre with id: " + incrementedGenreId);
 
         Response responseOnPost = genreService.saveGenre(genre, token);
+        logger.debug(responseOnPost);
         Assert.assertEquals(responseOnPost.getStatus(), 201, "Wrong status code");
         Genre genreOnSave = responseOnPost.readEntity(Genre.class);
         Assert.assertEquals(genreOnSave, genre, "Genre on save response is not equal to expected");
         logger.info("Saving a Genre with id: " + incrementedGenreId);
 
         Response responseOnDelete = genreService.deleteGenre(incrementedGenreId, token);
+        logger.debug(responseOnDelete);
         Assert.assertEquals(responseOnDelete.getStatus(), 204, "Wrong status code");
         logger.info("Deleting a Genre with id: " + incrementedGenreId);
     }

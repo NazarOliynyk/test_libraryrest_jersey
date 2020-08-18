@@ -18,6 +18,7 @@ public class VerifyIfBooksAreSortedTest extends BaseTest {
     public void verifySortingOfBooks() {
 
         Response responseGetAll = bookService.getAllBooksSortedDescending(token);
+        logger.debug(responseGetAll);
         Assert.assertEquals(responseGetAll.getStatus(), 200, "Wrong status code");
         List<Book> books = responseGetAll.readEntity(new GenericType<List<Book>>() {
         });

@@ -14,6 +14,7 @@ public class VerifyConnectionWithoutTokenTest extends BaseTest {
     public void connectWithoutToken() {
 
         Response responseGetAll = bookService.getAllBooksWithoutAuth();
+        logger.debug(responseGetAll);
         Assert.assertEquals(responseGetAll.getStatus(), 403, "Wrong status code");
         logger.warn("Connection without token failed");
     }

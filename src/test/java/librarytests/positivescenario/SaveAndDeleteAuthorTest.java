@@ -23,12 +23,14 @@ public class SaveAndDeleteAuthorTest extends BaseTest {
         logger.info("Creating an Author with id: " + incrementedAuthorId);
 
         Response responseOnPost = authorService.saveAuthor(author, token);
+        logger.debug(responseOnPost);
         Assert.assertEquals(responseOnPost.getStatus(), 201, "Wrong status code");
         Author authorOnSave = responseOnPost.readEntity(Author.class);
         Assert.assertEquals(authorOnSave, author, "Author on save response is not equal to expected");
         logger.info("Saving an Author with id: " + incrementedAuthorId);
 
         Response responseOnDelete = authorService.deleteAuthor(incrementedAuthorId, token);
+        logger.debug(responseOnDelete);
         Assert.assertEquals(responseOnDelete.getStatus(), 204, "Wrong status code");
         logger.info("Deleting an Author with id: " + incrementedAuthorId);
     }

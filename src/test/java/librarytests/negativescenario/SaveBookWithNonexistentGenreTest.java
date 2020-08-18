@@ -33,6 +33,7 @@ public class SaveBookWithNonexistentGenreTest extends BaseTest {
         logger.info("Creating an Book with id: " + incrementedBookId);
 
         Response responseOnPost = bookService.saveBook(book, realAuthorId, nonexistentGenreId, token);
+        logger.debug(responseOnPost);
         Assert.assertEquals(responseOnPost.getStatus(), 404, "Wrong status code");
         logger.warn("Saving a Book with id: " +
                 incrementedBookId + " failed because of nonexistent Genre with id: "+ nonexistentGenreId);

@@ -34,6 +34,7 @@ public class SaveAndDeleteBookTest extends BaseTest {
         logger.info("Creating an Book with id: " + incrementedBookId);
 
         Response responseOnPost = bookService.saveBook(book, realAuthorId, realGenreId, token);
+        logger.debug(responseOnPost);
         Assert.assertEquals(responseOnPost.getStatus(), 201, "Wrong status code");
         Book bookOnSave = responseOnPost.readEntity(Book.class);
         Assert.assertEquals(bookOnSave, book, "Book on save response is not equal to expected");

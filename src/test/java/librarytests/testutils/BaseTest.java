@@ -52,20 +52,23 @@ public abstract class BaseTest {
 
     protected List<Author> getAllAuthors() {
         Response responseGetAllAuthors = authorService.getAllAuthors(token);
+        logger.debug(responseGetAllAuthors);
         Assert.assertEquals(responseGetAllAuthors.getStatus(), 200, "Wrong status code");
         return responseGetAllAuthors.readEntity(new GenericType<List<Author>>() {
         });
     }
 
     protected List<Book> getAllBooks(){
-        Response responseGetAll = bookService.getAllBooks(token);
-        Assert.assertEquals(responseGetAll.getStatus(), 200, "Wrong status code");
-        return responseGetAll.readEntity(new GenericType<List<Book>>() {
+        Response responseGetAllBooks = bookService.getAllBooks(token);
+        logger.debug(responseGetAllBooks);
+        Assert.assertEquals(responseGetAllBooks.getStatus(), 200, "Wrong status code");
+        return responseGetAllBooks.readEntity(new GenericType<List<Book>>() {
         });
     }
 
     protected List<Genre> getAllGenres(){
         Response responseGetAllGenres = genreService.getAllGenres(token);
+        logger.debug(responseGetAllGenres);
         Assert.assertEquals(responseGetAllGenres.getStatus(), 200, "Wrong status code");
         return responseGetAllGenres.readEntity(new GenericType<List<Genre>>() {
         });
